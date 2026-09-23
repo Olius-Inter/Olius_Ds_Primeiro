@@ -1,0 +1,3329 @@
+
+body {
+  	margin: 0;
+  	line-height: normal;
+}
+
+.inicial {
+  	width: 100%;
+  	height: 6677px;
+  	position: relative;
+  	box-shadow: 3px 4204px 250px rgba(0, 0, 0, 0), 2px 2691px 250px rgba(0, 0, 0, 0.01), 1px 1514px 250px rgba(0, 0, 0, 0.05), 1px 673px 250px rgba(0, 0, 0, 0.09), 0px 168px 250px rgba(0, 0, 0, 0.1);
+  	background-color: #fcf5e6;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 13.2px;
+  	color: #000;
+  	font-family: Poppins;
+}
+.fac {
+  	position: absolute;
+  	top: 5760px;
+  	left: 159px;
+  	width: 1087.3px;
+  	height: 433.7px;
+  	flex-shrink: 0;
+  	font-size: 14.56px;
+}
+.faq {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1087.3px;
+  	height: 433.7px;
+}
+.caixa-faq {
+  	position: absolute;
+  	top: 123.65px;
+  	left: 0px;
+  	width: 1087.3px;
+  	height: 45.1px;
+}
+.caixa-faq-child {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 13.74px;
+  	background-color: #fff;
+}
+.caixa-faq2 {
+  	position: absolute;
+  	top: 176.64px;
+  	left: 0px;
+  	width: 1087.3px;
+  	height: 45.1px;
+}
+.caixa-faq3 {
+  	position: absolute;
+  	top: 388.6px;
+  	left: 0px;
+  	width: 1087.3px;
+  	height: 45.1px;
+}
+.caixa-faq4 {
+  	position: absolute;
+  	top: 335.61px;
+  	left: 0px;
+  	width: 1087.3px;
+  	height: 45.1px;
+}
+.caixa-faq5 {
+  	position: absolute;
+  	top: 282.62px;
+  	left: 0px;
+  	width: 1087.3px;
+  	height: 45.1px;
+}
+.caixa-faq6 {
+  	position: absolute;
+  	top: 229.63px;
+  	left: 0px;
+  	width: 1087.3px;
+  	height: 45.1px;
+}
+.faq-child {
+  	position: absolute;
+  	top: 0px;
+  	right: 395.85px;
+  	border-radius: 19.05px;
+  	background-color: #fc9000;
+  	width: 289.7px;
+  	height: 48px;
+}
+.ainda-com-duvidas {
+  	position: absolute;
+  	top: 12.01px;
+  	right: 424.88px;
+  	font-size: 21.08px;
+  	letter-spacing: 0.02em;
+  	line-height: 116.33%;
+  	font-weight: 800;
+  	color: #fff;
+  	display: inline-block;
+  	width: 231.6px;
+  	height: 23.5px;
+}
+.vector-icon {
+  	position: absolute;
+  	top: 193.11px;
+  	right: 28.26px;
+  	width: 15.7px;
+  	height: 10.1px;
+}
+.vector-icon2 {
+  	position: absolute;
+  	top: 140.08px;
+  	right: 28.26px;
+  	width: 15.7px;
+  	height: 10.1px;
+}
+.vector-icon3 {
+  	position: absolute;
+  	top: 248.14px;
+  	right: 28.26px;
+  	width: 15.7px;
+  	height: 10.1px;
+}
+.vector-icon4 {
+  	position: absolute;
+  	top: 302.17px;
+  	right: 28.26px;
+  	width: 15.7px;
+  	height: 10.1px;
+}
+.vector-icon5 {
+  	position: absolute;
+  	top: 356.19px;
+  	right: 28.26px;
+  	width: 15.7px;
+  	height: 10.1px;
+}
+.vector-icon6 {
+  	position: absolute;
+  	top: 410.22px;
+  	right: 28.26px;
+  	width: 15.7px;
+  	height: 10.1px;
+}
+.o-olius-fornece-container {
+  	position: absolute;
+  	top: 137.39px;
+  	right: 585.1px;
+  	letter-spacing: 0.02em;
+  	line-height: 116.33%;
+  	font-weight: 800;
+  	display: inline-block;
+  	width: 478.9px;
+  	height: 15.7px;
+}
+.o-olius-fornece-certificado-de {
+  	margin: 0;
+  	font-family: inherit;
+  	font-size: inherit;
+  	padding-left: 19px;
+  	line-height: 116.33%;
+}
+.o-olius-fornece {
+  	line-height: 116.33%;
+}
+.como-acompanho-meu-container {
+  	position: absolute;
+  	top: 190.38px;
+  	right: 573.4px;
+  	letter-spacing: 0.02em;
+  	line-height: 116.33%;
+  	font-weight: 800;
+  	display: inline-block;
+  	width: 490.6px;
+  	height: 15.7px;
+}
+.ganho-algum-tipo-container {
+  	position: absolute;
+  	top: 245.33px;
+  	right: 396.7px;
+  	letter-spacing: 0.02em;
+  	line-height: 116.33%;
+  	font-weight: 800;
+  	display: inline-block;
+  	width: 667.3px;
+  	height: 15.7px;
+}
+.qual-a-container {
+  	position: absolute;
+  	top: 298.32px;
+  	right: 453.6px;
+  	letter-spacing: 0.02em;
+  	line-height: 116.33%;
+  	font-weight: 800;
+  	display: inline-block;
+  	width: 610.4px;
+  	height: 15.7px;
+}
+.quais-documentos-so-container {
+  	position: absolute;
+  	top: 353.27px;
+  	right: 436px;
+  	letter-spacing: 0.02em;
+  	line-height: 116.33%;
+  	font-weight: 800;
+  	display: inline-block;
+  	width: 628px;
+  	height: 15.7px;
+}
+.como-devo-armazenar-container {
+  	position: absolute;
+  	top: 406.26px;
+  	right: 559.6px;
+  	font-size: 13.46px;
+  	letter-spacing: 0.02em;
+  	line-height: 116.33%;
+  	font-weight: 800;
+  	display: inline-block;
+  	width: 504.4px;
+  	height: 15.7px;
+}
+.como-devo-armazenar-o-leo-de {
+  	margin: 0;
+  	font-family: inherit;
+  	font-size: inherit;
+  	padding-left: 18px;
+  	line-height: 116.33%;
+}
+.veja-seu-impacto {
+  	position: absolute;
+  	top: 1608px;
+  	left: 90px;
+  	width: 1266px;
+  	height: 306px;
+  	flex-shrink: 0;
+}
+.elementos {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1266px;
+  	height: 306px;
+}
+.elementos-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 22px;
+  	background: linear-gradient(87.07deg, #fef9ef);
+  	border: 1px solid #e1b967;
+  	box-sizing: border-box;
+  	width: 1268px;
+  	height: 308px;
+}
+.elementos-item {
+  	position: absolute;
+  	top: 136px;
+  	left: 64px;
+  	border-radius: 15px;
+  	background-color: #fefefc;
+  	border: 1px solid #fbf4e8;
+  	box-sizing: border-box;
+  	width: 242px;
+  	height: 141px;
+}
+.elementos-inner {
+  	position: absolute;
+  	top: 136px;
+  	left: 361px;
+  	border-radius: 15px;
+  	background-color: #fefefc;
+  	border: 1px solid #fbf4e8;
+  	box-sizing: border-box;
+  	width: 242px;
+  	height: 141px;
+}
+.rectangle-icon {
+  	position: absolute;
+  	top: 136px;
+  	left: 658px;
+  	border-radius: 15px;
+  	width: 242px;
+  	height: 141px;
+}
+.elementos-child2 {
+  	position: absolute;
+  	top: 136px;
+  	left: 955px;
+  	border-radius: 15px;
+  	background-color: #fefefc;
+  	border: 1px solid #fbf4e8;
+  	box-sizing: border-box;
+  	width: 242px;
+  	height: 141px;
+}
+.veja-seu-impacto2 {
+  	position: absolute;
+  	top: 35px;
+  	left: 64px;
+  	font-size: 36px;
+  	font-weight: 600;
+}
+.litros-de-gua {
+  	position: absolute;
+  	top: 216px;
+  	left: 165px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 96px;
+}
+.resultados-que-mostram {
+  	position: absolute;
+  	top: 89px;
+  	left: 64px;
+  	font-size: 13.86px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 339.1px;
+}
+.de-co2-evitadas {
+  	position: absolute;
+  	top: 216px;
+  	left: 452px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 96px;
+}
+.de-leo-coletados {
+  	position: absolute;
+  	top: 216px;
+  	left: 752px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 123px;
+}
+.certificao-mxima-em {
+  	position: absolute;
+  	top: 216px;
+  	left: 1033px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 142px;
+}
+.milhes {
+  	position: absolute;
+  	top: 172px;
+  	left: 165px;
+  	font-size: 17.8px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 106.6px;
+  	height: 26px;
+}
+.toneladas {
+  	position: absolute;
+  	top: 172px;
+  	left: 452px;
+  	font-size: 17.8px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 120px;
+  	height: 26px;
+}
+.mil-litros {
+  	position: absolute;
+  	top: 172px;
+  	left: 752px;
+  	font-size: 17.8px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 105px;
+  	height: 26px;
+}
+.parceiro-ouro {
+  	position: absolute;
+  	top: 172px;
+  	left: 1032px;
+  	font-size: 17.8px;
+  	font-weight: 500;
+}
+.imagens-icon {
+  	position: absolute;
+  	height: 38.89%;
+  	width: 55.36%;
+  	top: 58.82%;
+  	right: 40.54%;
+  	bottom: 2.29%;
+  	left: 4.11%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.rodap {
+  	position: absolute;
+  	top: 6223px;
+  	left: 0px;
+  	width: 1460px;
+  	height: 454px;
+  	flex-shrink: 0;
+  	font-size: 17.39px;
+}
+.rodap-child {
+  	position: absolute;
+  	top: 46px;
+  	left: 79px;
+  	border-radius: 27px;
+  	background-color: #fdc51b;
+  	width: 1289px;
+  	height: 408px;
+}
+.rodap-item {
+  	position: absolute;
+  	top: 237px;
+  	left: 0px;
+  	background-color: #161a1c;
+  	width: 1440px;
+  	height: 217px;
+}
+.infos {
+  	position: absolute;
+  	top: 289px;
+  	left: 100px;
+  	width: 1268px;
+  	height: 114px;
+  	font-size: 12.67px;
+  	color: #fff;
+}
+.logo {
+  	position: absolute;
+  	top: 35px;
+  	left: 0px;
+  	width: 182px;
+  	height: 69px;
+  	cursor: pointer;
+}
+.cada-gota-importa {
+  	position: absolute;
+  	top: 50px;
+  	left: 55px;
+  	font-weight: 300;
+  	display: inline-block;
+  	width: 127px;
+}
+.olius {
+  	position: absolute;
+  	top: 14.12px;
+  	right: 55.09px;
+  	width: 72.4px;
+  	height: 21.7px;
+  	font-size: 44.36px;
+}
+.olius2 {
+  	position: absolute;
+  	height: 165.44%;
+  	width: 119.7px;
+  	top: -92.72%;
+  	left: 0.67%;
+  	letter-spacing: 0.02em;
+  	line-height: 116.33%;
+  	display: inline-block;
+  	flex-shrink: 0;
+}
+.logo-oficial-icon {
+  	position: absolute;
+  	top: 0px;
+  	right: 139.6px;
+  	width: 42.4px;
+  	height: 50px;
+}
+.como-funciona {
+  	position: absolute;
+  	top: 76px;
+  	left: 342px;
+  	font-weight: 300;
+}
+.solues {
+  	position: absolute;
+  	top: 55px;
+  	left: 342px;
+  	font-weight: 300;
+}
+.inicio {
+  	position: absolute;
+  	top: 36px;
+  	left: 342px;
+  	font-weight: 300;
+}
+.sobre-ns {
+  	position: absolute;
+  	top: 58px;
+  	left: 476px;
+  	font-weight: 300;
+}
+.contato {
+  	position: absolute;
+  	top: 77px;
+  	left: 476px;
+  	font-weight: 300;
+}
+.impacto {
+  	position: absolute;
+  	top: 37px;
+  	left: 476px;
+  	font-weight: 300;
+}
+.navegao {
+  	position: absolute;
+  	top: 0px;
+  	left: 404px;
+  	font-weight: 300;
+}
+.so-paulo-sp {
+  	position: absolute;
+  	top: 94px;
+  	left: 720px;
+  	font-weight: 300;
+  	display: inline-block;
+  	width: 129px;
+  	height: 14px;
+}
+.oliusjef26gmailcom {
+  	position: absolute;
+  	top: 40px;
+  	left: 720px;
+  	font-weight: 300;
+  	color: inherit;
+  	text-decoration: none;
+  	cursor: pointer;
+}
+.contato2 {
+  	position: absolute;
+  	top: 3px;
+  	left: 744px;
+  	font-weight: 300;
+}
+.infos-child {
+  	position: absolute;
+  	top: 44px;
+  	left: 701px;
+  	border-radius: 50%;
+  	background-color: #d9d9d9;
+  	width: 10px;
+  	height: 10px;
+}
+.infos-item {
+  	position: absolute;
+  	top: 72px;
+  	left: 701px;
+  	border-radius: 50%;
+  	background-color: #d9d9d9;
+  	width: 10px;
+  	height: 10px;
+}
+.infos-inner {
+  	position: absolute;
+  	top: 98px;
+  	left: 701px;
+  	border-radius: 50%;
+  	background-color: #d9d9d9;
+  	width: 10px;
+  	height: 10px;
+}
+.oliusapp {
+  	position: absolute;
+  	top: 66px;
+  	left: 720px;
+  	font-weight: 300;
+  	cursor: pointer;
+}
+.desenvolvido-com-propsito {
+  	position: absolute;
+  	top: 31px;
+  	left: 1035px;
+  	font-size: 14.2px;
+  	font-weight: 600;
+  	color: #fdc51b;
+  	display: inline-block;
+  	width: 233px;
+}
+.olius-todos-os {
+  	position: absolute;
+  	top: 101px;
+  	left: 1045px;
+  	font-size: 8.9px;
+  	font-weight: 300;
+}
+.faa-parte-da {
+  	position: absolute;
+  	top: 90px;
+  	left: 155px;
+  	font-size: 29.44px;
+}
+.transaforme-o-descarte {
+  	position: absolute;
+  	top: 147px;
+  	left: 155px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 468px;
+}
+.boto {
+  	position: absolute;
+  	top: 118px;
+  	left: 730px;
+  	width: 289px;
+  	height: 71px;
+}
+.boto-child {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 25px;
+  	background-color: #fffde4;
+  	border: 2px solid #febe04;
+  	box-sizing: border-box;
+}
+.agendar-coleta-agora {
+  	position: absolute;
+  	top: 140px;
+  	left: 765px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 198px;
+}
+.image-52-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 978.96px;
+  	width: 481px;
+  	height: 240px;
+  	object-fit: cover;
+}
+.tipos {
+  	position: absolute;
+  	top: 1982.19px;
+  	left: 86px;
+  	width: 1271px;
+  	height: 401.8px;
+  	flex-shrink: 0;
+}
+.imagens {
+  	position: absolute;
+  	top: 21.81px;
+  	left: 320px;
+  	width: 951px;
+  	height: 380px;
+}
+.image-53-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 21px;
+  	width: 293px;
+  	height: 380px;
+  	object-fit: cover;
+}
+.image-54-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 669px;
+  	border-radius: 23px;
+  	width: 282px;
+  	height: 380px;
+  	object-fit: cover;
+}
+.elementos2 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1160.5px;
+  	height: 401.8px;
+}
+.elementos-child3 {
+  	position: absolute;
+  	top: 21.81px;
+  	left: 0px;
+  	border-radius: 28px;
+  	width: 501.5px;
+  	height: 380px;
+}
+.elementos-child4 {
+  	position: absolute;
+  	top: 21.81px;
+  	left: 659px;
+  	border-radius: 28px;
+  	width: 501.5px;
+  	height: 380px;
+}
+.para-empresas {
+  	position: absolute;
+  	top: 48.81px;
+  	left: 53px;
+  	font-size: 36px;
+  	font-weight: 600;
+}
+.para-cidados {
+  	position: absolute;
+  	top: 48.81px;
+  	left: 695px;
+  	font-size: 36px;
+  	font-weight: 600;
+}
+.elementos-child5 {
+  	position: absolute;
+  	top: 317.81px;
+  	left: 53px;
+  	border-radius: 14px;
+  	background-color: #fdbe04;
+  	width: 157px;
+  	height: 40px;
+}
+.soluo-completa-para {
+  	position: absolute;
+  	top: 102.81px;
+  	left: 53px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 230px;
+}
+.gesto-de-coleta {
+  	position: absolute;
+  	top: 180.81px;
+  	left: 83px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 186px;
+}
+.reduo-de-custos {
+  	position: absolute;
+  	top: 212.81px;
+  	left: 83px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 195px;
+}
+.relatrios-de-impacto {
+  	position: absolute;
+  	top: 244.81px;
+  	left: 83px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 221px;
+}
+.certificao-de-sustentabilida {
+  	position: absolute;
+  	top: 276.81px;
+  	left: 83px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 221px;
+}
+.saiba-mais {
+  	position: absolute;
+  	top: 327.81px;
+  	left: 76px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 76px;
+}
+.descarte-correto-fcil {
+  	position: absolute;
+  	top: 102.81px;
+  	left: 697px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 274px;
+}
+.encontre-pontos-de {
+  	position: absolute;
+  	top: 180.81px;
+  	left: 728px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 186px;
+}
+.elementos-child6 {
+  	position: absolute;
+  	top: 317.81px;
+  	left: 695px;
+  	border-radius: 12px;
+  	background-color: #fc9000;
+  	width: 195px;
+  	height: 41px;
+}
+.acompanhe-seu-impacto {
+  	position: absolute;
+  	top: 213.81px;
+  	left: 728px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 186px;
+}
+.participe-de-um {
+  	position: absolute;
+  	top: 246.81px;
+  	left: 728px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 186px;
+}
+.encontre-um-ponto {
+  	position: absolute;
+  	top: 328.81px;
+  	left: 718px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 129px;
+}
+.line-icon {
+  	position: absolute;
+  	top: 0.49px;
+  	left: 271px;
+  	width: 209px;
+  	height: 399.6px;
+  	object-fit: contain;
+}
+.elementos-child7 {
+  	position: absolute;
+  	top: 0px;
+  	left: 931.9px;
+  	width: 212.3px;
+  	height: 401.4px;
+  	object-fit: contain;
+}
+.image-135-icon {
+  	position: absolute;
+  	top: 184.81px;
+  	left: 60px;
+  	width: 12px;
+  	height: 12px;
+  	object-fit: cover;
+}
+.image-136-icon {
+  	position: absolute;
+  	top: 216.81px;
+  	left: 60px;
+  	width: 12px;
+  	height: 12px;
+  	object-fit: cover;
+}
+.image-137-icon {
+  	position: absolute;
+  	top: 248.81px;
+  	left: 60px;
+  	width: 12px;
+  	height: 12px;
+  	object-fit: cover;
+}
+.image-138-icon {
+  	position: absolute;
+  	top: 280.81px;
+  	left: 60px;
+  	width: 12px;
+  	height: 12px;
+  	object-fit: cover;
+}
+.image-139-icon {
+  	position: absolute;
+  	top: 184.81px;
+  	left: 706px;
+  	width: 12px;
+  	height: 12px;
+  	object-fit: cover;
+}
+.image-140-icon {
+  	position: absolute;
+  	top: 217.81px;
+  	left: 706px;
+  	width: 12px;
+  	height: 12px;
+  	object-fit: cover;
+}
+.image-141-icon {
+  	position: absolute;
+  	top: 251.81px;
+  	left: 706px;
+  	width: 12px;
+  	height: 12px;
+  	object-fit: cover;
+}
+.oque-acontece {
+  	position: absolute;
+  	top: 3281px;
+  	left: 76px;
+  	width: 1294.7px;
+  	height: 584px;
+  	flex-shrink: 0;
+  	font-size: 25.33px;
+}
+.elementos3 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1294.7px;
+  	height: 584px;
+}
+.o-que-acontece-container {
+  	position: absolute;
+  	top: 0px;
+  	left: 395px;
+  	font-size: 36px;
+  	font-weight: 600;
+}
+.leo {
+  	color: #febd02;
+}
+.aps-o-descarte {
+  	position: absolute;
+  	top: 54px;
+  	left: 492px;
+  	font-size: 13.2px;
+  	font-weight: 500;
+  	text-align: center;
+  	display: inline-block;
+  	width: 350px;
+}
+.elementos-child8 {
+  	position: absolute;
+  	top: 135px;
+  	left: 0px;
+  	box-shadow: 0px 227px 63px rgba(252, 144, 0, 0), 0px 145px 58px rgba(252, 144, 0, 0.01), 0px 82px 49px rgba(252, 144, 0, 0.05), 0px 36px 36px rgba(252, 144, 0, 0.09), 0px 9px 20px rgba(252, 144, 0, 0.1);
+  	border-radius: 18.65px;
+  	background-color: #fffdf7;
+  	width: 302.7px;
+  	height: 449px;
+}
+.elementos-child9 {
+  	position: absolute;
+  	top: 135px;
+  	left: 331px;
+  	box-shadow: 0px 227px 63px rgba(252, 144, 0, 0), 0px 145px 58px rgba(252, 144, 0, 0.01), 0px 82px 49px rgba(252, 144, 0, 0.05), 0px 36px 36px rgba(252, 144, 0, 0.09), 0px 9px 20px rgba(252, 144, 0, 0.1);
+  	border-radius: 18.65px;
+  	background-color: #fffdf7;
+  	width: 302.7px;
+  	height: 449px;
+}
+.elementos-child10 {
+  	position: absolute;
+  	top: 135px;
+  	left: 661px;
+  	box-shadow: 0px 158px 44px rgba(252, 144, 0, 0), 0px 101px 40px rgba(252, 144, 0, 0.01), 0px 57px 34px rgba(252, 144, 0, 0.05), 0px 25px 25px rgba(252, 144, 0, 0.09), 0px 6px 14px rgba(252, 144, 0, 0.1);
+  	border-radius: 18.65px;
+  	background-color: #fffdf7;
+  	width: 302.7px;
+  	height: 449px;
+}
+.elementos-child11 {
+  	position: absolute;
+  	top: 135px;
+  	left: 992px;
+  	box-shadow: 0px 309px 86px rgba(252, 144, 0, 0), 0px 198px 79px rgba(252, 144, 0, 0.01), 0px 111px 67px rgba(252, 144, 0, 0.05), 0px 49px 49px rgba(252, 144, 0, 0.09), 0px 12px 27px rgba(252, 144, 0, 0.1);
+  	border-radius: 18.65px;
+  	background-color: #fffdf7;
+  	width: 302.7px;
+  	height: 449px;
+}
+.ellipse-div {
+  	position: absolute;
+  	top: 183px;
+  	left: 72px;
+  	border-radius: 50%;
+  	background-color: #fef6e9;
+  	width: 161px;
+  	height: 161px;
+}
+.elementos-child12 {
+  	position: absolute;
+  	top: 183px;
+  	left: 1065px;
+  	border-radius: 50%;
+  	background-color: #fef6e9;
+  	width: 161px;
+  	height: 161px;
+}
+.elementos-child13 {
+  	position: absolute;
+  	top: 183px;
+  	left: 726px;
+  	border-radius: 50%;
+  	background-color: #fef6e9;
+  	width: 161px;
+  	height: 161px;
+}
+.elementos-child14 {
+  	position: absolute;
+  	top: 183px;
+  	left: 399px;
+  	border-radius: 50%;
+  	background-color: #fef6e9;
+  	width: 161px;
+  	height: 161px;
+}
+.biodiesel {
+  	position: absolute;
+  	top: 364px;
+  	left: 93px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 120.5px;
+}
+.velas {
+  	position: absolute;
+  	top: 364px;
+  	left: 775px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 85px;
+}
+.outros-produtos {
+  	position: absolute;
+  	top: 364px;
+  	left: 1038px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 214px;
+}
+.line-div {
+  	position: absolute;
+  	top: 417px;
+  	left: 123px;
+  	border-top: 4px solid #fac527;
+  	box-sizing: border-box;
+  	width: 58px;
+  	height: 4px;
+}
+.elementos-child15 {
+  	position: absolute;
+  	top: 417px;
+  	left: 453px;
+  	border-top: 4px solid #fac527;
+  	box-sizing: border-box;
+  	width: 58px;
+  	height: 4px;
+}
+.elementos-child16 {
+  	position: absolute;
+  	top: 417px;
+  	left: 783px;
+  	border-top: 4px solid #fac527;
+  	box-sizing: border-box;
+  	width: 58px;
+  	height: 4px;
+}
+.o-leo {
+  	position: absolute;
+  	top: 441px;
+  	left: 19px;
+  	font-size: 16.02px;
+  	font-weight: 500;
+  	text-align: center;
+  	display: inline-block;
+  	width: 248.1px;
+}
+.usado-na-fabricao {
+  	position: absolute;
+  	top: 441px;
+  	left: 355px;
+  	font-size: 16.02px;
+  	font-weight: 500;
+  	text-align: center;
+  	display: inline-block;
+  	width: 248.1px;
+}
+.o-leo-pode {
+  	position: absolute;
+  	top: 441px;
+  	left: 682px;
+  	font-size: 16.02px;
+  	font-weight: 500;
+  	text-align: center;
+  	display: inline-block;
+  	width: 248.1px;
+}
+.tambm-pode-ser {
+  	position: absolute;
+  	top: 441px;
+  	left: 1021px;
+  	font-size: 16.02px;
+  	font-weight: 500;
+  	text-align: center;
+  	display: inline-block;
+  	width: 248.1px;
+}
+.elementos-child17 {
+  	position: absolute;
+  	top: 417px;
+  	left: 1114px;
+  	border-top: 4px solid #fac527;
+  	box-sizing: border-box;
+  	width: 58px;
+  	height: 4px;
+}
+.sabo {
+  	position: absolute;
+  	top: 364px;
+  	left: 438px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 85px;
+}
+.imagens2 {
+  	position: absolute;
+  	top: 214px;
+  	left: 103px;
+  	width: 1097px;
+  	height: 100px;
+}
+.image-58-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 100px;
+  	height: 100px;
+  	object-fit: cover;
+}
+.image-59-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 327px;
+  	width: 100px;
+  	height: 100px;
+  	object-fit: cover;
+}
+.image-60-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 657px;
+  	width: 100px;
+  	height: 100px;
+  	object-fit: cover;
+}
+.image-61-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 997px;
+  	width: 100px;
+  	height: 100px;
+  	object-fit: cover;
+}
+.mapa {
+  	position: absolute;
+  	top: 2495px;
+  	left: 157px;
+  	width: 1145px;
+  	height: 676px;
+  	flex-shrink: 0;
+  	font-size: 14.42px;
+}
+.elementos4 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1145px;
+  	height: 676px;
+}
+.elementos-child18 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	box-shadow: 0px -40.507076263427734px 11.7px rgba(254, 181, 1, 0), 0px -26.10456085205078px 10.8px rgba(254, 181, 1, 0.01), 0px -14.40251636505127px 9px rgba(254, 181, 1, 0.05), 0px -6.301100730895996px 6.3px rgba(254, 181, 1, 0.09), 0px -1.8003145456314087px 3.6px rgba(254, 181, 1, 0.1);
+  	border-radius: 21.6px;
+  	background-color: #fdfcfa;
+  	width: 1145px;
+  	height: 676px;
+}
+.descubra-o-local {
+  	position: absolute;
+  	top: 164.73px;
+  	left: 48.61px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 311.5px;
+}
+.elementos-child19 {
+  	position: absolute;
+  	top: 243.04px;
+  	left: 323.16px;
+  	border-radius: 25.2px;
+  	background-color: #f9a403;
+  	width: 98.1px;
+  	height: 50.4px;
+}
+.elementos-child20 {
+  	position: absolute;
+  	top: 243.04px;
+  	left: 49.51px;
+  	border-radius: 25.2px;
+  	background-color: #fffeff;
+  	border: 1.8px solid #f4a605;
+  	box-sizing: border-box;
+  	width: 261px;
+  	height: 50.4px;
+}
+.digite-seu-cep {
+  	position: absolute;
+  	top: 257.44px;
+  	left: 101.72px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 105.3px;
+}
+.buscar {
+  	position: absolute;
+  	top: 257.44px;
+  	left: 347.46px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 52.2px;
+}
+.encontre-um-ponto-container {
+  	position: absolute;
+  	top: 53.11px;
+  	left: 49.51px;
+  	font-size: 33.16px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 400.6px;
+}
+.perto-de-voc {
+  	color: #feba25;
+}
+.elementos-child21 {
+  	position: absolute;
+  	top: 47.71px;
+  	left: 523.89px;
+  	border-radius: 26.1px;
+  	background-color: #fef7eb;
+  	width: 585.1px;
+  	height: 585.1px;
+}
+.elementos-child22 {
+  	position: absolute;
+  	top: 336.66px;
+  	left: 49.51px;
+  	border-radius: 18px;
+  	background-color: #fefefe;
+  	width: 259.2px;
+  	height: 86.4px;
+}
+.elementos-child23 {
+  	position: absolute;
+  	top: 349.26px;
+  	left: 63.91px;
+  	border-radius: 18.9px;
+  	background-color: #fef7eb;
+  	width: 55.8px;
+  	height: 59.4px;
+}
+.elementos-child24 {
+  	position: absolute;
+  	top: 439.28px;
+  	left: 49.51px;
+  	border-radius: 18px;
+  	background-color: #fefefe;
+  	width: 259.2px;
+  	height: 86.4px;
+}
+.elementos-child25 {
+  	position: absolute;
+  	top: 451.88px;
+  	left: 63.91px;
+  	border-radius: 18.9px;
+  	background-color: #fef7eb;
+  	width: 55.8px;
+  	height: 59.4px;
+}
+.elementos-child26 {
+  	position: absolute;
+  	top: 544.6px;
+  	left: 49.51px;
+  	border-radius: 18px;
+  	background-color: #fefefe;
+  	width: 259.2px;
+  	height: 86.4px;
+}
+.elementos-child27 {
+  	position: absolute;
+  	top: 557.2px;
+  	left: 63.91px;
+  	border-radius: 18.9px;
+  	background-color: #fef7eb;
+  	width: 55.8px;
+  	height: 59.4px;
+}
+.coleta-residencial {
+  	position: absolute;
+  	top: 459.98px;
+  	left: 139.52px;
+  	font-size: 15.29px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 110.7px;
+}
+.mapa-interativo {
+  	position: absolute;
+  	top: 321.36px;
+  	left: 625.61px;
+  	font-size: 44.48px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 440px;
+}
+.coleta-empresarial {
+  	position: absolute;
+  	top: 559.9px;
+  	left: 138.62px;
+  	font-size: 15.29px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 110.7px;
+}
+.pontos-ativos {
+  	position: absolute;
+  	top: 354.66px;
+  	left: 135.92px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 99px;
+  	font-size: 21.6px;
+}
+.pontos-ativos2 {
+  	font-size: 13.7px;
+}
+.imagens3 {
+  	position: absolute;
+  	top: 51.31px;
+  	left: 19px;
+  	width: 1086.4px;
+  	height: 601.7px;
+}
+.image-112 {
+  	position: absolute;
+  	top: 471.69px;
+  	left: 0px;
+  	width: 133px;
+  	height: 130px;
+}
+.image-73-icon {
+  	position: absolute;
+  	width: 3.13%;
+  	top: 413.69px;
+  	right: 91.72%;
+  	left: 5.15%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 34px;
+  	object-fit: cover;
+}
+.image-130-icon {
+  	position: absolute;
+  	top: 519.69px;
+  	left: 57px;
+  	width: 33px;
+  	height: 31.9px;
+  	object-fit: cover;
+}
+.vector-icon7 {
+  	position: absolute;
+  	height: 4.7%;
+  	width: 1.99%;
+  	top: 52.3%;
+  	right: 92.3%;
+  	bottom: 43%;
+  	left: 5.71%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.map-maker-so-paulo-so-paul {
+  	position: absolute;
+  	top: 0px;
+  	left: 508.49px;
+  	border-radius: 37.81px;
+  	width: 577.9px;
+  	height: 577.9px;
+  	object-fit: cover;
+}
+.vantagens {
+  	position: absolute;
+  	top: 4736px;
+  	left: 0px;
+  	width: 1441px;
+  	height: 546px;
+  	flex-shrink: 0;
+  	font-size: 11.2px;
+}
+.elementos5 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1441px;
+  	height: 537px;
+}
+.elementos-child28 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	background-color: #fef6e9;
+  	width: 1441px;
+  	height: 537px;
+}
+.elementos-child29 {
+  	position: absolute;
+  	top: 61px;
+  	left: 501px;
+  	box-shadow: 0px 31px 9px rgba(254, 186, 37, 0), 0px 20px 8px rgba(254, 186, 37, 0.01), 0px 11px 7px rgba(254, 186, 37, 0.05), 0px 5px 5px rgba(254, 186, 37, 0.09), 0px 1px 3px rgba(254, 186, 37, 0.1);
+  	border-radius: 16px;
+  	background-color: #fefdfc;
+  	width: 267px;
+  	height: 200px;
+}
+.elementos-child30 {
+  	position: absolute;
+  	top: 276px;
+  	left: 501px;
+  	box-shadow: 0px 31px 9px rgba(254, 186, 37, 0), 0px 20px 8px rgba(254, 186, 37, 0.01), 0px 11px 7px rgba(254, 186, 37, 0.05), 0px 5px 5px rgba(254, 186, 37, 0.09), 0px 1px 3px rgba(254, 186, 37, 0.1);
+  	border-radius: 16px;
+  	background-color: #fefdfc;
+  	width: 267px;
+  	height: 200px;
+}
+.elementos-child31 {
+  	position: absolute;
+  	top: 276px;
+  	left: 1095px;
+  	box-shadow: 0px 31px 9px rgba(254, 186, 37, 0), 0px 20px 8px rgba(254, 186, 37, 0.01), 0px 11px 7px rgba(254, 186, 37, 0.05), 0px 5px 5px rgba(254, 186, 37, 0.09), 0px 1px 3px rgba(254, 186, 37, 0.1);
+  	border-radius: 16px;
+  	background-color: #fefdfc;
+  	width: 267px;
+  	height: 200px;
+}
+.elementos-child32 {
+  	position: absolute;
+  	top: 61px;
+  	left: 1095px;
+  	box-shadow: 0px 31px 9px rgba(254, 186, 37, 0), 0px 20px 8px rgba(254, 186, 37, 0.01), 0px 11px 7px rgba(254, 186, 37, 0.05), 0px 5px 5px rgba(254, 186, 37, 0.09), 0px 1px 3px rgba(254, 186, 37, 0.1);
+  	border-radius: 16px;
+  	background-color: #fefdfc;
+  	width: 267px;
+  	height: 200px;
+}
+.elementos-child33 {
+  	position: absolute;
+  	top: 61px;
+  	left: 797px;
+  	box-shadow: 0px 31px 9px rgba(254, 186, 37, 0), 0px 20px 8px rgba(254, 186, 37, 0.01), 0px 11px 7px rgba(254, 186, 37, 0.05), 0px 5px 5px rgba(254, 186, 37, 0.09), 0px 1px 3px rgba(254, 186, 37, 0.1);
+  	border-radius: 16px;
+  	background-color: #fefdfc;
+  	width: 267px;
+  	height: 200px;
+}
+.elementos-child34 {
+  	position: absolute;
+  	top: 276px;
+  	left: 797px;
+  	box-shadow: 0px 31px 9px rgba(254, 186, 37, 0), 0px 20px 8px rgba(254, 186, 37, 0.01), 0px 11px 7px rgba(254, 186, 37, 0.05), 0px 5px 5px rgba(254, 186, 37, 0.09), 0px 1px 3px rgba(254, 186, 37, 0.1);
+  	border-radius: 16px;
+  	background-color: #fefdfc;
+  	width: 267px;
+  	height: 200px;
+}
+.nossa-tecnologia-oferece {
+  	position: absolute;
+  	top: 194px;
+  	left: 80px;
+  	font-size: 14.5px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 363px;
+}
+.agende-coletas-de {
+  	position: absolute;
+  	top: 208px;
+  	left: 544px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 193px;
+}
+.coleta-rpida-e {
+  	position: absolute;
+  	top: 178px;
+  	left: 551px;
+  	font-size: 14.99px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 178px;
+}
+.cada-litro-de {
+  	position: absolute;
+  	top: 208px;
+  	left: 827px;
+  	font-weight: 500;
+  	text-align: center;
+  	display: inline-block;
+  	width: 223px;
+}
+.impacto-ambiental-real {
+  	position: absolute;
+  	top: 178px;
+  	left: 845px;
+  	font-size: 14.99px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 186px;
+}
+.acompanhe-suas-coletas {
+  	position: absolute;
+  	top: 208px;
+  	left: 1124px;
+  	font-weight: 500;
+  	text-align: center;
+  	display: inline-block;
+  	width: 223px;
+}
+.dados-em-tempo {
+  	position: absolute;
+  	top: 178px;
+  	left: 1152px;
+  	font-size: 14.99px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 167px;
+}
+.receba-certificados-que {
+  	position: absolute;
+  	top: 420px;
+  	left: 525px;
+  	font-weight: 500;
+  	text-align: center;
+  	display: inline-block;
+  	width: 231px;
+}
+.certificado-de-sustentabilidad {
+  	position: absolute;
+  	top: 390px;
+  	left: 521px;
+  	font-size: 14.99px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 239px;
+}
+.reduza-custos-operacionais {
+  	position: absolute;
+  	top: 420px;
+  	left: 819px;
+  	font-weight: 500;
+  	text-align: center;
+  	display: inline-block;
+  	width: 231px;
+}
+.economia-e-eficiencia {
+  	position: absolute;
+  	top: 390px;
+  	left: 853px;
+  	font-size: 14.99px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 171px;
+}
+.conectamis-empresas-e {
+  	position: absolute;
+  	top: 420px;
+  	left: 1113px;
+  	font-weight: 500;
+  	text-align: center;
+  	display: inline-block;
+  	width: 231px;
+}
+.conexo-que-transforma {
+  	position: absolute;
+  	top: 390px;
+  	left: 1143px;
+  	font-size: 14.99px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 191px;
+}
+.vantagens-do-olius-container {
+  	position: absolute;
+  	top: 126px;
+  	left: 76px;
+  	font-size: 36px;
+  	font-weight: 600;
+}
+.elementos-child35 {
+  	position: absolute;
+  	top: 79px;
+  	left: 589px;
+  	border-radius: 50%;
+  	background-color: #fef7e4;
+  	width: 88px;
+  	height: 88px;
+}
+.elementos-child36 {
+  	position: absolute;
+  	top: 294px;
+  	left: 589px;
+  	border-radius: 50%;
+  	background-color: #fef7e4;
+  	width: 88px;
+  	height: 88px;
+}
+.elementos-child37 {
+  	position: absolute;
+  	top: 294px;
+  	left: 887px;
+  	border-radius: 50%;
+  	background-color: #fef7e4;
+  	width: 88px;
+  	height: 88px;
+}
+.elementos-child38 {
+  	position: absolute;
+  	top: 294px;
+  	left: 1184px;
+  	border-radius: 50%;
+  	background-color: #fef7e4;
+  	width: 88px;
+  	height: 88px;
+}
+.elementos-child39 {
+  	position: absolute;
+  	top: 79px;
+  	left: 1184px;
+  	border-radius: 50%;
+  	background-color: #fef7e4;
+  	width: 88px;
+  	height: 88px;
+}
+.elementos-child40 {
+  	position: absolute;
+  	top: 79px;
+  	left: 887px;
+  	border-radius: 50%;
+  	background-color: #fef7e4;
+  	width: 88px;
+  	height: 88px;
+}
+.imagens4 {
+  	position: absolute;
+  	top: 93.88px;
+  	left: 0px;
+  	width: 1256px;
+  	height: 452.1px;
+}
+.image-116-icon {
+  	position: absolute;
+  	top: 2.12px;
+  	left: 1202px;
+  	width: 52px;
+  	height: 54px;
+  	object-fit: cover;
+}
+.image-119-icon {
+  	position: absolute;
+  	top: 218.12px;
+  	left: 1203px;
+  	width: 53px;
+  	height: 55px;
+  	object-fit: cover;
+}
+.image-78-icon {
+  	position: absolute;
+  	top: 234.12px;
+  	left: 0px;
+  	width: 535px;
+  	height: 218px;
+  	object-fit: cover;
+}
+.image-115-icon {
+  	position: absolute;
+  	top: 2.75px;
+  	left: 906px;
+  	width: 50px;
+  	height: 56.4px;
+  	object-fit: cover;
+}
+.image-118-icon {
+  	position: absolute;
+  	top: 218.12px;
+  	left: 907px;
+  	width: 46px;
+  	height: 51.3px;
+  	object-fit: cover;
+}
+.image-114-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 604px;
+  	width: 59px;
+  	height: 57.6px;
+  	object-fit: cover;
+}
+.image-121-icon {
+  	position: absolute;
+  	top: 221.12px;
+  	left: 608px;
+  	width: 51px;
+  	height: 57.6px;
+  	object-fit: cover;
+}
+.acompanhe-o-impacto {
+  	position: absolute;
+  	top: 3981px;
+  	left: 76px;
+  	width: 1286px;
+  	height: 767px;
+  	flex-shrink: 0;
+  	font-size: 16.62px;
+}
+.elementos6 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1286px;
+  	height: 716px;
+}
+.elementos-child41 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	box-shadow: 157px 0px 44px rgba(254, 181, 1, 0), 101px 0px 40px rgba(254, 181, 1, 0.01), 57px 0px 34px rgba(254, 181, 1, 0.05), 25px 0px 25px rgba(254, 181, 1, 0.09), 6px 0px 14px rgba(254, 181, 1, 0.1);
+  	border-radius: 24px;
+  	background-color: #fdfcfa;
+  	width: 1286px;
+  	height: 716px;
+}
+.acompanhe-seu-impacto-container {
+  	position: absolute;
+  	top: 136px;
+  	left: 53px;
+  	font-size: 36px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 474px;
+}
+.nosso-aplicativo-facilita {
+  	position: absolute;
+  	top: 263px;
+  	left: 53px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 361px;
+}
+.agende-coletas {
+  	position: absolute;
+  	top: 394px;
+  	left: 93px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 135px;
+}
+.veja-seu-impacto3 {
+  	position: absolute;
+  	top: 443px;
+  	left: 93px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 280px;
+}
+.ganhe-pontos-e {
+  	position: absolute;
+  	top: 587px;
+  	left: 93px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 254px;
+}
+.encontre-pontos-de2 {
+  	position: absolute;
+  	top: 492px;
+  	left: 93px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 222px;
+}
+.elementos-child42 {
+  	position: absolute;
+  	top: 93px;
+  	left: 619px;
+  	border-radius: 50%;
+  	background: linear-gradient(203.65deg, #fef7e5, #fbedc8);
+  	width: 607px;
+  	height: 573px;
+  	opacity: 0.78;
+}
+.receba-notificaes {
+  	position: absolute;
+  	top: 541px;
+  	left: 93px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 175px;
+}
+.imagens5 {
+  	position: absolute;
+  	top: 71px;
+  	left: 543px;
+  	width: 743px;
+  	height: 696px;
+}
+.image-80-icon {
+  	position: absolute;
+  	top: 386px;
+  	left: 0px;
+  	width: 743px;
+  	height: 310px;
+  	object-fit: cover;
+}
+.image-103-icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 196px;
+  	width: 321px;
+  	height: 617px;
+  	object-fit: cover;
+}
+.cards {
+  	position: absolute;
+  	top: 211px;
+  	left: 506px;
+  	width: 754px;
+  	height: 301.4px;
+  	font-size: 7.09px;
+  	color: #323232;
+  	font-family: 'Lexend Deca';
+}
+.popup-registraroleo {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 9.31px;
+  	background-color: #fff;
+  	width: 189px;
+  	height: 104.6px;
+}
+.registrar-leo {
+  	position: absolute;
+  	top: 7.67px;
+  	left: calc(50% - 29.56px);
+  	font-size: 8.42px;
+}
+.volume-de-leo {
+  	position: absolute;
+  	top: 28.49px;
+  	left: 18.08px;
+}
+.component-1 {
+  	position: absolute;
+  	top: 43.83px;
+  	left: calc(50% - 77.21px);
+  	width: 152.8px;
+  	height: 16.4px;
+  	color: #c6c6c6;
+}
+.ex-25 {
+  	position: absolute;
+  	top: 3.83px;
+  	left: 6.03px;
+}
+.component-1-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 4.38px;
+  	border: 0.3px solid #c6c6c6;
+  	box-sizing: border-box;
+  	width: 152.8px;
+  	height: 16.4px;
+}
+.rectangle-parent {
+  	position: absolute;
+  	top: calc(50% + 20.66px);
+  	left: 18.08px;
+  	width: 152.8px;
+  	height: 16.6px;
+  	font-size: 6.09px;
+  	color: rgba(66, 27, 0, 0.6);
+  	font-family: Inter;
+}
+.group-child {
+  	position: absolute;
+  	top: calc(50% - 8.3px);
+  	left: 0px;
+  	border-radius: 3.29px;
+  	background-color: rgba(252, 219, 3, 0.6);
+  	width: 152.8px;
+  	height: 16.6px;
+}
+.registrar {
+  	position: absolute;
+  	top: calc(50% - 3.34px);
+  	left: calc(50% - 12.55px);
+  	line-height: 116.33%;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 29px;
+  	height: 7.1px;
+}
+.popup-registraroleob2b {
+  	position: absolute;
+  	top: 182px;
+  	left: 578px;
+  	border-radius: 8.67px;
+  	background-color: #fff;
+  	width: 176px;
+  	height: 119.4px;
+  	font-size: 6.6px;
+}
+.registrar-leo2 {
+  	position: absolute;
+  	top: 7.14px;
+  	left: calc(50% - 27.29px);
+  	font-size: 7.84px;
+}
+.volume-de-leo2 {
+  	position: absolute;
+  	top: 26.53px;
+  	left: 16.83px;
+}
+.rectangle-group {
+  	position: absolute;
+  	top: calc(50% + 33.63px);
+  	left: 16.83px;
+  	width: 142.3px;
+  	height: 15.5px;
+  	font-size: 5.67px;
+  	color: #421b00;
+  	font-family: Inter;
+}
+.group-item {
+  	position: absolute;
+  	top: calc(50% - 7.75px);
+  	left: 0px;
+  	border-radius: 3.06px;
+  	background-color: #fcdb03;
+  	width: 142.3px;
+  	height: 15.5px;
+}
+.registrar2 {
+  	position: absolute;
+  	top: calc(50% - 3.13px);
+  	left: calc(50% - 11.46px);
+  	line-height: 116.33%;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 27px;
+  	height: 6.6px;
+}
+.component-1variant5 {
+  	position: absolute;
+  	width: calc(100% - 33.7px);
+  	top: 40.81px;
+  	right: 16.87px;
+  	left: 16.83px;
+  	height: 15.3px;
+  	font-size: 5.9px;
+  	color: #484848;
+}
+.component-1variant5-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 4.08px;
+  	border: 0.5px solid #fccc03;
+  	box-sizing: border-box;
+  	width: 142.3px;
+  	height: 15.3px;
+}
+.div {
+  	position: absolute;
+  	top: 4.59px;
+  	left: 5.1px;
+}
+.component-1variant5-item {
+  	position: absolute;
+  	top: 3.31px;
+  	left: 131.47px;
+  	border-radius: 0.47px;
+  	width: 4.7px;
+  	height: 2.3px;
+}
+.component-1variant5-inner {
+  	position: absolute;
+  	top: 11.75px;
+  	left: 131.47px;
+  	border-radius: 0.47px;
+  	width: 4.7px;
+  	height: 2.3px;
+}
+.popup-registraroleob2b-inner {
+  	position: absolute;
+  	top: 59.69px;
+  	left: 18.36px;
+  	width: 140.8px;
+  	height: 25px;
+  	color: #aaa;
+}
+.rectangle-container {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 140.8px;
+  	height: 25px;
+}
+.frame-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 3.57px;
+  	background-color: #f9f9f9;
+  	width: 140.8px;
+  	height: 25px;
+}
+.div2 {
+  	position: absolute;
+  	top: 6.12px;
+  	left: 6.12px;
+  	color: #0078d5;
+}
+.litros-de-gua2 {
+  	position: absolute;
+  	top: 14.28px;
+  	left: 6.12px;
+  	font-size: 4.54px;
+}
+.div3 {
+  	position: absolute;
+  	top: 6.12px;
+  	left: 72.44px;
+  	color: #27ae60;
+}
+.kg-de-co2-container {
+  	position: absolute;
+  	top: 14.28px;
+  	left: 72.44px;
+  	font-size: 4.5px;
+}
+.span {
+  	font-size: 3.1px;
+}
+.evitados {
+  	font-size: 4.6px;
+}
+.card-oil-level-filled {
+  	position: absolute;
+  	top: 17px;
+  	left: calc(50% + 180px);
+  	width: 176.6px;
+  	height: 148px;
+  	overflow: hidden;
+  	font-size: 5.83px;
+}
+.card-oil-level-filled-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 5.16px;
+  	background-color: #fff;
+  	border: 0.5px solid #e2e2e2;
+  	box-sizing: border-box;
+  	width: 176.4px;
+  	height: 105.7px;
+}
+.nvel-de-leo {
+  	position: absolute;
+  	top: 11.34px;
+  	left: 11.86px;
+  	font-size: 6.4px;
+}
+.l {
+  	position: absolute;
+  	top: 39px;
+  	left: 86.12px;
+  	font-size: 11.15px;
+  	color: #949494;
+}
+.minimo-para-coleta {
+  	position: absolute;
+  	top: 57.76px;
+  	left: 62.91px;
+  	color: #949494;
+}
+.div4 {
+  	position: absolute;
+  	top: 32.49px;
+  	left: 62.91px;
+  	font-size: 17.85px;
+  	font-weight: 500;
+}
+.card-oil-level-filled-item {
+  	position: absolute;
+  	top: 31.97px;
+  	left: 11.86px;
+  	border-radius: 5.16px;
+  	background: linear-gradient(180.03deg, #fcdb03 29.81%, #fd8c04);
+  	border: 0.3px solid #c6c6c6;
+  	box-sizing: border-box;
+  	width: 38.2px;
+  	height: 59.8px;
+}
+.check-parent {
+  	position: absolute;
+  	top: 70.65px;
+  	left: 62.91px;
+  	border-radius: 3.09px;
+  	background-color: rgba(64, 226, 132, 0.3);
+  	width: 90.2px;
+  	height: 17px;
+  	color: #27ae60;
+}
+.check-icon {
+  	position: absolute;
+  	top: 2.06px;
+  	left: 4.12px;
+  	width: 12.9px;
+  	height: 12.9px;
+}
+.pronto-para-coleta {
+  	position: absolute;
+  	top: 5.16px;
+  	left: 17.02px;
+}
+.vector-icon8 {
+  	position: absolute;
+  	height: 9.39%;
+  	width: 4.98%;
+  	top: 35.89%;
+  	right: 80.13%;
+  	bottom: 54.72%;
+  	left: 14.89%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.card-sustainability-defaul {
+  	position: absolute;
+  	top: 139px;
+  	left: calc(50% - 354px);
+  	width: 194px;
+  	height: 113px;
+  	font-size: 5.21px;
+  	color: #848484;
+}
+.card-sustainability-defaul-child {
+  	position: absolute;
+  	top: 14.62px;
+  	left: 0px;
+  	border-radius: 5.62px;
+  	background-color: #fff;
+  	border: 0.6px solid #e2e2e2;
+  	box-sizing: border-box;
+  	width: 194px;
+  	height: 93.9px;
+}
+.group-div {
+  	position: absolute;
+  	top: 29.8px;
+  	left: 15.27px;
+  	width: 33.2px;
+  	height: 33.2px;
+}
+.group-inner {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 7.69px;
+  	background-color: #737a7b;
+  	width: 33.2px;
+  	height: 33.2px;
+}
+.group-child2 {
+  	position: absolute;
+  	top: calc(50% - 13.23px);
+  	left: calc(50% - 15px);
+  	border-radius: 6.84px;
+  	width: 29.5px;
+  	height: 29.5px;
+  	object-fit: cover;
+}
+.frame-div {
+  	position: absolute;
+  	top: 80.56px;
+  	left: 15.29px;
+  	border-radius: 23.89px;
+  	background-color: #ececec;
+  	width: 163.2px;
+  	height: 18.4px;
+  	overflow: hidden;
+  	font-size: 5.62px;
+  	font-family: Inter;
+}
+.frame-item {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 23.89px;
+  	background-color: #fcdb03;
+  	width: 113.7px;
+  	height: 18.4px;
+}
+.l2 {
+  	position: absolute;
+  	top: 6.04px;
+  	left: 131px;
+  	line-height: 116.33%;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 15.7px;
+  	height: 6.7px;
+}
+.lv-2 {
+  	position: absolute;
+  	top: 38.24px;
+  	left: 53.5px;
+  	font-size: 19.83px;
+  	font-weight: 500;
+  	color: #323232;
+}
+.nvel-de-sustentabilidade {
+  	position: absolute;
+  	top: 29.8px;
+  	left: 53.14px;
+  	font-size: 6.77px;
+  	display: inline-block;
+  	width: 87.2px;
+}
+.l-coletados {
+  	position: absolute;
+  	top: 71.98px;
+  	left: 23.14px;
+  	color: #9c9c9c;
+}
+.l-para-o {
+  	position: absolute;
+  	top: 71.98px;
+  	left: 107.96px;
+  	color: #9c9c9c;
+  	display: inline-block;
+  	width: 67.5px;
+}
+.certificaes {
+  	position: absolute;
+  	top: 5368px;
+  	left: 94px;
+  	width: 1253px;
+  	height: 332px;
+  	flex-shrink: 0;
+  	font-size: 16.29px;
+}
+.certificaes-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 385px;
+  	border-radius: 11px;
+  	background-color: #fffffe;
+  	width: 197px;
+  	height: 332px;
+}
+.certificaes-item {
+  	position: absolute;
+  	top: 0px;
+  	left: 611px;
+  	border-radius: 11px;
+  	background-color: #fffffe;
+  	width: 197px;
+  	height: 332px;
+}
+.certificaes-inner {
+  	position: absolute;
+  	top: 0px;
+  	left: 830px;
+  	border-radius: 11px;
+  	background-color: #fffffe;
+  	width: 197px;
+  	height: 332px;
+}
+.certificaes-child2 {
+  	position: absolute;
+  	top: 0px;
+  	left: 1056px;
+  	border-radius: 11px;
+  	background-color: #fffffe;
+  	width: 197px;
+  	height: 332px;
+}
+.certificaes-e-compromissos {
+  	position: absolute;
+  	top: 53px;
+  	left: 0px;
+  	font-size: 36.13px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 314px;
+}
+.seguimos-padres-rigorosos {
+  	position: absolute;
+  	top: 179px;
+  	left: 4px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 352px;
+}
+.consumo-e-produo {
+  	position: absolute;
+  	top: 233px;
+  	left: 416px;
+  	font-size: 11.9px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 134px;
+  	height: 36px;
+}
+.operap-alinhada-a {
+  	position: absolute;
+  	top: 233px;
+  	left: 636px;
+  	font-size: 11.9px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 132px;
+  	height: 36px;
+}
+.processos-rastreveis-e {
+  	position: absolute;
+  	top: 233px;
+  	left: 860px;
+  	font-size: 11.9px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 132px;
+  	height: 36px;
+}
+.conformidade-com-normas {
+  	position: absolute;
+  	top: 233px;
+  	left: 1084px;
+  	font-size: 11.9px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 132px;
+  	height: 36px;
+}
+.ods-12 {
+  	position: absolute;
+  	top: 173px;
+  	left: 416px;
+  	display: inline-block;
+  	width: 62px;
+  	height: 22px;
+}
+.carbono-reduzido {
+  	position: absolute;
+  	top: 173px;
+  	left: 636px;
+  	display: inline-block;
+  	width: 92px;
+  	height: 22px;
+}
+.reciclagem-certificada {
+  	position: absolute;
+  	top: 173px;
+  	left: 860px;
+  	display: inline-block;
+  	width: 111px;
+  	height: 22px;
+}
+.coleta-segura {
+  	position: absolute;
+  	top: 173px;
+  	left: 1084px;
+  	display: inline-block;
+  	width: 123px;
+  	height: 22px;
+}
+.certificaes-child3 {
+  	position: absolute;
+  	top: 26px;
+  	left: 419px;
+  	border-radius: 50%;
+  	background-color: #fef2df;
+  	width: 129px;
+  	height: 127px;
+}
+.certificaes-child4 {
+  	position: absolute;
+  	top: 308.5px;
+  	left: 633.99px;
+  	border-top: 4px solid #febb18;
+  	box-sizing: border-box;
+  	width: 40px;
+  	height: 4px;
+}
+.certificaes-child5 {
+  	position: absolute;
+  	top: 309px;
+  	left: 414px;
+  	border-top: 4px solid #febb18;
+  	box-sizing: border-box;
+  	width: 40px;
+  	height: 4px;
+}
+.certificaes-child6 {
+  	position: absolute;
+  	top: 26px;
+  	left: 639px;
+  	border-radius: 50%;
+  	background-color: #fef2df;
+  	width: 129px;
+  	height: 127px;
+}
+.certificaes-child7 {
+  	position: absolute;
+  	top: 26px;
+  	left: 1084px;
+  	border-radius: 50%;
+  	background-color: #fef2df;
+  	width: 129px;
+  	height: 127px;
+}
+.certificaes-child8 {
+  	position: absolute;
+  	top: 26px;
+  	left: 864px;
+  	border-radius: 50%;
+  	background-color: #fef2df;
+  	width: 129px;
+  	height: 127px;
+}
+.certificaes-child9 {
+  	position: absolute;
+  	top: 308.5px;
+  	left: 1078.99px;
+  	border-top: 4px solid #febb18;
+  	box-sizing: border-box;
+  	width: 40px;
+  	height: 4px;
+}
+.certificaes-child10 {
+  	position: absolute;
+  	top: 309px;
+  	left: 859px;
+  	border-top: 4px solid #febb18;
+  	box-sizing: border-box;
+  	width: 40px;
+  	height: 4px;
+}
+.image-122-icon {
+  	position: absolute;
+  	top: 49.05px;
+  	left: 444px;
+  	width: 80px;
+  	height: 81px;
+  	object-fit: cover;
+}
+.image-117-icon {
+  	position: absolute;
+  	top: 54px;
+  	left: 1109px;
+  	width: 85.9px;
+  	height: 77px;
+  	object-fit: cover;
+}
+.image-120-icon {
+  	position: absolute;
+  	top: 54px;
+  	left: 890px;
+  	width: 77px;
+  	height: 87px;
+  	object-fit: cover;
+}
+.image-123-icon {
+  	position: absolute;
+  	top: 48px;
+  	left: 653px;
+  	width: 103.9px;
+  	height: 84px;
+  	object-fit: cover;
+}
+.inicial-parent {
+  	position: absolute;
+  	top: -216.65px;
+  	left: 0px;
+  	width: 1816.5px;
+  	height: 1728.6px;
+  	flex-shrink: 0;
+  	font-size: 9.64px;
+}
+.inicial2 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 1816.5px;
+  	height: 1312.6px;
+}
+.elementos-child43 {
+  	position: absolute;
+  	top: 1141.65px;
+  	left: 958px;
+  	border-right: 1px solid #fff;
+  	box-sizing: border-box;
+  	width: 1px;
+  	height: 131px;
+}
+.elementos-child44 {
+  	position: absolute;
+  	top: 1135.65px;
+  	left: 517px;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 140px;
+}
+.elementos-child45 {
+  	position: absolute;
+  	top: 1135.65px;
+  	left: 938px;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 140px;
+}
+.elementos-child46 {
+  	position: absolute;
+  	top: 956.65px;
+  	left: 1128px;
+  	filter: blur(10px);
+  	background: linear-gradient(90deg, #fdcf59, #fdcf5a);
+  	width: 509px;
+  	height: 289px;
+}
+.elementos-child47 {
+  	position: absolute;
+  	top: 938.65px;
+  	left: 764px;
+  	filter: blur(10px);
+  	border-radius: 50%;
+  	background: linear-gradient(90deg, #fff2d6, #fdcd54);
+  	width: 669px;
+  	height: 307px;
+}
+.elementos-child48 {
+  	position: absolute;
+  	top: 882.65px;
+  	left: 0px;
+  	filter: blur(10px);
+  	width: 402px;
+  	height: 330px;
+}
+.elementos-child49 {
+  	position: absolute;
+  	top: 1097.65px;
+  	left: 82px;
+  	border-radius: 33px;
+  	background-color: #fefaf2;
+  	border: 2px solid #ffeacb;
+  	box-sizing: border-box;
+  	width: 1272px;
+  	height: 215px;
+}
+.elementos-child50 {
+  	position: absolute;
+  	top: 1141.65px;
+  	left: 519px;
+  	border-right: 1px solid #fff;
+  	box-sizing: border-box;
+  	width: 1px;
+  	height: 131px;
+}
+.elementos-child51 {
+  	position: absolute;
+  	top: 1143.65px;
+  	left: 547px;
+  	border-radius: 50%;
+  	background-color: #fef1d2;
+  	width: 125px;
+  	height: 127px;
+}
+.elementos-child52 {
+  	position: absolute;
+  	top: 1143.65px;
+  	left: 987px;
+  	border-radius: 50%;
+  	background-color: #fef1d2;
+  	width: 125px;
+  	height: 127px;
+}
+.elementos-child53 {
+  	position: absolute;
+  	top: 1141.65px;
+  	left: 137px;
+  	border-radius: 50%;
+  	background-color: #fef1d2;
+  	width: 125px;
+  	height: 127px;
+}
+.elementos-child54 {
+  	position: absolute;
+  	top: 914.65px;
+  	left: 92px;
+  	width: 22.2px;
+  	height: 36.1px;
+  	object-fit: cover;
+}
+.elementos-child55 {
+  	position: absolute;
+  	top: 914.65px;
+  	left: 280.27px;
+  	width: 25.4px;
+  	height: 36.1px;
+  	object-fit: cover;
+}
+.elementos-child56 {
+  	position: absolute;
+  	top: 914.65px;
+  	left: 484px;
+  	width: 26.3px;
+  	height: 36.1px;
+  	object-fit: cover;
+}
+.elementos-child57 {
+  	position: absolute;
+  	top: 766.3px;
+  	left: 1590.01px;
+  	filter: blur(10px);
+  	border-radius: 50%;
+  	background: linear-gradient(203.65deg, #fff2d6, #fdcd54);
+  	width: 607px;
+  	height: 573px;
+  	transform:  rotate(-156.7deg);
+  	transform-origin: 0 0;
+}
+.boto2 {
+  	position: absolute;
+  	top: 777.65px;
+  	left: 319px;
+  	width: 263px;
+  	height: 56px;
+}
+.boto3 {
+  	position: absolute;
+  	top: 777.65px;
+  	left: 85px;
+  	width: 212px;
+  	height: 56px;
+}
+.textos {
+  	position: absolute;
+  	top: 402.65px;
+  	left: 81px;
+  	width: 1235px;
+  	height: 849px;
+}
+.do-descarte {
+  	position: absolute;
+  	top: 551px;
+  	left: 430px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 146px;
+  	height: 15px;
+}
+.litro-de-leo {
+  	position: absolute;
+  	top: 828px;
+  	left: 208px;
+  	font-size: 13.5px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 187.6px;
+  	height: 21px;
+}
+.rotas-inteligentes-geram {
+  	position: absolute;
+  	top: 826px;
+  	left: 605px;
+  	font-size: 13.5px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 246px;
+  	height: 23px;
+}
+.mais-sustentabilidade-conscie {
+  	position: absolute;
+  	top: 826px;
+  	left: 1054px;
+  	font-size: 13.5px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 177px;
+  	height: 21px;
+}
+.reduz-custos-e {
+  	position: absolute;
+  	top: 739px;
+  	left: 615px;
+  	font-size: 24px;
+  	display: inline-block;
+  	width: 178px;
+  	height: 17px;
+}
+.proteje-a-gua {
+  	position: absolute;
+  	top: 739px;
+  	left: 209px;
+  	font-size: 24px;
+  	display: inline-block;
+  	width: 194px;
+  	height: 17px;
+}
+.gera-impacto-positivo {
+  	position: absolute;
+  	top: 739px;
+  	left: 1057px;
+  	font-size: 24px;
+  	display: inline-block;
+  	width: 178px;
+  	height: 17px;
+}
+.conectamos-empresas-cidados {
+  	position: absolute;
+  	top: 238px;
+  	left: 0px;
+  	font-size: 17.13px;
+  	display: inline-block;
+  	width: 490.8px;
+  	height: 76px;
+}
+.agendar-coleta {
+  	position: absolute;
+  	top: 392px;
+  	left: 46px;
+  	font-size: 15.76px;
+  	display: inline-block;
+  	width: 127px;
+  	height: 20.2px;
+}
+.conhea-a-plataforma {
+  	position: absolute;
+  	top: 390px;
+  	left: 276px;
+  	font-size: 15.76px;
+  	display: inline-block;
+  	width: 184px;
+  	height: 20px;
+}
+.destino-correto {
+  	position: absolute;
+  	top: 522px;
+  	left: 42px;
+  	font-size: 10.78px;
+  	display: inline-block;
+  	width: 87px;
+  	height: 17px;
+}
+.impacto-real {
+  	position: absolute;
+  	top: 522px;
+  	left: 234px;
+  	font-size: 10.78px;
+  	display: inline-block;
+  	width: 87px;
+  	height: 17px;
+}
+.transaparencia-total {
+  	position: absolute;
+  	top: 522px;
+  	left: 438px;
+  	font-size: 10.78px;
+  	display: inline-block;
+  	width: 120px;
+  	height: 17px;
+}
+.transformado-em-biodiesel {
+  	position: absolute;
+  	top: 551px;
+  	left: 33px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 134px;
+  	height: 15px;
+}
+.acompanhe-seus-indicadores {
+  	position: absolute;
+  	top: 551px;
+  	left: 227px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 146px;
+  	height: 15px;
+}
+.tecnologia-que-transforma {
+  	position: absolute;
+  	top: 0px;
+  	left: 1px;
+  	font-size: 50px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 612px;
+}
+.impacto-positivo {
+  	position: absolute;
+  	top: 150px;
+  	left: 106px;
+  	font-size: 50px;
+  	font-weight: 600;
+  	color: #febe04;
+}
+.imagens6 {
+  	position: absolute;
+  	top: 424.65px;
+  	left: 135px;
+  	width: 1621px;
+  	height: 848px;
+}
+.mockup-olius-mockuuups-studio {
+  	position: absolute;
+  	top: 0px;
+  	left: 662px;
+  	width: 959px;
+  	height: 584.9px;
+  	object-fit: cover;
+}
+.mockup-mockuuups-studio {
+  	position: absolute;
+  	top: 132.05px;
+  	left: 578.61px;
+  	width: 260.8px;
+  	height: 481.2px;
+  	object-fit: contain;
+}
+.image-112-icon {
+  	position: absolute;
+  	top: 716px;
+  	left: 411px;
+  	width: 133px;
+  	height: 130px;
+  	object-fit: cover;
+}
+.image-111-icon {
+  	position: absolute;
+  	top: 712px;
+  	left: 0px;
+  	width: 136px;
+  	height: 136px;
+  	object-fit: cover;
+}
+.barra-fixa {
+  	position: absolute;
+  	top: 239.65px;
+  	left: 81px;
+  	width: 1211px;
+  	height: 47px;
+  	font-size: 26.58px;
+}
+.boto4 {
+  	position: absolute;
+  	top: 11px;
+  	left: 1074.71px;
+  	width: 136.3px;
+  	height: 36px;
+}
+.boto-child2 {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	border-radius: 16.07px;
+  	background-color: #fffde4;
+  	border: 1.3px solid #febe04;
+  	box-sizing: border-box;
+}
+.logo2 {
+  	position: absolute;
+  	top: 0px;
+  	right: 1090.7px;
+  	width: 120.3px;
+  	height: 46.8px;
+}
+.logo-oficial-icon2 {
+  	position: absolute;
+  	top: 0px;
+  	right: 81.8px;
+  	width: 38.5px;
+  	height: 46.8px;
+}
+.olius4 {
+  	position: absolute;
+  	height: 42.09%;
+  	width: 72px;
+  	top: 26.23%;
+  	left: 40.13%;
+  	letter-spacing: 0.02em;
+  	line-height: 116.33%;
+  	display: inline-block;
+  	background: linear-gradient(90deg, #fcdb03, #fdc604);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+.links {
+  	position: absolute;
+  	top: 19px;
+  	left: 526px;
+  	width: 672px;
+  	height: 20px;
+  	font-size: 12.86px;
+}
+.planos {
+  	position: absolute;
+  	top: 0px;
+  	left: 154px;
+  	display: inline-block;
+  	width: 64px;
+  	height: 20px;
+}
+.como-funciona2 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	display: inline-block;
+  	width: 105px;
+  	height: 20px;
+}
+.vantagens2 {
+  	position: absolute;
+  	top: 0px;
+  	left: 258px;
+  	display: inline-block;
+  	width: 101px;
+  	height: 20px;
+  	cursor: pointer;
+}
+.sobre {
+  	position: absolute;
+  	top: 0px;
+  	left: 403px;
+  	display: inline-block;
+  	width: 59px;
+  	height: 20px;
+}
+.agendar-coleta2 {
+  	position: absolute;
+  	top: 0px;
+  	left: 566px;
+  	display: inline-block;
+  	width: 106px;
+  	height: 20px;
+}
+.como-funciona3 {
+  	position: absolute;
+  	height: 20.65%;
+  	width: 62.26%;
+  	top: 79.35%;
+  	right: 28.21%;
+  	bottom: 0%;
+  	left: 9.52%;
+  	font-size: 17.31px;
+}
+.como-funciona-child {
+  	position: absolute;
+  	height: 1.6%;
+  	width: 83.83%;
+  	top: 45.19%;
+  	right: 10.07%;
+  	bottom: 53.22%;
+  	left: 6.1%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.como-funciona-item {
+  	position: absolute;
+  	height: 27.14%;
+  	width: 8.57%;
+  	top: 31.93%;
+  	right: 91.43%;
+  	bottom: 40.92%;
+  	left: 0%;
+  	border-radius: 50%;
+  	background-color: #fff5e4;
+  	border: 7px solid #ffe29e;
+  	box-sizing: border-box;
+}
+.como-funciona-inner {
+  	position: absolute;
+  	height: 27.14%;
+  	width: 8.57%;
+  	top: 31.93%;
+  	right: 69.56%;
+  	bottom: 40.92%;
+  	left: 21.88%;
+  	border-radius: 50%;
+  	background-color: #fff5e4;
+  	border: 7px solid #ffe29e;
+  	box-sizing: border-box;
+}
+.como-funciona-child2 {
+  	position: absolute;
+  	height: 27.14%;
+  	width: 8.57%;
+  	top: 31.93%;
+  	right: 47.67%;
+  	bottom: 40.92%;
+  	left: 43.77%;
+  	border-radius: 50%;
+  	background-color: #fff5e4;
+  	border: 7px solid #ffe29e;
+  	box-sizing: border-box;
+}
+.como-funciona-child3 {
+  	position: absolute;
+  	height: 27.14%;
+  	width: 8.57%;
+  	top: 31.93%;
+  	right: 25.83%;
+  	bottom: 40.92%;
+  	left: 65.61%;
+  	border-radius: 50%;
+  	background-color: #fff5e4;
+  	border: 7px solid #ffe29e;
+  	box-sizing: border-box;
+}
+.como-funciona-child4 {
+  	position: absolute;
+  	height: 27.14%;
+  	width: 8.57%;
+  	top: 31.93%;
+  	right: 3.9%;
+  	bottom: 40.92%;
+  	left: 87.53%;
+  	border-radius: 50%;
+  	background-color: #fff5e4;
+  	border: 7px solid #ffe29e;
+  	box-sizing: border-box;
+}
+.cadatre-seu-estabelecimento {
+  	position: absolute;
+  	width: 183px;
+  	top: 77.31%;
+  	left: 0%;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.como-funciona-child5 {
+  	position: absolute;
+  	height: 8.12%;
+  	width: 2.56%;
+  	top: 66.02%;
+  	right: 97.44%;
+  	bottom: 25.86%;
+  	left: 0%;
+  	border-radius: 50%;
+  	background-color: #ffe29e;
+}
+.agende-a-coleta {
+  	position: absolute;
+  	width: 156px;
+  	top: 77.31%;
+  	left: 65.61%;
+  	font-size: 17.3px;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.receba-a-previso {
+  	position: absolute;
+  	width: 193px;
+  	top: 77.31%;
+  	left: 43.59%;
+  	font-size: 17.25px;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.como-funciona-child6 {
+  	position: absolute;
+  	height: 8.12%;
+  	width: 2.56%;
+  	top: 66.11%;
+  	right: 31.83%;
+  	bottom: 25.77%;
+  	left: 65.61%;
+  	border-radius: 50%;
+  	background-color: #ffe29e;
+}
+.acompanhe-o-impacto2 {
+  	position: absolute;
+  	width: 141px;
+  	top: 77.31%;
+  	left: 87.53%;
+  	font-size: 17.75px;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.como-funciona-child7 {
+  	position: absolute;
+  	height: 8.12%;
+  	width: 2.56%;
+  	top: 66.11%;
+  	right: 9.9%;
+  	bottom: 25.77%;
+  	left: 87.53%;
+  	border-radius: 50%;
+  	background-color: #ffe29e;
+}
+.como-funciona-child8 {
+  	position: absolute;
+  	height: 8.12%;
+  	width: 2.56%;
+  	top: 66.11%;
+  	right: 53.67%;
+  	bottom: 25.77%;
+  	left: 43.77%;
+  	border-radius: 50%;
+  	background-color: #ffe29e;
+}
+.informe-a-quantidade {
+  	position: absolute;
+  	width: 193px;
+  	top: 77.31%;
+  	left: 21.84%;
+  	font-size: 17.25px;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.como-funciona-child9 {
+  	position: absolute;
+  	height: 8.12%;
+  	width: 2.56%;
+  	top: 66.11%;
+  	right: 75.95%;
+  	bottom: 25.77%;
+  	left: 21.49%;
+  	border-radius: 50%;
+  	background-color: #ffe29e;
+}
+.image-78-icon2 {
+  	position: absolute;
+  	width: 5.57%;
+  	top: 130px;
+  	right: 92.93%;
+  	left: 1.5%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 63px;
+  	object-fit: cover;
+}
+.image-79-icon {
+  	position: absolute;
+  	width: 5.57%;
+  	top: 129px;
+  	right: 71%;
+  	left: 23.43%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 63px;
+  	object-fit: cover;
+}
+.image-80-icon2 {
+  	position: absolute;
+  	width: 5.57%;
+  	top: 129px;
+  	right: 49.16%;
+  	left: 45.27%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 63px;
+  	object-fit: cover;
+}
+.image-81-icon {
+  	position: absolute;
+  	width: 5.57%;
+  	top: 131px;
+  	right: 27.32%;
+  	left: 67.11%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 63px;
+  	object-fit: cover;
+}
+.image-82-icon {
+  	position: absolute;
+  	width: 4.6%;
+  	top: 135px;
+  	right: 5.92%;
+  	left: 89.48%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 52px;
+  	object-fit: cover;
+}
+.div5 {
+  	position: absolute;
+  	width: 15px;
+  	top: 66.67%;
+  	left: 0.97%;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.div6 {
+  	position: absolute;
+  	width: 15px;
+  	top: 66.67%;
+  	left: 22.37%;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.div7 {
+  	position: absolute;
+  	width: 15px;
+  	top: 66.67%;
+  	left: 44.65%;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.div8 {
+  	position: absolute;
+  	width: 15px;
+  	top: 66.67%;
+  	left: 66.31%;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.div9 {
+  	position: absolute;
+  	width: 15px;
+  	top: 66.67%;
+  	left: 88.33%;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.como-funciona4 {
+  	position: absolute;
+  	top: 0px;
+  	left: 404px;
+  	width: 287px;
+  	height: 87px;
+  	font-size: 36px;
+}
+.como-funciona5 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 287px;
+  	height: 87px;
+}
+.image-113-icon2 {
+  	position: absolute;
+  	top: 1135.65px;
+  	left: 977px;
+  	width: 148px;
+  	height: 148px;
+  	object-fit: cover;
+}
+.inicial-child {
+  	position: absolute;
+  	top: 1781px;
+  	left: 1067px;
+  	background-color: #d9d9d9;
+  	width: 41px;
+  	height: 78px;
+  	flex-shrink: 0;
+}
+.image-133-icon {
+  	position: absolute;
+  	top: 4377px;
+  	left: 129px;
+  	width: 22px;
+  	height: 22px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.image-134-icon {
+  	position: absolute;
+  	top: 4424px;
+  	left: 129px;
+  	width: 22px;
+  	height: 22px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.image-135-icon2 {
+  	position: absolute;
+  	top: 4473px;
+  	left: 129px;
+  	width: 22px;
+  	height: 22px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.image-136-icon2 {
+  	position: absolute;
+  	top: 4522px;
+  	left: 129px;
+  	width: 22px;
+  	height: 22px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.image-137-icon2 {
+  	position: absolute;
+  	top: 4568px;
+  	left: 129px;
+  	width: 22px;
+  	height: 22px;
+  	object-fit: cover;
+  	flex-shrink: 0;
+}
+.image-138 {
+  	position: absolute;
+  	top: 4618px;
+  	left: 129px;
+  	width: 22px;
+  	height: 22px;
+  	flex-shrink: 0;
+}
+
