@@ -13,7 +13,15 @@
 
 <body>
 
+    <!-- controla a abertura do modal -->
+
+    <input type="checkbox" id="abrir-modal">
+
+
     <div class="dashboard">
+
+
+        <!-- menu lateral -->
 
         <aside class="sidebar">
 
@@ -21,36 +29,60 @@
                 <img src="../logo.png" alt="Olius">
             </div>
 
+
             <nav>
 
                 <a href="#" class="menu-item ativo">
+
                     <img src="../inicio.png" alt="">
+
                     <span>Início</span>
+
                 </a>
 
+
                 <a href="#" class="menu-item">
+
                     <img src="../historico.png" alt="">
+
                     <span>Histórico</span>
+
                 </a>
 
+
                 <a href="#" class="menu-item">
+
                     <img src="../relatorio.png" alt="">
+
                     <span>Relatórios</span>
+
                 </a>
 
+
                 <a href="#" class="menu-item">
+
                     <img src="../transparencia.png" alt="">
+
                     <span>Transparência</span>
+
                 </a>
 
+
                 <a href="#" class="menu-item">
+
                     <img src="../ranking.png" alt="">
+
                     <span>Ranking</span>
+
                 </a>
 
+
                 <a href="#" class="menu-item">
+
                     <img src="../configuracao.png" alt="">
+
                     <span>Configurações</span>
+
                 </a>
 
             </nav>
@@ -58,11 +90,18 @@
         </aside>
 
 
+
+        <!-- conteúdo -->
+
         <main class="conteudo">
+
+
+            <!-- topo -->
 
             <header class="topo">
 
                 <div></div>
+
 
                 <div class="usuario">
 
@@ -72,200 +111,524 @@
                         alt="Notificações"
                     >
 
+
                     <div class="avatar">
                         N
                     </div>
 
-                    <span>Naldo</span>
+
+                    <span>
+                        Naldo
+                    </span>
+
+
+                    <span class="seta">
+                        ⌄
+                    </span>
 
                 </div>
 
             </header>
 
 
+
+            <!-- conteúdo principal -->
+
             <section class="principal">
+
+
+                <!-- cabeçalho -->
 
                 <div class="cabecalho">
 
+
                     <div>
-                        <h1>Olá, Naldo!</h1>
-                        <p>Que bom ter você por aqui.</p>
+
+                        <h1>
+                            Olá, Naldo!
+                        </h1>
+
+
+                        <p>
+                            Que bom ter você por aqui.
+                        </p>
+
                     </div>
 
-                    <div class="acoes">
 
-                        <button class="registrar">
-                            <span>＋</span>
+
+                    <!-- botões -->
+
+                    <div class="botoes-topo">
+
+
+                        <label
+                            for="abrir-modal"
+                            class="botao-registrar"
+                        >
+
+                            <span>
+                                ＋
+                            </span>
+
                             Registrar óleo
-                        </button>
 
-                        <button class="coleta">
+                        </label>
 
-                            <img src="../caminhao.png" alt="">
+
+
+                        <label
+                            for="abrir-modal"
+                            class="botao-coleta"
+                        >
+
+                            <img
+                                src="../caminhao.png"
+                                alt=""
+                            >
 
                             Solicitar coleta
 
-                        </button>
+                        </label>
 
                     </div>
 
                 </div>
 
+
+
+                <!-- cards -->
 
                 <div class="cards">
 
-                    <div class="card agua">
 
-                        <div class="card-titulo">
+                    <div class="card">
 
-                            <img src="../agua.png" alt="Água">
+                        <div class="icone-card">
 
-                            <span>Água Preservada</span>
+                            <img
+                                src="../agua.png"
+                                alt=""
+                            >
 
                         </div>
 
-                        <strong>
-                            625.9K<span>L</span>
-                        </strong>
+
+                        <div>
+
+                            <p>
+                                Água preservada
+                            </p>
+
+                            <h2>
+                                62.500 L
+                            </h2>
+
+                        </div>
 
                     </div>
 
 
-                    <div class="card oleo">
 
-                        <div class="card-titulo">
+                    <div class="card">
 
-                            <img src="../oleo.png" alt="Óleo">
+                        <div class="icone-card">
 
-                            <span>Óleo Coletado</span>
+                            <img
+                                src="../oleo.png"
+                                alt=""
+                            >
 
                         </div>
 
-                        <strong>
-                            50<span>L</span>
-                        </strong>
+
+                        <div>
+
+                            <p>
+                                Óleo coletado
+                            </p>
+
+                            <h2>
+                                2.500 L
+                            </h2>
+
+                        </div>
 
                     </div>
 
 
-                    <div class="card co2">
 
-                        <div class="card-titulo">
+                    <div class="card">
 
-                            <img src="../co2.png" alt="CO₂">
+                        <div class="icone-card">
 
-                            <span>CO₂ Evitado</span>
-
-                        </div>
-
-                        <strong>
-                            7.5<span>Kg</span>
-                        </strong>
-
-                    </div>
-
-
-                    <div class="card biodiesel">
-
-                        <div class="card-titulo">
-
-                            <img src="../biodiesel.png" alt="Biodiesel">
-
-                            <span>Biodiesel</span>
+                            <img
+                                src="../co2.png"
+                                alt=""
+                            >
 
                         </div>
 
-                        <strong>
-                            50.3<span>L</span>
-                        </strong>
+
+                        <div>
+
+                            <p>
+                                CO₂ evitado
+                            </p>
+
+                            <h2>
+                                1.240 kg
+                            </h2>
+
+                        </div>
 
                     </div>
 
                 </div>
 
 
-                <section class="grafico">
 
-                    <div class="grafico-info">
+                <!-- gráfico -->
 
-                        <h2>
-                            200<span>L</span>
-                        </h2>
+                <div class="grafico-card">
 
-                        <p>Litros de óleo</p>
+
+                    <div class="grafico-topo">
+
+                        <div>
+
+                            <h2>
+                                Volume de óleo coletado
+                            </h2>
+
+
+                            <p>
+                                Acompanhe suas coletas ao longo do ano.
+                            </p>
+
+                        </div>
 
                     </div>
 
 
-                    <div class="grafico-area">
+
+                    <div class="grafico">
+
+
+                        <div class="linha linha1"></div>
+
+                        <div class="linha linha2"></div>
+
+                        <div class="linha linha3"></div>
+
+                        <div class="linha linha4"></div>
+
+
 
                         <div class="barras">
 
-                            <div class="barra-item">
-                                <div class="barra janeiro"></div>
-                                <span>Jan</span>
-                            </div>
+                            <div
+                                class="barra"
+                                style="height: 45%;"
+                            ></div>
 
-                            <div class="barra-item">
-                                <div class="barra fevereiro"></div>
-                                <span>Fev</span>
-                            </div>
 
-                            <div class="barra-item">
-                                <div class="barra marco"></div>
-                                <span>Mar</span>
-                            </div>
+                            <div
+                                class="barra"
+                                style="height: 60%;"
+                            ></div>
 
-                            <div class="barra-item">
-                                <div class="barra abril"></div>
-                                <span>Abr</span>
-                            </div>
 
-                            <div class="barra-item">
-                                <div class="barra maio"></div>
-                                <span>Mai</span>
-                            </div>
+                            <div
+                                class="barra"
+                                style="height: 52%;"
+                            ></div>
 
-                            <div class="barra-item">
-                                <div class="barra junho"></div>
-                                <span>Jun</span>
-                            </div>
 
-                            <div class="barra-item">
-                                <div class="barra julho"></div>
-                                <span>Jul</span>
-                            </div>
+                            <div
+                                class="barra"
+                                style="height: 75%;"
+                            ></div>
+
+
+                            <div
+                                class="barra"
+                                style="height: 65%;"
+                            ></div>
+
+
+                            <div
+                                class="barra"
+                                style="height: 85%;"
+                            ></div>
 
                         </div>
 
 
-                        <div class="escala">
 
-                            <span>250L</span>
-                            <span>200L</span>
-                            <span>150L</span>
-                            <span>100L</span>
-                            <span>50L</span>
-                            <span>0L</span>
+                        <div class="meses">
+
+                            <span>
+                                Jan
+                            </span>
+
+                            <span>
+                                Fev
+                            </span>
+
+                            <span>
+                                Mar
+                            </span>
+
+                            <span>
+                                Abr
+                            </span>
+
+                            <span>
+                                Mai
+                            </span>
+
+                            <span>
+                                Jun
+                            </span>
 
                         </div>
 
                     </div>
 
-
-                    <img
-                        class="logo-grafico"
-                        src="../logo.png"
-                        alt="Olius"
-                    >
-
-                </section>
+                </div>
 
             </section>
 
         </main>
 
     </div>
+
+
+
+    <!-- janela de solicitar coleta -->
+
+    <div class="modal-fundo">
+
+
+        <div class="modal-coleta">
+
+
+            <!-- botão fechar -->
+
+            <label
+                for="abrir-modal"
+                class="fechar"
+            >
+                ×
+            </label>
+
+
+
+            <!-- lado esquerdo -->
+
+            <div class="modal-esquerda">
+
+
+                <h2>
+                    Solicitar coleta
+                </h2>
+
+
+                <p class="subtitulo">
+                    Preencha os dados para agendar uma coleta.
+                </p>
+
+
+
+                <!-- data -->
+
+                <label for="data-coleta">
+                    Data da coleta
+                </label>
+
+
+                <div class="campo-data">
+
+                    <input
+                        type="date"
+                        id="data-coleta"
+                    >
+
+                </div>
+
+
+
+                <!-- quantidade -->
+
+                <label>
+                    Quantidade de óleo
+                </label>
+
+
+                <div class="quantidade-modal">
+
+
+                    <button
+                        type="button"
+                        onclick="diminuirQuantidade()"
+                    >
+                        -
+                    </button>
+
+
+                    <span id="quantidade">
+                        50
+                    </span>
+
+
+                    <button
+                        type="button"
+                        onclick="aumentarQuantidade()"
+                    >
+                        +
+                    </button>
+
+                </div>
+
+
+
+                <!-- endereço -->
+
+                <label for="endereco">
+                    Endereço da coleta
+                </label>
+
+
+                <input
+                    class="campo-normal"
+                    type="text"
+                    id="endereco"
+                    placeholder="Digite seu endereço"
+                >
+
+
+
+                <!-- observação -->
+
+                <label for="observacoes">
+                    Observações
+                </label>
+
+
+                <input
+                    class="campo-normal"
+                    type="text"
+                    id="observacoes"
+                    placeholder="Ex.: Melhor horário, instruções"
+                >
+
+
+
+                <!-- botão -->
+
+                <button class="botao-solicitar">
+                    Solicitar coleta
+                </button>
+
+            </div>
+
+
+
+            <!-- lado direito -->
+
+            <div class="como-funciona">
+
+
+                <img
+                    src="../caminhao.png"
+                    alt="Caminhão"
+                >
+
+
+                <h3>
+                    Como funciona?
+                </h3>
+
+
+
+                <div class="passo">
+
+                    <span>
+                        1
+                    </span>
+
+                    <p>
+                        Preencha os dados da coleta.
+                    </p>
+
+                </div>
+
+
+
+                <div class="passo">
+
+                    <span>
+                        2
+                    </span>
+
+                    <p>
+                        Nossa equipe confirmará o agendamento.
+                    </p>
+
+                </div>
+
+
+
+                <div class="passo">
+
+                    <span>
+                        3
+                    </span>
+
+                    <p>
+                        Iremos até você no dia combinado.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- quantidade de óleo -->
+
+    <script>
+
+        let quantidade = 50;
+
+
+        function aumentarQuantidade() {
+
+            quantidade += 1;
+
+            document.getElementById("quantidade").textContent = quantidade;
+
+        }
+
+
+        function diminuirQuantidade() {
+
+            if (quantidade > 1) {
+
+                quantidade -= 1;
+
+            }
+
+            document.getElementById("quantidade").textContent = quantidade;
+
+        }
+
+    </script>
 
 </body>
 </html>
