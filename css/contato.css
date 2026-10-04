@@ -1,0 +1,684 @@
+/* ==========================================================================
+   1. CONFIGURAÇÕES GERAIS E VARIÁVEIS
+   ========================================================================== */
+:root {
+    --primary-color: #FEBD1D;      /* Verde principal */
+    --primary-hover: #FC9000;      /* Verde escuro para hover */
+    --bg-light: #FCF5E6;           /* Fundo geral da página */
+    --card-bg: #FEF3C7;            /* Fundo amarelado dos cards da equipe */
+    --text-color: #333333;         /* Cor do texto principal */
+    --text-muted: #666666;         /* Cor dos subtítulos e textos secundários */
+    --font-main: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--bg-light);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* ==========================================================================
+   2. CABEÇALHO (HEADER)
+   ========================================================================== */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.logo-icon {
+    height: 35px;
+}
+
+.logo-texto {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: var(--primary-color);
+}
+
+.btn-agendar {
+    background-color: var(--primary-color);
+    color: #ffffff !important;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.2s;
+}
+
+.btn-agendar:hover {
+    background-color: var(--primary-hover);
+}
+
+/* ==========================================================================
+   3. SEÇÃO: COMO FUNCIONA (#como-funciona)
+   ========================================================================== */
+.como-funciona {
+    padding: 80px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.como-funciona-header h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.como-funciona-header h2 span {
+    color: var(--primary-color);
+}
+
+.como-funciona-header .subtitulo {
+    color: var(--text-muted);
+    font-size: 1rem;
+    margin-bottom: 48px;
+}
+
+/* Passos/Etapas do Como Funciona */
+.grid-passos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.passo-card {
+    background: #ffffff;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.passo-card:hover {
+    transform: translateY(-5px);
+}
+
+.passo-card .numero-passo {
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.passo-card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 16px;
+}
+
+.passo-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.passo-card p {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+/* ==========================================================================
+   4. SEÇÃO: SOBRE O PROJETO (#sobre)
+   ========================================================================== */
+/* ==========================================================================
+   4. SEÇÃO: SOBRE O PROJETO (#sobre)
+   ========================================================================== */
+.conheca-o-projeto {
+    padding: 80px 2%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho centralizado no topo */
+.projeto-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.projeto-header h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #000000;
+}
+
+.projeto-header .projeto-destaque {
+    color: #FCC203; /* Amarelo da marca */
+}
+
+.projeto-header .subtitulo {
+    color: #333333;
+    font-size: 1.1rem;
+    margin-top: 8px;
+    font-weight: 500;
+}
+
+/* Estrutura lado a lado (Imagens na Esquerda, Texto na Direita) */
+.projeto-conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+/* Área dos Mockups / Imagens sobrepostas */
+.projeto-mockups {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mockup-notebook {
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+    display: block;
+}
+
+.mockup-mobile {
+    position: absolute;
+    width: 32%; /* Tamanho relativo ao notebook */
+    max-width: 160px;
+    right: 10%; /* Posiciona sobreposto no canto direito do notebook */
+    bottom: -10px;
+    z-index: 2;
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.15)); /* Sombra para destacar o celular */
+}
+
+/* Texto alinhado à direita */
+.descricao-projeto {
+    text-align: right;
+    max-width: 100%; /* Permite ocupar toda a largura disponível da coluna */
+    padding-left: 0;  /* Remove qualquer margem interna à esquerda */
+    padding-right: 0; /* Remove qualquer margem interna à direita */
+}
+
+.descricao-projeto p {
+    font-size: 0.98rem;
+    color: #222222;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.descricao-projeto p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Responsividade (Celulares e Tablets) */
+@media (max-width: 900px) {
+    .projeto-conteudo {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .descricao-projeto {
+        text-align: center; /* Centraliza o texto no celular para melhor leitura */
+    }
+
+    .mockup-mobile {
+        right: 15%;
+    }
+}
+
+/* ==========================================================================
+   5. SEÇÃO: PILARES
+   ========================================================================== */
+.pilares {
+    padding: 60px 5%;
+    background-color: #FCF5E6;
+    text-align: center;
+}
+
+.nossos-pilares {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.grid-pilares {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.pilar-card {
+    background: #FEFEFC;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.pilar-card img {
+    width: 48px;
+    margin-bottom: 15px;
+}
+
+/* ==========================================================================
+   6. SEÇÃO: CONHEÇA A EQUIPE (CARROSSEL COM 4 CARDS)
+   ========================================================================== */
+.conheca-a-equipe {
+    padding: 80px 2%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.conheca-a-equipe-container span.equipe {
+    color: var(--primary-color);
+}
+
+.somos-um-time {
+    color: var(--text-muted);
+    margin-bottom: 40px;
+}
+
+/* Estrutura do Carrossel */
+.carrossel-equipe {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.equipe-cards-container {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    padding: 10px 0;
+    width: 100%;
+    scrollbar-width: none; /* Firefox */
+}
+
+.equipe-cards-container::-webkit-scrollbar {
+    display: none; /* Chrome e Safari */
+}
+
+/* Card do Membro (Garante exatamente 4 cards na tela) */
+.membro-card {
+    flex: 0 0 calc((100% - 60px) / 4);
+    scroll-snap-align: start;
+    box-sizing: border-box;
+    background-color: var(--card-bg);
+    border-radius: 16px;
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.foto-membro {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 16px;
+    object-position: center 20%; /* Sobe o enquadramento para focar na cabeça */
+}
+
+
+.membro-card h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.cargo {
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-top: 4px;
+}
+
+.ano {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 16px;
+}
+
+blockquote {
+    margin: 0;
+    font-size: 0.8rem;
+    font-style: italic;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+blockquote cite {
+    display: block;
+    margin-top: 4px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.github-btn {
+    background: transparent url('assets/github-icon.svg') no-repeat center / contain;
+    border: none;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+/* Setas Laterais de Navegação */
+.nav-btn {
+    background: transparent;
+    border: none;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: var(--text-color);
+    padding: 0 10px;
+    user-select: none;
+    transition: color 0.2s;
+}
+
+.nav-btn:hover {
+    color: var(--primary-color);
+}
+
+/* ==========================================================================
+   7. BANNERS SECUNDÁRIOS (JUNTOS PELO FUTURO & CTA)
+   ========================================================================== */
+.juntos-pelo-futuro-banner, 
+.cta-banner {
+    padding: 60px 5%;
+    text-align: center;
+    margin: 40px auto;
+    max-width: 1200px;
+    border-radius: 12px;
+    border: 1px solid #FFB033;
+}
+
+.juntos-pelo-futuro-banner {
+    background-color: #FFF9F0;
+}
+
+/* ==========================================================================
+   7. BANNER CTA ("Faça parte da mudança")
+   ========================================================================== */
+.cta-banner {
+    position: relative;
+    background-color: #FFC107; /* Amarelo vibrante do modelo */
+    padding: 50px 60px;
+    margin: 40px auto 0 auto; 
+    max-width: 1200px;
+    border-radius: 24px 24px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden; /* Corta a imagem do óleo se passar da borda */
+}
+
+.cta-conteudo {
+    max-width: 500px;
+    text-align: left;
+    z-index: 2;
+}
+
+.cta-conteudo h2 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.cta-conteudo p {
+    font-size: 1.05rem;
+    color: #111111;
+    line-height: 1.4;
+}
+
+/* Estado Padrão do Botão */
+.btn-cta {
+    background-color: #FFFDF0;
+    color: #000000;
+    padding: 16px 32px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    white-space: nowrap;
+    display: inline-block;
+    transition: all 0.2s ease; /* Faz a transição de cor e tamanho ser suave */
+}
+
+/* Efeito ao passar o mouse por cima (Hover) */
+.btn-cta:hover {
+    background: linear-gradient(135deg, #FF9800, #F57C00); /* Tom alaranjado em degradê */
+    color: #000000;
+    transform: translateY(-2px);
+}
+
+/* Efeito EXATO ao clicar no botão (Active) */
+.btn-cta:active {
+    background: linear-gradient(90deg, #FF8C00 0%, #FF5722 100%); /* Laranja escuro vibrante conforme a imagem */
+    color: #000000;
+    transform: scale(0.97); /* Dá a sensação física de pressionar o botão */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra interna discreta */
+}
+.cta-imagem-oleo {
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 130%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* ==========================================================================
+   8. RODAPÉ (FOOTER)
+   ========================================================================== */
+.footer {
+    background-color: #181C1E; /* Escuro acinzentado conforme imagem 2 */
+    color: #ffffff;
+    padding: 50px 5% 30px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.2fr 1.5fr 1.5fr 1.5fr;
+    gap: 30px;
+    align-items: start;
+}
+
+/* Marca / Logo */
+.footer-brand {
+    margin-right: 90px;
+}
+
+.footer-brand .logo-texto {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.footer-brand .tagline {
+    color: #cccccc;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+/* Títulos das colunas */
+.footer h4 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+
+.footer-links ul, 
+.footer-contato ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links a {
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 0.9rem;
+    line-height: 2.2;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: #ffffff;
+}
+
+/* Contato */
+.footer-contato li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #cccccc;
+    font-size: 0.9rem;
+    line-height: 2.2;
+}
+
+.footer-contato .dot {
+    font-size: 0.6rem;
+    color: #ffffff;
+}
+
+.footer-contato a {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.footer-contato a:hover {
+    color: #ffffff;
+}
+
+/* Mensagem de Propósito & Copyright */
+.footer-proposito h4 {
+    color: #FFC107; /* Texto amarelo do propósito */
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+/* Texto do Copyright */
+.footer-proposito .copyright {
+    font-size: 0.75rem; /* Diminui o tamanho do texto (pode usar 12px se preferir) */
+    color: #888888;     /* Deixa o tom um pouco mais suave/discreto */
+    margin-top: 10px;
+    display: block;
+}
+
+/* Link ou texto do Acesso ADM */
+.footer-proposito .acesso-adm {
+    font-size: 0.7rem;  /* Ainda menor que o copyright */
+    color: #666666;     /* Cor mais discreta */
+    text-decoration: none;
+    margin-top: 6px;
+    display: inline-block;
+    transition: color 0.2s ease;
+}
+
+.footer-proposito .acesso-adm:hover {
+    color: #ffffff;     /* Destaca ligeiramente ao passar o rato */
+}
+
+/* Responsividade */
+@media (max-width: 992px) {
+    .cta-banner {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding: 40px 20px;
+    }
+
+    .cta-conteudo {
+        text-align: center;
+    }
+
+    .cta-imagem-oleo {
+        display: none; /* Esconde o óleo em telas menores */
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+}
+/* ==========================================================================
+   9. RESPONSIVIDADE (DISPOSITIVOS MÓVEIS)
+   ========================================================================== */
+@media (max-width: 900px) {
+    .conheca-o-projeto {
+        grid-template-columns: 1fr;
+    }
+
+    .membro-card {
+        flex: 0 0 calc((100% - 20px) / 2); /* Mostra 2 cards por vez em tablets */
+    }
+}
+
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .membro-card {
+        flex: 0 0 100%; /* Mostra 1 card por vez em telemóveis/celulares */
+    }
+}
