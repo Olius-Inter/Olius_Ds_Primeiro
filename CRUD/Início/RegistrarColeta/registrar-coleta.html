@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Registrar coleta - Olius</title>
+
+    <link rel="stylesheet" href="registrar-coleta.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <aside class="sidebar">
+
+            <div class="logo-area">
+                <img src="../../logo.png" alt="Olius">
+            </div>
+
+            <nav>
+
+                <a href="../inicio.html" class="menu-item ativo">
+                    <img src="../../inicio.png" alt="">
+                    <span>Início</span>
+                </a>
+
+                <a href="#" class="menu-item">
+                    <img src="../../historico.png" alt="">
+                    <span>Histórico</span>
+                </a>
+
+                <a href="#" class="menu-item">
+                    <img src="../../relatorio.png" alt="">
+                    <span>Relatórios</span>
+                </a>
+
+                <a href="#" class="menu-item">
+                    <img src="../../transparencia.png" alt="">
+                    <span>Transparência</span>
+                </a>
+
+                <a href="#" class="menu-item">
+                    <img src="../../ranking.png" alt="">
+                    <span>Ranking</span>
+                </a>
+
+                <a href="#" class="menu-item">
+                    <img src="../../configuracao.png" alt="">
+                    <span>Configurações</span>
+                </a>
+
+            </nav>
+
+        </aside>
+
+
+        <main class="conteudo">
+
+            <header class="topo">
+
+                <div></div>
+
+                <div class="usuario">
+
+                    <img
+                        class="notificacao"
+                        src="../../sino.png"
+                        alt="Notificações"
+                    >
+
+                    <div class="avatar">
+                        N
+                    </div>
+
+                    <span>Naldo</span>
+
+                </div>
+
+            </header>
+
+
+            <section class="principal">
+
+                <a href="../inicio.html" class="voltar">
+                    ← Voltar
+                </a>
+
+
+                <div class="titulo">
+
+                    <h1>Registrar coleta</h1>
+
+                    <p>
+                        Informe os dados da coleta de óleo usado.
+                    </p>
+
+                </div>
+
+
+                <div class="conteudo-formulario">
+
+
+                    <div class="coluna-esquerda">
+
+                        <div class="card-form">
+
+                            <h2>Data da coleta</h2>
+
+                            <p class="descricao">
+                                Quando o óleo foi coletado?
+                            </p>
+
+
+                            <label for="data">
+                                Data <span>*</span>
+                            </label>
+
+                            <input
+                                type="date"
+                                id="data"
+                            >
+
+
+                            <label for="local">
+                                Local da coleta <span>*</span>
+                            </label>
+
+                            <select id="local">
+
+                                <option value="">
+                                    Selecione o local da coleta
+                                </option>
+
+                                <option value="estabelecimento">
+                                    Estabelecimento comercial
+                                </option>
+
+                                <option value="residencia">
+                                    Residência
+                                </option>
+
+                                <option value="instituicao">
+                                    Instituição
+                                </option>
+
+                            </select>
+
+
+                            <label>
+                                Tipo de gerador <span>*</span>
+                            </label>
+
+
+                            <div class="tipos-gerador">
+
+                                <button type="button" class="tipo-gerador">
+
+                                    <img
+                                        src="estabelecimento.png"
+                                        alt="Estabelecimento comercial"
+                                    >
+
+                                    <span>
+                                        Estabelecimento<br>
+                                        comercial
+                                    </span>
+
+                                </button>
+
+
+                                <button type="button" class="tipo-gerador">
+
+                                    <img
+                                        src="residencia.png"
+                                        alt="Residência"
+                                    >
+
+                                    <span>
+                                        Residência
+                                    </span>
+
+                                </button>
+
+
+                                <button type="button" class="tipo-gerador">
+
+                                    <img
+                                        src="instituição.png"
+                                        alt="Instituição"
+                                    >
+
+                                    <span>
+                                        Instituição
+                                    </span>
+
+                                </button>
+
+                            </div>
+
+
+                            <label for="observacao">
+                                Observação (opcional)
+                            </label>
+
+                            <textarea
+                                id="observacao"
+                                placeholder="Ex.: condições do material, observações da coleta"
+                            ></textarea>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="coluna-direita">
+
+
+                        <div class="card-form quantidade">
+
+                            <h2>Quantidade de óleo</h2>
+
+                            <p class="descricao">
+                                Informe o volume coletado.
+                            </p>
+
+
+                            <label for="quantidade">
+                                Quantidade (litros) <span>*</span>
+                            </label>
+
+
+                            <div class="campo-quantidade">
+
+                                <input
+                                    type="number"
+                                    id="quantidade"
+                                    placeholder="Ex. 50"
+                                >
+
+                                <span>L</span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="card-form comprovante">
+
+                            <h2>Comprovante (opcional)</h2>
+
+                            <p class="descricao">
+                                Informe o volume coletado.
+                            </p>
+
+
+                            <label class="upload">
+
+                                <input
+                                    type="file"
+                                    accept="image/png, image/jpeg"
+                                >
+
+                                <img
+                                    src="foto.png"
+                                    alt="Enviar foto"
+                                    class="icone-upload"
+                                >
+
+                                <strong>
+                                    Clique para enviar uma foto
+                                </strong>
+
+                                <span>
+                                    PNG, JPG ou JPEG (máx. 5MB)
+                                </span>
+
+                            </label>
+
+                        </div>
+
+
+                        <button class="registrar-coleta">
+                            Registrar coleta
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
