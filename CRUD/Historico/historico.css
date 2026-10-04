@@ -1,0 +1,648 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+    background-color: #F8F7F3;
+
+    color: #333333;
+}
+
+
+/* menu lateral */
+
+.dashboard {
+    display: flex;
+
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 165px;
+    min-height: 100vh;
+
+    background-color: #FCFBF7;
+
+    border-right: 1px solid #E6E6E6;
+
+    padding: 35px 12px;
+}
+
+.logo-area {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 50px;
+}
+
+.logo-area img {
+    width: 38px;
+    height: auto;
+
+    object-fit: contain;
+}
+
+
+/* Menu */
+
+.sidebar nav {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 9px;
+}
+
+.menu-item {
+    display: flex;
+
+    align-items: center;
+
+    gap: 11px;
+
+    width: 100%;
+    height: 32px;
+
+    padding: 0 14px;
+
+    border: 1px solid #DDDDDD;
+
+    border-radius: 5px;
+
+    text-decoration: none;
+
+    color: #555555;
+
+    font-size: 9px;
+}
+
+.menu-item img {
+    width: 17px;
+    height: 17px;
+
+    object-fit: contain;
+}
+
+.menu-item:hover {
+    background-color: #FFF4C7;
+}
+
+.menu-item.ativo {
+    background-color: #FFE477;
+
+    border-color: #FFE477;
+
+    color: #333333;
+}
+
+
+/* conteúdo */
+
+.conteudo {
+    width: calc(100% - 165px);
+}
+
+
+/* topo */
+
+.topo {
+    height: 72px;
+
+    background-color: white;
+
+    border-bottom: 1px solid #EEEEEE;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 0 28px;
+}
+
+.usuario {
+    display: flex;
+
+    align-items: center;
+
+    gap: 9px;
+
+    font-size: 11px;
+
+    font-weight: 500;
+}
+
+.notificacao {
+    width: 18px;
+    height: 18px;
+
+    object-fit: contain;
+
+    margin-right: 13px;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+
+    border-radius: 50%;
+
+    background-color: #FFD83D;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 600;
+
+    color: #333333;
+}
+
+.seta {
+    font-size: 16px;
+
+    margin-left: 2px;
+}
+
+
+/* conteúdo principal */
+
+.principal {
+    padding: 38px 14px;
+}
+
+
+/* cabeçalho */
+
+.cabecalho {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-bottom: 25px;
+}
+
+.cabecalho h1 {
+    font-size: 25px;
+
+    font-weight: 600;
+
+    line-height: 1.1;
+
+    color: #111111;
+}
+
+.cabecalho p {
+    margin-top: 3px;
+
+    font-size: 11px;
+
+    color: #777777;
+}
+
+
+/* busca e filtro */
+
+.ferramentas {
+    display: flex;
+
+    align-items: center;
+
+    gap: 9px;
+}
+
+.busca {
+    width: 230px;
+    height: 28px;
+
+    background-color: white;
+
+    border: 1px solid #DCDCDC;
+
+    border-radius: 7px;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 0 10px;
+}
+
+.icone-busca {
+    font-size: 17px;
+
+    color: #999999;
+
+    line-height: 1;
+
+    margin-right: 7px;
+}
+
+.busca input {
+    width: 100%;
+
+    border: none;
+
+    outline: none;
+
+    background-color: transparent;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-size: 9px;
+
+    color: #555555;
+}
+
+.busca input::placeholder {
+    color: #AAAAAA;
+}
+
+
+/* filtro */
+
+.filtro {
+    width: 30px;
+    height: 28px;
+
+    border: 1px solid #DCDCDC;
+
+    border-radius: 7px;
+
+    background-color: white;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+.filtro img {
+    width: 15px;
+    height: 15px;
+
+    object-fit: contain;
+}
+
+.filtro:hover {
+    background-color: #FFF4C7;
+}
+
+
+/* cards */
+
+.cards-resumo {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 7px;
+
+    margin-bottom: 13px;
+}
+
+.card-resumo {
+    position: relative;
+
+    height: 116px;
+
+    background-color: white;
+
+    border: 1px solid #E4E4E4;
+
+    border-radius: 12px;
+
+    padding: 14px 16px;
+
+    overflow: hidden;
+}
+
+
+/* ícones grandes dos cards */
+
+.card-resumo::after {
+    content: "";
+
+    position: absolute;
+
+    width: 130px;
+    height: 130px;
+
+    right: -10px;
+    bottom: -25px;
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: contain;
+
+    opacity: 0.12;
+
+    z-index: 0;
+}
+
+.card-resumo.agua::after {
+    background-image: url("../agua.png");
+}
+
+.card-resumo.oleo::after {
+    background-image: url("../oleo.png");
+}
+
+.card-resumo.co2::after {
+    background-image: url("../co2.png");
+}
+
+.card-resumo.biodiesel::after {
+    background-image: url("../biodiesel.png");
+}
+
+
+/* título dos cards */
+
+.titulo-card {
+    position: relative;
+
+    z-index: 1;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 5px;
+}
+
+.titulo-card img {
+    width: 15px;
+    height: 15px;
+
+    object-fit: contain;
+}
+
+.titulo-card span {
+    font-size: 8px;
+
+    color: #555555;
+}
+
+
+/* valor */
+
+.valor-card {
+    position: relative;
+
+    z-index: 1;
+
+    display: flex;
+
+    align-items: baseline;
+
+    margin-top: 18px;
+}
+
+.valor-card strong {
+    font-size: 19px;
+
+    font-weight: 600;
+
+    color: #333333;
+}
+
+.valor-card span {
+    font-size: 11px;
+
+    color: #888888;
+
+    margin-left: 2px;
+}
+
+
+/* histórico */
+
+.historico-card {
+    width: 100%;
+
+    background-color: white;
+
+    border: 1px solid #E4E4E4;
+
+    border-radius: 13px;
+
+    padding: 0 14px;
+}
+
+
+/* cabeçalho da tabela */
+
+.historico-cabecalho {
+    height: 40px;
+
+    display: grid;
+
+    grid-template-columns: 25% 40% 35%;
+
+    align-items: center;
+
+    padding: 0 10px;
+
+    border-bottom: 1px solid #E5E5E5;
+
+    font-size: 9px;
+
+    color: #555555;
+}
+
+
+/* atividades */
+
+.atividade {
+    min-height: 52px;
+
+    display: grid;
+
+    grid-template-columns: 25% 40% 35%;
+
+    align-items: center;
+
+    padding: 7px 10px;
+
+    border-bottom: 1px solid #E5E5E5;
+}
+
+
+/* data */
+
+.data {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.data strong {
+    font-size: 8px;
+
+    font-weight: 500;
+
+    color: #444444;
+}
+
+.data span {
+    font-size: 7px;
+
+    color: #999999;
+
+    margin-top: 1px;
+}
+
+
+/* atividade */
+
+.atividade-info {
+    display: flex;
+
+    align-items: center;
+
+    gap: 9px;
+}
+
+.atividade-info img {
+    width: 22px;
+    height: 22px;
+
+    object-fit: contain;
+}
+
+.atividade-info div {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.atividade-info strong {
+    font-size: 8px;
+
+    font-weight: 500;
+
+    color: #444444;
+}
+
+.atividade-info span {
+    font-size: 7px;
+
+    color: #999999;
+
+    margin-top: 1px;
+}
+
+
+/* detalhes */
+
+.detalhe {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 8px;
+}
+
+.tag {
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    min-width: 95px;
+    height: 22px;
+
+    padding: 0 9px;
+
+    font-size: 7px;
+
+    border-radius: 3px;
+}
+
+.oleo-tag {
+    background-color: #FFF0B8;
+
+    color: #A67800;
+}
+
+.co2-tag {
+    background-color: #CFF5C5;
+
+    color: #46823D;
+}
+
+.agua-tag {
+    background-color: #CDE5F9;
+
+    color: #3773A5;
+}
+
+.biodiesel-tag {
+    background-color: #FCE1CE;
+
+    color: #A86638;
+}
+
+
+/* seta das atividades */
+
+.seta-atividade {
+    font-size: 20px;
+
+    color: #777777;
+
+    font-weight: 300;
+
+    cursor: pointer;
+}
+
+
+/* rodapé */
+
+.historico-rodape {
+    height: 42px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 8px;
+
+    font-size: 8px;
+
+    color: #555555;
+}
+
+.icone-calendario {
+    font-size: 13px;
+
+    color: #777777;
+}
+
+.seta-rodape {
+    font-size: 14px;
+
+    margin-left: 2px;
+
+    color: #777777;
+}
