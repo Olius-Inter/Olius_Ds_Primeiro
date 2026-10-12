@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificados - Olius</title>
+
+    <link rel="stylesheet" href="certificados.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <aside class="menu">
+        <div class="logo">
+            <i class="fa-solid fa-seedling"></i>
+            <span>Olius</span>
+        </div>
+
+        <div class="perfil">
+            <i class="fa-solid fa-user"></i>
+        </div>
+
+        <nav>
+            <a href="#">Empresas</a>
+            <a href="#">Usuários</a>
+            <a href="#">PEV</a>
+            <a href="#">Motoristas</a>
+            <a href="#">Solicitações de coleta</a>
+            <a href="#">Coletas realizadas</a>
+            <a href="#" class="ativo">Certificados</a>
+        </nav>
+    </aside>
+
+    <main class="conteudo">
+
+        <header class="topo">
+            <h1>Certificados</h1>
+            <button class="adicionar">+ Adicionar Empresa</button>
+        </header>
+
+        <section class="tabela-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Empresa</th>
+                        <th>Data de emissão</th>
+                        <th>Volume total</th>
+                        <th>Arquivo PDF</th>
+                        <th></th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Empresa B2B 01</td>
+                        <td>30/09/2026</td>
+                        <td>100 L</td>
+                        <td>certificado_001.pdf</td>
+                        <td class="acoes">
+                            <button class="editar" title="Editar">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </button>
+                            <button class="excluir" title="Excluir">
+                                <i class="fa-regular fa-trash-can"></i>
+                            </button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Empresa B2B 01</td>
+                        <td>01/10/2026</td>
+                        <td>250 L</td>
+                        <td>certificado_002.pdf</td>
+                        <td class="acoes">
+                            <button class="editar" title="Editar">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </button>
+                            <button class="excluir" title="Excluir">
+                                <i class="fa-regular fa-trash-can"></i>
+                            </button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>EcoVerde</td>
+                        <td>03/10/2026</td>
+                        <td>150 L</td>
+                        <td>certificado_003.pdf</td>
+                        <td class="acoes">
+                            <button class="editar" title="Editar">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </button>
+                            <button class="excluir" title="Excluir">
+                                <i class="fa-regular fa-trash-can"></i>
+                            </button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>BioCiclo</td>
+                        <td>05/10/2026</td>
+                        <td>200 L</td>
+                        <td>certificado_004.pdf</td>
+                        <td class="acoes">
+                            <button class="editar" title="Editar">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </button>
+                            <button class="excluir" title="Excluir">
+                                <i class="fa-regular fa-trash-can"></i>
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+</body>
+</html>
