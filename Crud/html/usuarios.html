@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuários - Olius</title>
+
+    <link rel="stylesheet" href="usuarios.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <aside class="menu">
+        <div class="logo">
+            <i class="fa-solid fa-seedling"></i>
+            <span>Olius</span>
+        </div>
+
+        <div class="perfil">
+            <i class="fa-solid fa-user"></i>
+        </div>
+
+        <nav>
+            <a href="#">Empresas</a>
+            <a href="#" class="ativo">Usuários</a>
+            <a href="#">PEV</a>
+            <a href="#">Motoristas</a>
+            <a href="#">Solicitações de coleta</a>
+            <a href="#">Coletas realizadas</a>
+            <a href="#">Certificados</a>
+        </nav>
+    </aside>
+
+    <main class="conteudo">
+
+        <header class="topo">
+            <h1>Usuários</h1>
+            <button class="adicionar">+ Adicionar Usuário</button>
+        </header>
+
+        <section class="tabela-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                        <th>Telefone</th>
+                        <th>Tipo de usuário</th>
+                        <th>Endereço</th>
+                        <th>Status</th>
+                        <th></th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>João Silva</td>
+                        <td>joao@email.com</td>
+                        <td>(11) 98765-4321</td>
+                        <td>B2C</td>
+                        <td>Vila Maria, SP</td>
+                        <td>Ativo</td>
+                        <td class="acoes">
+                            <button class="editar" title="Editar">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </button>
+                            <button class="excluir" title="Excluir">
+                                <i class="fa-regular fa-trash-can"></i>
+                            </button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>José Santos</td>
+                        <td>empresa@email.com</td>
+                        <td>(11) 98765-4322</td>
+                        <td>B2B</td>
+                        <td>Bela Vista, SP</td>
+                        <td>Ativo</td>
+                        <td class="acoes">
+                            <button class="editar" title="Editar">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </button>
+                            <button class="excluir" title="Excluir">
+                                <i class="fa-regular fa-trash-can"></i>
+                            </button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Maria Oliveira</td>
+                        <td>maria@email.com</td>
+                        <td>(11) 98765-4323</td>
+                        <td>B2C</td>
+                        <td>Mooca, SP</td>
+                        <td>Ativo</td>
+                        <td class="acoes">
+                            <button class="editar" title="Editar">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </button>
+                            <button class="excluir" title="Excluir">
+                                <i class="fa-regular fa-trash-can"></i>
+                            </button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Carlos Ferreira</td>
+                        <td>carlos@email.com</td>
+                        <td>(11) 91234-5678</td>
+                        <td>B2B</td>
+                        <td>Centro, SP</td>
+                        <td>Inativo</td>
+                        <td class="acoes">
+                            <button class="editar" title="Editar">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </button>
+                            <button class="excluir" title="Excluir">
+                                <i class="fa-regular fa-trash-can"></i>
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+</body>
+</html>
