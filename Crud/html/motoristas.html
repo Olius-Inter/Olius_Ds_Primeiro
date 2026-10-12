@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motoristas - Olius</title>
+
+    <link rel="stylesheet" href="motoristas.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <aside class="menu">
+        <div class="logo">
+            <i class="fa-solid fa-seedling"></i>
+            <span>Olius</span>
+        </div>
+
+        <div class="perfil">
+            <i class="fa-solid fa-user"></i>
+        </div>
+
+        <nav>
+            <a href="#">Empresas</a>
+            <a href="#">Usuários</a>
+            <a href="#">PEV</a>
+            <a href="#" class="ativo">Motoristas</a>
+            <a href="#">Solicitações de coleta</a>
+            <a href="#">Coletas realizadas</a>
+            <a href="#">Certificados</a>
+        </nav>
+    </aside>
+
+    <main class="conteudo">
+
+        <header class="topo">
+            <h1>Motoristas</h1>
+            <button class="adicionar">+ Adicionar Motorista</button>
+        </header>
+
+        <section class="tabela-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                        <th>Empresa responsável</th>
+                        <th>Licença</th>
+                        <th>Status</th>
+                        <th></th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Pedro Oliveira</td>
+                        <td>(11) 98765-4324</td>
+                        <td>Olius</td>
+                        <td>CNH123456</td>
+                        <td>Ativo</td>
+                        <td class="acoes">
+                            <button class="editar" title="Editar">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </button>
+                            <button class="excluir" title="Excluir">
+                                <i class="fa-regular fa-trash-can"></i>
+                            </button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Lucas Santos</td>
+                        <td>(11) 98765-4325</td>
+                        <td>Óleo Amigo</td>
+                        <td>CNH654321</td>
+                        <td>Ativo</td>
+                        <td class="acoes">
+                            <button class="editar" title="Editar">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </button>
+                            <button class="excluir" title="Excluir">
+                                <i class="fa-regular fa-trash-can"></i>
+                            </button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Gabriel Costa</td>
+                        <td>(11) 97654-3210</td>
+                        <td>Óleo Amigo</td>
+                        <td>CNH789123</td>
+                        <td>Ativo</td>
+                        <td class="acoes">
+                            <button class="editar" title="Editar">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </button>
+                            <button class="excluir" title="Excluir">
+                                <i class="fa-regular fa-trash-can"></i>
+                            </button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Mariana Alves</td>
+                        <td>(11) 96543-2109</td>
+                        <td>Olius</td>
+                        <td>CNH456789</td>
+                        <td>Inativo</td>
+                        <td class="acoes">
+                            <button class="editar" title="Editar">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </button>
+                            <button class="excluir" title="Excluir">
+                                <i class="fa-regular fa-trash-can"></i>
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+</body>
+</html>
