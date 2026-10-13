@@ -5,27 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Olius - Planos e Assinaturas</title>
 
+    <!-- Arquivos de estilos CSS globais e específicos da página de Planos -->
+    <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/planos.css">
 </head>
 <body>
 
-<!-- ================================================== seção do CABEÇALHO ==================================================================-->
+    <!-- ========================================================================= -->
+    <!-- CABEÇALHO (HEADER): Logo, iluminação de fundo e navegação principal        -->
+    <!-- ========================================================================= -->
     <header class="header">
-        <div class="logo">
-            <img class="logo-icon" src="assets/logo.svg" alt="Logotipo Olius">
+        <div class="luz-amarela"></div>
+
+        <a href="../index.html" class="logo">
+            <img class="logo-icon" src="../assets/global/Logo Normal.svg" alt="Logotipo Olius">
             <span class="logo-texto">Olius</span>
-        </div>
+        </a>
+
         <nav class="nav-links">
-            <a href="index.html#como-funciona">Como funciona</a>
+            <a href="como_funciona.html">Como funciona</a>
             <a href="planos.html" class="active">Planos</a>
-            <a href="index.html#vantagens">Vantagens</a>
-            <a href="index.html#sobre">Sobre</a>
+            <a href="contato.html">Sobre</a>
             <a href="#agendar" class="btn-agendar">Agendar coleta</a>
         </nav>
     </header>
 
     <main>
-<!-- ================================================== seção dos PLANOS ==================================================================-->
+        <!-- ===================================================================== -->
+        <!-- SEÇÃO HERO INICIAL: Título e introdução dos planos                     -->
+        <!-- ===================================================================== -->
         <section class="planos-hero">
             <div class="hero-texto">
                 <h1>Planos que se adaptam ao seu <span class="highlight">compromisso</span> com o planeta.</h1>
@@ -33,12 +41,15 @@
             </div>
         </section>
 
+        <!-- ===================================================================== -->
+        <!-- SEÇÃO CARDS DE PLANOS: Básico, Profissional e Empresa                  -->
+        <!-- ===================================================================== -->
         <section class="planos-container" id="planos">
             
-            <!-- ========== PLANO BASICO ============ -->
+            <!-- Card: Plano Básico -->
             <article class="plano-card">
                 <div class="plano-header">
-                    <img src="assets/icons/folha.svg" alt="" class="plano-icon">
+                    <img src="../assets/planos/Icon P Basico.png" alt="Ícone Plano Básico" class="plano-icon">
                     <h2>Plano Básico</h2>
                     <p class="plano-descricao">Ideal para quem está começando a descartar óleo corretamente.</p>
                 </div>
@@ -50,19 +61,19 @@
                 </div>
 
                 <ul class="plano-recursos">
-                    <li><img src="assets/icons/gotas.svg" alt=""> Até 5 litros por coleta</li>
-                    <li><img src="assets/icons/calendar.svg" alt=""> Agendamento online</li>
-                    <li><img src="assets/icons/chart.svg" alt=""> Acompanhamento básico de impacto</li>
-                    <li><img src="assets/icons/mail.svg" alt=""> Suporte por e-mail</li>
+                    <li><img src="../assets/planos/Icon Gota.png" alt="" aria-hidden="true"> Até 5 litros por coleta</li>
+                    <li><img src="../assets/planos/Icon Calendario.png" alt="" aria-hidden="true"> Agendamento online</li>
+                    <li><img src="../assets/planos/Icon Acompanhamento.png" alt="" aria-hidden="true"> Acompanhamento básico de impacto</li>
+                    <li><img src="../assets/planos/Icon E-mail.png" alt="" aria-hidden="true"> Suporte por e-mail</li>
                 </ul>
 
                 <a href="#assinar-basico" class="btn-plano btn-outline">Começar agora</a>
             </article>
 
-            <!-- ========== PLANO PROFISSIONAL ============ -->
+            <!-- Card: Plano Profissional (Destaque) -->
             <article class="plano-card plano-destaque">
                 <div class="plano-header">
-                    <img src="assets/icons/barras.svg" alt="" class="plano-icon">
+                    <img src="../assets/planos/Icon P Empresa.png" alt="Ícone Plano Profissional" class="plano-icon">
                     <h2>Plano Profissional</h2>
                     <p class="plano-descricao">Ideal para quem quer mais praticidade e acompanhar o impacto.</p>
                 </div>
@@ -74,20 +85,20 @@
                 </div>
 
                 <ul class="plano-recursos">
-                    <li><img src="assets/icons/gotas.svg" alt=""> Até 20 litros por coleta</li>
-                    <li><img src="assets/icons/calendar.svg" alt=""> Agendamentos ilimitados</li>
-                    <li><img src="assets/icons/chart.svg" alt=""> Acompanhamento completo de impacto</li>
-                    <li><img src="assets/icons/file-text.svg" alt=""> Relatórios mensais</li>
-                    <li><img src="assets/icons/headset.svg" alt=""> Suporte prioritário</li>
+                    <li><img src="../assets/planos/Icon Gota.png" alt="" aria-hidden="true"> Até 20 litros por coleta</li>
+                    <li><img src="../assets/planos/Icon Calendario.png" alt="" aria-hidden="true"> Agendamentos ilimitados</li>
+                    <li><img src="../assets/planos/Icon Acompanhamento.png" alt="" aria-hidden="true"> Acompanhamento completo de impacto</li>
+                    <li><img src="../assets/planos/Icon Relatórios.png" alt="" aria-hidden="true"> Relatórios mensais</li>
+                    <li><img src="../assets/planos/Icon Suporte.png" alt="" aria-hidden="true"> Suporte prioritário</li>
                 </ul>
 
                 <a href="#assinar-profissional" class="btn-plano btn-filled">Escolher plano</a>
             </article>
 
-            <!-- ========== PLANO EMPRESA ============ -->
+            <!-- Card: Plano Empresa -->
             <article class="plano-card">
                 <div class="plano-header">
-                    <img src="assets/icons/empresa.svg" alt="" class="plano-icon">
+                    <img src="../assets/planos/Icon P Profissional.png" alt="Ícone Plano Empresa" class="plano-icon">
                     <h2>Plano Empresa</h2>
                     <p class="plano-descricao">Ideal para empresas que desejam gerar ainda mais impacto.</p>
                 </div>
@@ -99,11 +110,11 @@
                 </div>
 
                 <ul class="plano-recursos">
-                    <li><img src="assets/icons/gotas.svg" alt=""> Até 100 litros por coleta</li>
-                    <li><img src="assets/icons/calendar.svg" alt=""> Agendamentos ilimitados</li>
-                    <li><img src="assets/icons/file-text.svg" alt=""> Relatórios personalizados</li>
-                    <li><img src="assets/icons/certificate.svg" alt=""> Certificados de descarte</li>
-                    <li><img src="assets/icons/headset.svg" alt=""> Suporte dedicado</li>
+                    <li><img src="../assets/planos/Icon Gota.png" alt="" aria-hidden="true"> Até 100 litros por coleta</li>
+                    <li><img src="../assets/planos/Icon Calendario.png" alt="" aria-hidden="true"> Agendamentos ilimitados</li>
+                    <li><img src="../assets/planos/Icon Relatórios.png" alt="" aria-hidden="true"> Relatórios personalizados</li>
+                    <li><img src="../assets/planos/Icon Certifiados.png" alt="" aria-hidden="true"> Certificados de descarte</li>
+                    <li><img src="../assets/planos/Icon Suporte.png" alt="" aria-hidden="true"> Suporte dedicado</li>
                 </ul>
 
                 <a href="#assinar-empresa" class="btn-plano btn-outline">Para empresas</a>
@@ -111,39 +122,49 @@
 
         </section>
 
-<!-- =============================================== seção do CTA ========================================================================== -->
+        <!-- ===================================================================== -->
+        <!-- SEÇÃO CTA (Call to Action): Chamada final para agendamento              -->
+        <!-- ===================================================================== -->
         <section class="cta-banner">
             <div class="cta-conteudo">
                 <h2>Faça parte da mudança.</h2>
                 <p>Transforme o descarte de óleo em impacto positivo para o meio ambiente, sua comunidade e o futuro.</p>
             </div>
+            
             <a href="#agendar" class="btn-cta">Agendar coleta agora</a>
+
+            <!-- Imagem decorativa de respingo de óleo -->
+            <img src="../assets/global/Óleo.png" alt="Respingo de óleo decorativo" class="cta-imagem-oleo">
         </section>
     </main>
 
-<!-- ================================================ seção do RODAPÉ ====================================================================== -->
+    <!-- ========================================================================= -->
+    <!-- RODAPÉ (FOOTER): Links de navegação, contato e direitos autorais          -->
+    <!-- ========================================================================= -->
     <footer class="footer">
         <div class="footer-container">
+
+            <!-- Logo e Slogan -->
             <div class="footer-brand">
-                <div class="logo">
-                    <img class="logo-icon" src="assets/logo-white.svg" alt="Logotipo Olius">
+                <a href="index.html" class="logo">
+                    <img class="logo-icon" src="../assets/global/Logo Branco.svg" alt="Logotipo Olius">
                     <span class="logo-texto">Olius</span>
-                </div>
+                </a>
                 <p class="tagline">Cada gota importa.</p>
             </div>
             
+            <!-- Navegação -->
             <nav class="footer-links" aria-label="Links do Rodapé">
                 <h4>Navegação</h4>
                 <ul>
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="index.html#como-funciona">Como funciona</a></li>
-                    <li><a href="index.html#solucoes">Soluções</a></li>
-                    <li><a href="index.html#impacto">Impacto</a></li>
-                    <li><a href="index.html#sobre">Sobre nós</a></li>
-                    <li><a href="index.html#contato">Contato</a></li>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="como_funciona.html">Como funciona</a></li>
+                    <li><a href="planos.html">Planos</a></li>
+                    <li><a href="contato.html">Sobre nós</a></li>
                 </ul>
             </nav>
 
+            <!-- Contato -->
             <div class="footer-contato">
                 <h4>Contato</h4>
                 <ul>
@@ -153,9 +174,11 @@
                 </ul>
             </div>
 
-            <div class="footer-propagande">
+            <!-- Créditos e Acesso ADM -->
+            <div class="footer-proposito">
                 <h4>Desenvolvido com propósito para um futuro sustentável.</h4>
-                <p class="copyright">&copy; 2026 Olius. Todos os direitos reservados.</p>
+                <p class="copyright">© 2026 Olius. Todos os direitos reservados.</p>
+                <a href="admin/login.html" class="acesso-adm">Acesso ADM</a>
             </div>
         </div>
     </footer>
