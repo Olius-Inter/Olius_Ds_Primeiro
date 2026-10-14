@@ -5,90 +5,92 @@
     <meta name="viewport" content="initial-scale=1, width=device-width">
     <title>Olius - Sobre o Projeto e Equipe</title>
 
+    <!-- Arquivos de estilos CSS globais e específicos da página de Contato/Sobre -->
+    <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/contato.css">
 </head>
 <body>
 
-    <!-- ============================================================== CABEÇALHO ============================================================== -->
+    <!-- ===================================================================== -->
+    <!-- CABEÇALHO (HEADER): Logo, iluminação de fundo e navegação principal    -->
+    <!-- ===================================================================== -->
     <header class="header">
-        <a href="index.html" class="logo">
-            <img class="logo-icon" src="/landing_page/Olius_Ds_Primeiro/assets/contato/Logo Normal.svg" alt="Logotipo Olius">
+        <div class="luz-amarela"></div>
+        <a href="../index.html" class="logo">
+            <img class="logo-icon" src="../assets/global/Logo Normal.svg" alt="Logotipo Olius">
             <span class="logo-texto">Olius</span>
         </a>
         <nav class="nav-links">
-            <a href="index.html#como-funciona">Como funciona</a>
-            <a href="planos.html" class="active">Planos</a>
-            <a href="index.html#vantagens">Vantagens</a>
-            <a href="index.html#sobre">Sobre</a>
+            <a href="como_funciona.html">Como funciona</a>
+            <a href="planos.html">Planos</a>
+            <a href="contato.html" class="active">Sobre</a>
             <a href="#agendar" class="btn-agendar">Agendar coleta</a>
         </nav>
     </header>
 
     <main>
-
-        <!-- ================================================ SOBRE O PROJETO ===================================================================== -->
+        <!-- ===================================================================== -->
+        <!-- SEÇÃO SOBRE O PROJETO: Mockups de apresentação e texto institucional  -->
+        <!-- ===================================================================== -->
         <section class="conheca-o-projeto" id="sobre">
-    <!-- Cabeçalho da Secção (Centralizado no Topo) -->
-    <div class="projeto-header">
-        <h2>Conheça o <span class="projeto-destaque">projeto</span></h2>
-        <p class="subtitulo">Entenda como a Olius nasceu e o que queremos transformar</p>
-    </div>
+ 
+            <div class="projeto-header">
+                <h2>Conheça o <span class="projeto-destaque">projeto</span></h2>
+                <p class="subtitulo">Entenda como a Olius nasceu e o que queremos transformar</p>
+            </div>
 
-    <!-- Conteúdo em Grid (Imagens à esquerda e Texto à direita) -->
-    <div class="projeto-conteudo">
-        <!-- Mockups das Imagens (Esquerda) -->
-        <div class="projeto-mockups">
-            <img src="/landing_page/Olius_Ds_Primeiro/assets/contato/Mock Web.png" alt="Mockup da plataforma Olius no computador" class="mockup-notebook">
-            <img src="/landing_page/Olius_Ds_Primeiro/assets/contato/Mock Mob.png" alt="Mockup do aplicativo Olius no celular" class="mockup-mobile">
-        </div>
-
-        <!-- Descrição / Texto (Direita) -->
-        <div class="descricao-projeto">
-            <p>Criada por alunos do Instituto J&F – Tech, a Olius é uma plataforma digital que facilita o descarte correto de óleo usado, oferecendo soluções de coleta, rastreamento e dados de impacto em tempo real.</p>
-            
-            <p>Surgimos ao observar a dificuldade de acesso ao descarte adequado de resíduos, tendo o óleo usado como um dos materiais mais comuns e prejudiciais quando descartado de forma incorreta.</p>
-            
-            <p>Unimos tecnologia, educação e logística reversa para transformar um resíduo poluente em novas oportunidades para o planeta e para as pessoas.</p>
-            
-            <p>Nossa missão é conectar pessoas, empresas e comunidades em torno do descarte correto de óleo usado, gerando impacto ambiental, social e econômico.</p>
-        </div>
-    </div>
-</section>
-            
+            <!-- Mockups das telas (esquerda) e texto explicativo (direita) -->
+            <div class="projeto-conteudo">
+                <div class="projeto-mockups">
+                    <img src="../assets/global/Mock Web.png" alt="Mockup da plataforma Olius no computador" class="mockup-notebook">
+                    <img src="../assets/global/Mock Mob.png" alt="Mockup do aplicativo Olius no celular" class="mockup-mobile">
+                </div>
+                
+                <div class="descricao-projeto">
+                    <p>Criada por alunos do Instituto J&F – Tech, a Olius é uma plataforma digital que facilita o descarte correto de óleo usado, oferecendo soluções de coleta, rastreamento e dados de impacto em tempo real.</p>
+                    <p>Surgimos ao observar a dificuldade de acesso ao descarte adequado de resíduos, tendo o óleo usado como um dos materiais mais comuns e prejudiciais quando descartado de forma incorreta.</p>
+                    <p>Unimos tecnologia, educação e logística reversa para transformar um resíduo poluente em novas oportunidades para o planeta e para as pessoas.</p>
+                    <p>Nossa missão é conectar pessoas, empresas e comunidades em torno do descarte correto de óleo usado, gerando impacto ambiental, social e econômico.</p>
+                </div>
+            </div>
         </section>
 
-        <!-- ============================================================= PILARES ==================================================================-->
+        <!-- ===================================================================== -->
+        <!-- SEÇÃO PILARES: Valores fundamentais da iniciativa                      -->
+        <!-- ===================================================================== -->
         <section class="pilares">
             <h2 class="nossos-pilares">Nossos Pilares</h2>
             
             <div class="grid-pilares">
                 <article class="pilar-card">
-                    <img src="/landing_page/Olius_Ds_Primeiro/assets/contato/Icon Sustentabilidade.png" alt="Ícone Sustentabilidade">
+                    <img src="../assets/contato/Icon Sustentabilidade.png" alt="Ícone Sustentabilidade">
                     <h3>Sustentabilidade</h3>
                     <p>Cuidamos do planeta em ações que reduzem a poluição e preservam recursos.</p>
                 </article>
 
                 <article class="pilar-card">
-                    <img src="/landing_page/Olius_Ds_Primeiro/assets/contato/Icon Inovação.png" alt="Ícone Inovação">
+                    <img src="../assets/contato/Icon Inovação.png" alt="Ícone Inovação">
                     <h3>Inovação</h3>
                     <p>Usamos tecnologia para criar soluções inteligentes, simples e acessíveis.</p>
                 </article>
 
                 <article class="pilar-card">
-                    <img src="/landing_page/Olius_Ds_Primeiro/assets/contato/Icon Impacto Social.png" alt="Ícone Impacto Social">
+                    <img src="../assets/contato/Icon Impacto Social.png" alt="Ícone Impacto Social">
                     <h3>Impacto Social</h3>
                     <p>Geramos oportunidades, educamos comunidades e transformamos realidades.</p>
                 </article>
 
                 <article class="pilar-card">
-                    <img src="/landing_page/Olius_Ds_Primeiro/assets/contato/Icon Transparência.png" alt="Ícone Transparência">
+                    <img src="../assets/contato/Icon Transparência.png" alt="Ícone Transparência">
                     <h3>Transparência</h3>
                     <p>Compartilhamos dados e resultados para construir confiança e gerar valor.</p>
                 </article>
             </div>
         </section>
 
-        <!-- ==================================================== SEÇÃO DA EQUIPE ==================================================================-->
+        <!-- ===================================================================== -->
+        <!-- SEÇÃO EQUIPE: Carrossel com integrantes, frases e links de portfólio  -->
+        <!-- ===================================================================== -->
         <section class="conheca-a-equipe">
             <div class="textos">
                 <h2 class="conheca-a-equipe-container">
@@ -99,12 +101,15 @@
             </div>
 
             <div class="carrossel-equipe">
+                <!-- Botão de navegação para a esquerda -->
                 <button class="nav-btn prev-btn" id="prevBtn" aria-label="Anterior">&#10094;</button>
                 
+                <!-- Container rolável com os cards dos integrantes -->
                 <div class="equipe-cards-container">
-                    <!-- Bruna Furlaneto -->
+
+                <!-- Bruna Furlaneto -->
                     <article class="membro-card">
-                        <img class="foto-membro" src="/landing_page/Olius_Ds_Primeiro/assets/contato/Bruna.png" alt="Foto da Bruna Furlaneto">
+                        <img class="foto-membro" src="../assets/contato/Bruna.png" alt="Foto da Bruna Furlaneto">
                         <h3>Bruna Furlaneto</h3>
                         <span class="cargo">Full Stack</span>
                         <span class="ano">1° ano</span>
@@ -112,9 +117,9 @@
                         <button class="github-btn" id="rectangleIcon1" aria-label="GitHub da Bruna"></button>
                     </article>
 
-                    <!-- Isabelle Vitória -->
+                <!-- Isabelle Vitória -->
                     <article class="membro-card">
-                        <img class="foto-membro" src="/landing_page/Olius_Ds_Primeiro/assets/contato/Isabelle.png" alt="Foto da Isabelle Vitória">
+                        <img class="foto-membro" src="../assets/contato/Isabelle.png" alt="Foto da Isabelle Vitória">
                         <h3>Isabelle Vitória</h3>
                         <span class="cargo">Full Stack</span>
                         <span class="ano">1° ano</span>
@@ -122,9 +127,9 @@
                         <button class="github-btn" id="rectangleIcon2" aria-label="GitHub da Isabelle"></button>
                     </article>
 
-                    <!-- Daniel Lima -->
+                <!-- Daniel Lima -->
                     <article class="membro-card">
-                        <img class="foto-membro" src="/landing_page/Olius_Ds_Primeiro/assets/contato/Daniel.png" alt="Foto do Daniel Lima">
+                        <img class="foto-membro" src="../assets/contato/Daniel.png" alt="Foto do Daniel Lima">
                         <h3>Daniel Lima</h3>
                         <span class="cargo">Full Stack</span>
                         <span class="ano">1° ano</span>
@@ -132,9 +137,9 @@
                         <button class="github-btn" id="rectangleIcon" aria-label="GitHub do Daniel"></button>
                     </article>
 
-                    <!-- Enzo Rodrigues -->
+                <!-- Enzo Rodrigues -->
                     <article class="membro-card">
-                        <img class="foto-membro" src="/landing_page/Olius_Ds_Primeiro/assets/contato/Enzo.png" alt="Foto do Enzo Rodrigues">
+                        <img class="foto-membro" src="../assets/contato/Enzo.png" alt="Foto do Enzo Rodrigues">
                         <h3>Enzo Rodrigues</h3>
                         <span class="cargo">Back e Dados</span>
                         <span class="ano">1° ano</span>
@@ -142,9 +147,9 @@
                         <button class="github-btn" id="rectangleIcon3" aria-label="GitHub do Enzo"></button>
                     </article>
 
-                    <!-- Guilherme Rocha -->
+                <!-- Guilherme Rocha -->
                     <article class="membro-card">
-                        <img class="foto-membro" src="/landing_page/Olius_Ds_Primeiro/assets/contato/Guilherme O.png" alt="Foto do Guilherme Rocha">
+                        <img class="foto-membro" src="../assets/contato/Guilherme O.png" alt="Foto do Guilherme Rocha">
                         <h3>Guilherme Rocha</h3>
                         <span class="cargo">Full Stack</span>
                         <span class="ano">1° ano</span>
@@ -152,9 +157,9 @@
                         <button class="github-btn" id="rectangleIcon4" aria-label="GitHub do Guilherme Rocha"></button>
                     </article>
 
-                    <!-- Caio Mezini -->
+                <!-- Caio Mezini -->
                     <article class="membro-card">
-                        <img class="foto-membro" src="/landing_page/Olius_Ds_Primeiro/assets/contato/Caio.png" alt="Foto do Caio Mezini">
+                        <img class="foto-membro" src="../assets/contato/Caio.png" alt="Foto do Caio Mezini">
                         <h3>Caio Mezini</h3>
                         <span class="cargo">Full Stack</span>
                         <span class="ano">2° ano</span>
@@ -162,9 +167,9 @@
                         <button class="github-btn" id="rectangleIcon5" aria-label="GitHub do Caio"></button>
                     </article>
 
-                    <!-- David Reche -->
+                <!-- David Reche -->
                     <article class="membro-card">
-                        <img class="foto-membro" src="/landing_page/Olius_Ds_Primeiro/assets/contato/David.png" alt="Foto do David Reche">
+                        <img class="foto-membro" src="../assets/contato/David.png" alt="Foto do David Reche">
                         <h3>David Reche</h3>
                         <span class="cargo">Full Stack</span>
                         <span class="ano">2° ano</span>
@@ -172,9 +177,9 @@
                         <button class="github-btn" id="rectangleIcon6" aria-label="GitHub do David"></button>
                     </article>
 
-                    <!-- Erick Santos -->
+                <!-- Erick Santos -->
                     <article class="membro-card">
-                        <img class="foto-membro" src="/landing_page/Olius_Ds_Primeiro/assets/contato/Erick.png" alt="Foto do Erick Santos">
+                        <img class="foto-membro" src="../assets/contato/Erick.png" alt="Foto do Erick Santos">
                         <h3>Erick Santos</h3>
                         <span class="cargo">Full Stack</span>
                         <span class="ano">2° ano</span>
@@ -182,9 +187,9 @@
                         <button class="github-btn" id="rectangleIcon7" aria-label="GitHub do Erick"></button>
                     </article>
 
-                    <!-- Guilherme Marcato -->
+                <!-- Guilherme Marcato -->
                     <article class="membro-card">
-                        <img class="foto-membro" src="/landing_page/Olius_Ds_Primeiro/assets/contato/Guilherme M.png" alt="Foto do Guilherme Marcato">
+                        <img class="foto-membro" src="../assets/contato/Guilherme M.png" alt="Foto do Guilherme Marcato">
                         <h3>Guilherme Marcato</h3>
                         <span class="cargo">Full Stack</span>
                         <span class="ano">2° ano</span>
@@ -192,9 +197,9 @@
                         <button class="github-btn" id="rectangleIcon8" aria-label="GitHub do Guilherme Marcato"></button>
                     </article>
 
-                    <!-- Matheus Rezende -->
+                <!-- Matheus Rezende -->
                     <article class="membro-card">
-                        <img class="foto-membro" src="/landing_page/Olius_Ds_Primeiro/assets/contato/Matheus.png" alt="Foto do Matheus Rezende">
+                        <img class="foto-membro" src="../assets/contato/Matheus.png" alt="Foto do Matheus Rezende">
                         <h3>Matheus Rezende</h3>
                         <span class="cargo">Full Stack</span>
                         <span class="ano">2° ano</span>
@@ -202,9 +207,9 @@
                         <button class="github-btn" id="rectangleIcon9" aria-label="GitHub do Matheus"></button>
                     </article>
 
-                    <!-- Pedro Yada -->
+                <!-- Pedro Yada -->
                     <article class="membro-card">
-                        <img class="foto-membro" src="/landing_page/Olius_Ds_Primeiro/assets/contato/Pedro.png" alt="Foto do Pedro Yada">
+                        <img class="foto-membro" src="../assets/contato/Pedro.png" alt="Foto do Pedro Yada">
                         <h3>Pedro Yada</h3>
                         <span class="cargo">Full Stack</span>
                         <span class="ano">2° ano</span>
@@ -213,56 +218,69 @@
                     </article>
                 </div>
 
+                <!-- Botão de navegação para a direita -->
                 <button class="nav-btn next-btn" id="nextBtn" aria-label="Próximo">&#10095;</button>
             </div>
         </section>
 
-        <!-- ====================================================== JUNTOS PELO FUTURO ==============================================================-->
+        <!-- ===================================================================== -->
+        <!-- SEÇÃO BANNER DE UNIÃO: Mensagem institucional de encerramento        -->
+        <!-- ===================================================================== -->
         <section class="juntos-pelo-futuro-banner">
             <div class="juntos-conteudo">
                 <div class="icone-grupo">
-                    <img src="/landing_page/Olius_Ds_Primeiro/assets/contato/Icon União.png" alt="Ícone União">
+                    <img src="../assets/contato/Icon União.png" alt="Ícone União">
                 </div>
                 <div class="juntos-texto">
                     <h2>Juntos por um futuro mais sustentável</h2>
                     <p>Acreditamos que a colaboração e a inovação são as chaves para transformar óleo usado em oportunidade que melhoram o mundo.</p>
                 </div>
-                <!--<img src="/landing_page/Olius_Ds_Primeiro/assets/contato/Mundo.png" alt="Globo sobre splash de óleo" class="img-globo-oleo">-->
             </div>
         </section>
 
-<!-- ==================================================================== CTA ============================================================== -->
+        <!-- ===================================================================== -->
+        <!-- SEÇÃO CTA (Call to Action): Chamada final para agendamento              -->
+        <!-- ===================================================================== -->
         <section class="cta-banner">
             <div class="cta-conteudo">
                 <h2>Faça parte da mudança.</h2>
                 <p>Transforme o descarte de óleo em impacto positivo para o meio ambiente, sua comunidade e o futuro.</p>
             </div>
+            
             <a href="#agendar" class="btn-cta">Agendar coleta agora</a>
-        <!--<img src="/landing_page/Olius_Ds_Primeiro/assets/contato/Óleo.png" alt="Ilustração de splash de óleo" class="img-splash-oleo">-->
+
+            <!-- Imagem decorativa do respingo de óleo -->
+            <img src="../assets/global/Óleo.png" alt="Respingo de óleo decorativo" class="cta-imagem-oleo">
         </section>
     </main>
 
-<!-- ============================================================== RODAPÉ ============================================================== -->
+    <!-- ========================================================================= -->
+    <!-- RODAPÉ (FOOTER): Links de navegação, contatos e créditos institucionais   -->
+    <!-- ========================================================================= -->
     <footer class="footer">
         <div class="footer-container">
+
+            <!-- Logo e Slogan -->
             <div class="footer-brand">
-                <a href="index.html" class="logo">
-                    <img class="logo-icon" src="/landing_page/Olius_Ds_Primeiro/assets/contato/Logo Branco.svg" alt="Logotipo Olius">
+                <a href="../index.html" class="logo">
+                    <img class="logo-icon" src="../assets/global/Logo Branco.svg" alt="Logotipo Olius">
                     <span class="logo-texto">Olius</span>
                 </a>
                 <p class="tagline">Cada gota importa.</p>
             </div>
             
+            <!-- Navegação -->
             <nav class="footer-links" aria-label="Links do Rodapé">
                 <h4>Navegação</h4>
                 <ul>
-                    <li><a href="/landing_page/Olius_Ds_Primeiro/index.html">Início</a></li>
-                    <li><a href="/landing_page/Olius_Ds_Primeiro/html/como_funciona.html">Como funciona</a></li>
-                    <li><a href="/landing_page/Olius_Ds_Primeiro/html/planos.html">Planos</a></li>
-                    <li><a href="/landing_page/Olius_Ds_Primeiro/html/contato.html">Sobre nós</a></li>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="como_funciona.html">Como funciona</a></li>
+                    <li><a href="planos.html">Planos</a></li>
+                    <li><a href="contato.html">Sobre nós</a></li>
                 </ul>
             </nav>
 
+            <!-- Contato -->
             <div class="footer-contato">
                 <h4>Contato</h4>
                 <ul>
@@ -272,6 +290,7 @@
                 </ul>
             </div>
 
+            <!-- Créditos e Acesso ADM -->
             <div class="footer-proposito">
                 <h4>Desenvolvido com propósito para um futuro sustentável.</h4>
                 <p class="copyright">© 2026 Olius. Todos os direitos reservados.</p>
@@ -280,9 +299,14 @@
         </div>
     </footer>
 
-<!-- ============================================================== SCRIPTS ============================================================== -->
+    <!-- ========================================================================= -->
+    <!-- SCRIPTS (JAVASCRIPT): Lógica de Interatividade e Funcionalidades          -->
+    <!-- ========================================================================= -->
     <script>
-        // Mapeamento dos IDs de botões para seus respectivos perfis no GitHub
+        /**
+         * Mapeamento de IDs dos botões HTML para os respectivos links dos perfis no GitHub.
+         * Garante a associação individual de cada membro da equipe ao seu repositório correspondente.
+         */
         const githubLinks = {
             "rectangleIcon": "https://github.com/eudanixzz",
             "rectangleIcon1": "https://github.com/brunafurlaneto",
@@ -297,7 +321,10 @@
             "rectangleIcon10": "https://github.com/yada071"
         };
 
-        // Adiciona evento de clique para abrir os links do GitHub
+        /**
+         * Associa um evento de clique a cada botão do GitHub listado no dicionário acima,
+         * abrindo o perfil correspondente em uma nova aba com segurança (_blank).
+         */
         Object.keys(githubLinks).forEach(id => {
             const btn = document.getElementById(id);
             if (btn) {
@@ -307,19 +334,22 @@
             }
         });
 
-        // Lógica do Carrossel (Navegação pelas setas)
+        /**
+         * Controle de rolagem horizontal suave (Carrossel de Membros da Equipe)
+         * Utiliza o deslocamento baseado na largura visível do container através das setas laterais.
+         */
         const container = document.querySelector('.equipe-cards-container');
         const prevBtn = document.getElementById('prevBtn');
         const nextBtn = document.getElementById('nextBtn');
 
         if (container && prevBtn && nextBtn) {
+            // Rola para a direita ao clicar na seta "Próximo"
             nextBtn.addEventListener('click', () => {
-                // Rola a largura visível inteira do container para a direita
                 container.scrollBy({ left: container.clientWidth, behavior: 'smooth' });
             });
 
+            // Rola para a esquerda ao clicar na seta "Anterior"
             prevBtn.addEventListener('click', () => {
-                // Rola a largura visível inteira do container para a esquerda
                 container.scrollBy({ left: -container.clientWidth, behavior: 'smooth' });
             });
         }

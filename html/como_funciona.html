@@ -5,197 +5,333 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Olius - Como Funciona</title>
     
+    <!-- Arquivos de estilos CSS globais e específicos da página "Como Funciona" -->
+    <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/como_funciona.css">
 </head>
 <body>
 
-<!-- ============================================================== CABEÇALHO ============================================================== -->
+    <!-- ========================================================================= -->
+    <!-- CABEÇALHO (HEADER): Logo, iluminação de fundo e navegação principal        -->
+    <!-- ========================================================================= -->
     <header class="header">
-        <a href="index.html" class="logo">
-            <img class="logo-icon" src="assets/logo.svg" alt="Logotipo Olius">
+        <div class="luz-amarela"></div>
+
+        <a href="../index.html" class="logo">
+            <img class="logo-icon" src="../assets/global/Logo Normal.svg" alt="Logotipo Olius">
             <span class="logo-texto">Olius</span>
         </a>
+
         <nav class="nav-links">
-            <a href="index.html#como-funciona">Como funciona</a>
-            <a href="planos.html" class="active">Planos</a>
-            <a href="index.html#vantagens">Vantagens</a>
-            <a href="index.html#sobre">Sobre</a>
+            <a href="como_funciona.html" class="active">Como funciona</a>
+            <a href="planos.html">Planos</a>
+            <a href="contato.html">Sobre</a>
             <a href="#agendar" class="btn-agendar">Agendar coleta</a>
         </nav>
     </header>
-
+    
     <main>
-
-<!-- ============================================================== INÍCIO ============================================================== -->
+        <!-- ===================================================================== -->
+        <!-- SEÇÃO HERO INICIAL: Título de introdução e mockups ilustrativos        -->
+        <!-- ===================================================================== -->
         <section class="inicio">
             <div class="inicio-conteudo">
                 <h1 class="o-olius-funciona-container">
                     <span>O Olius funciona de formas </span>
-                    <span class="diferentes">diferentes</span>
-                    <span>, mas com o mesmo propósito</span>
+                    <span class="diferentes">diferentes,</span> mas com o mesmo propósito.
                 </h1>
                 <p class="empresas-e-cidadaos">
                     Empresas e cidadãos têm jornadas diferentes no app Olius, mas juntos transformamos óleo usado em impacto positivo.
                 </p>
             </div>
-            <div class="inicio-mockups">
-                <img class="mockup-olius" src="assets/mockup-laptop-phone.png" alt="Mockup da plataforma Olius em notebook e smartphone">
+            <div class="projeto-conteudo">
+                <div class="projeto-mockups">
+                    <img src="../assets/global/Mock Web.png" alt="Mockup da plataforma Olius no computador" class="mockup-notebook">
+                    <img src="../assets/global/Mock Mob.png" alt="Mockup do aplicativo Olius no celular" class="mockup-mobile">
+                </div>
             </div>
         </section>
 
-<!-- ============================================================== PARA EMPRESAS ========================================================== -->
+        <!-- ===================================================================== -->
+        <!-- SEÇÃO PARA EMPRESAS: Passo a passo e banner de recursos B2B           -->
+        <!-- ===================================================================== -->
         <section class="secao-publico para-empresas">
             <header class="secao-header">
                 <div class="icone-titulo">
-                    <img src="assets/icon-empresas.svg" alt="Ícone de Empresas">
+                    <img src="../assets/como funciona/Para Empresas.png" alt="Ícone de Empresas">
                     <h2>Para <span class="destaque">empresas</span></h2>
                 </div>
                 <p class="subtitulo">Gestão completa do descarte de óleo usado, com praticidade, segurança e transparência.</p>
             </header>
 
+            <!-- Lista ordenada de etapas para empresas -->
             <ol class="passos-grid">
                 <li class="passo-card">
-                    <h3>Cadastre sua empresa</h3>
+                    <div class="passo-header">
+                        <div class="passo-icone-wrapper">
+                            <img src="../assets/como funciona/Cadastre.png" alt="Ícone Cadastro" class="passo-icone">
+                        </div>
+                        <div class="passo-titulo-grupo">
+                            <span class="passo-numero">01</span>
+                            <h3>Cadastre sua empresa</h3>
+                        </div>
+                    </div>
                     <p>Informe os dados da sua empresa e do local de coleta</p>
                 </li>
+                
                 <li class="passo-card">
-                    <h3>Agende sua coleta</h3>
+                    <div class="passo-header">
+                        <div class="passo-icone-wrapper">
+                            <img src="../assets/como funciona/Agende.png" alt="Ícone Agendar" class="passo-icone">
+                        </div>
+                        <div class="passo-titulo-grupo">
+                            <span class="passo-numero">02</span>
+                            <h3>Agende sua coleta</h3>
+                        </div>
+                    </div>
                     <p>Escolha a data e o horário que funcionam melhor para você</p>
                 </li>
+
                 <li class="passo-card">
-                    <h3>Acompanhe em tempo real</h3>
+                    <div class="passo-header">
+                        <div class="passo-icone-wrapper">
+                            <img src="../assets/como funciona/Acompanhe.png" alt="Ícone Acompanhar" class="passo-icone">
+                        </div>
+                        <div class="passo-titulo-grupo">
+                            <span class="passo-numero">03</span>
+                            <h3>Acompanhe em tempo real</h3>
+                        </div>
+                    </div>
                     <p>Veja o status da coleta e acompanhe cada etapa do processo</p>
                 </li>
+
                 <li class="passo-card">
-                    <h3>Receba relatórios e certificados</h3>
+                    <div class="passo-header">
+                        <div class="passo-icone-wrapper">
+                            <img src="../assets/como funciona/Relatórios.png" alt="Ícone Relatórios" class="passo-icone">
+                        </div>
+                        <div class="passo-titulo-grupo">
+                            <span class="passo-numero">04</span>
+                            <h3>Receba relatórios e certificados</h3>
+                        </div>
+                    </div>
                     <p>Tenha acesso a relatórios e certificados de destinação correta</p>
                 </li>
             </ol>
 
+            <!-- Banner resumido com os diferenciais B2B -->
             <div class="recursos-banner">
                 <h3>Tudo em um só lugar</h3>
                 <ul class="recursos-lista">
-                    <li><img src="assets/icon-conformidade.svg" alt=""> Conformidade ambiental</li>
-                    <li><img src="assets/icon-relatorios.svg" alt=""> Relatórios personalizados</li>
-                    <li><img src="assets/icon-certificados.svg" alt=""> Certificados de descarte</li>
-                    <li><img src="assets/icon-seguranca.svg" alt=""> Segurança e transparência</li>
+                    <li><img src="../assets/como funciona/Conformidade.png" alt="" aria-hidden="true"> Conformidade ambiental</li>
+                    <li><img src="../assets/como funciona/Relatorios Perso.png" alt="" aria-hidden="true"> Relatórios personalizados</li>
+                    <li><img src="../assets/como funciona/Certificados.png" alt="" aria-hidden="true"> Certificados de descarte</li>
+                    <li><img src="../assets/como funciona/Segurança.png" alt="" aria-hidden="true"> Segurança e transparência</li>
                 </ul>
             </div>
         </section>
 
-<!-- ========================================================== PARA CIDADÃOS ============================================================== -->
+        <!-- ===================================================================== -->
+        <!-- SEÇÃO PARA CIDADÃOS: Passo a passo e benefícios B2C                   -->
+        <!-- ===================================================================== -->
         <section class="secao-publico para-cidadaos">
             <header class="secao-header">
                 <div class="icone-titulo">
-                    <img src="assets/icon-cidadaos.svg" alt="Ícone de Cidadãos">
+                    <img src="../assets/como funciona/Para Cidadãos.png" alt="Ícone de Cidadãos">
                     <h2>Para <span class="destaque">cidadãos</span></h2>
                 </div>
                 <p class="subtitulo">Prático, rápido e recompensador.<br>Descarte seu óleo e gere impacto.</p>
             </header>
 
+            <!-- Lista ordenada de etapas para cidadãos -->
             <ol class="passos-grid">
                 <li class="passo-card">
-                    <h3>Cadastre-se no app</h3>
+                    <div class="passo-header">
+                        <div class="passo-icone-wrapper">
+                            <img src="../assets/como funciona/Cadastre-se.png" alt="Ícone Cadastro" class="passo-icone">
+                        </div>
+                        <div class="passo-titulo-grupo">
+                            <span class="passo-numero">01</span>
+                            <h3>Cadastre-se no app</h3>
+                        </div>
+                    </div>
                     <p>Crie sua conta de forma rápida e gratuita</p>
                 </li>
+
                 <li class="passo-card">
-                    <h3>Encontre um ponto de descarte</h3>
+                    <div class="passo-header">
+                        <div class="passo-icone-wrapper">
+                            <img src="../assets/como funciona/Encnotre Pontos.png" alt="Ícone Ponto" class="passo-icone">
+                        </div>
+                        <div class="passo-titulo-grupo">
+                            <span class="passo-numero">02</span>
+                            <h3>Encontre um ponto de descarte</h3>
+                        </div>
+                    </div>
                     <p>Localize o ponto de coleta credenciado mais próximo de você</p>
                 </li>
+
                 <li class="passo-card">
-                    <h3>Entregue seu óleo</h3>
+                    <div class="passo-header">
+                        <div class="passo-icone-wrapper">
+                            <img src="../assets/como funciona/Entregue.png" alt="Ícone Entrega" class="passo-icone">
+                        </div>
+                        <div class="passo-titulo-grupo">
+                            <span class="passo-numero">03</span>
+                            <h3>Entregue seu óleo</h3>
+                        </div>
+                    </div>
                     <p>Realize a entrega no local selecionado e confirme pelo aplicativo</p>
                 </li>
+
                 <li class="passo-card">
-                    <h3>Acompanhe seu impacto</h3>
+                    <div class="passo-header">
+                        <div class="passo-icone-wrapper">
+                            <img src="../assets/como funciona/Acompanhe o Impacto.png" alt="Ícone Impacto" class="passo-icone">
+                        </div>
+                        <div class="passo-titulo-grupo">
+                            <span class="passo-numero">04</span>
+                            <h3>Acompanhe seu impacto</h3>
+                        </div>
+                    </div>
                     <p>Ganhe pontos, suba de nível e veja o impacto positivo que você gera</p>
                 </li>
             </ol>
 
+            <!-- Banner resumido de engajamento B2C -->
             <div class="recursos-banner">
                 <h3>Mais do que descartar, é transformar.</h3>
                 <ul class="recursos-lista">
-                    <li><img src="assets/icon-presente.svg" alt=""> Ganhe pontos e recompensas</li>
-                    <li><img src="assets/icon-impacto.svg" alt=""> Acompanhe seu impacto</li>
-                    <li><img src="assets/icon-lixeira.svg" alt=""> Descarte fácil e consciente</li>
-                    <li><img src="assets/icon-escudo.svg" alt=""> Seguro e confiável</li>
+                    <li><img src="../assets/como funciona/Ganhe Pontos.png" alt="" aria-hidden="true"> Ganhe pontos e recompensas</li>
+                    <li><img src="../assets/como funciona/Acompanhe o Impacto.png" alt="" aria-hidden="true"> Acompanhe seu impacto</li>
+                    <li><img src="../assets/como funciona/Descarte.png" alt="" aria-hidden="true"> Descarte fácil e consciente</li>
+                    <li><img src="../assets/como funciona/Segurança.png" alt="" aria-hidden="true"> Seguro e confiável</li>
                 </ul>
             </div>
         </section>
 
-<!-- ========================================================= PARA COLETORES ============================================================== -->
+        <!-- ===================================================================== -->
+        <!-- SEÇÃO PARA COLETORES: Fluxo de rotas e acompanhamento                 -->
+        <!-- ===================================================================== -->
         <section class="secao-publico para-coletores">
             <header class="secao-header">
                 <div class="icone-titulo">
-                    <img src="assets/icon-coletores.svg" alt="Ícone de Coletores">
+                    <img src="../assets/como funciona/Para Coletores.png" alt="Ícone de Coletores">
                     <h2>Para <span class="destaque">coletores</span></h2>
                 </div>
                 <p class="subtitulo">Organize suas rotas, coletas e resultados com eficiência e segurança.</p>
             </header>
 
+            <!-- Lista ordenada de etapas para coletores -->
             <ol class="passos-grid">
-                <li>  
-                    <h3>Cadastre-se no app</h3>
+                <li class="passo-card"> 
+                    <div class="passo-header">
+                        <div class="passo-icone-wrapper">
+                            <img src="../assets/como funciona/Cadastre.png" alt="Ícone Cadastro" class="passo-icone">
+                        </div>
+                        <div class="passo-titulo-grupo">
+                            <span class="passo-numero">01</span>
+                            <h3>Cadastre-se no app</h3>
+                        </div>
+                    </div>
                     <p>Acesse o app com suas credenciais</p>
                 </li>
+
                 <li class="passo-card">
-                    <h3>Veja suas rotas</h3>
+                    <div class="passo-header">
+                        <div class="passo-icone-wrapper">
+                            <img src="../assets/como funciona/Acompanhe.png" alt="Ícone Rotas" class="passo-icone">
+                        </div>
+                        <div class="passo-titulo-grupo">
+                            <span class="passo-numero">02</span>
+                            <h3>Veja suas rotas</h3>
+                        </div>
+                    </div>
                     <p>Confira as coletas agendadas do dia e planeje seu trajeto</p>
                 </li>
+
                 <li class="passo-card">
-                    <h3>Realize as coletas</h3>
+                    <div class="passo-header">
+                        <div class="passo-icone-wrapper">
+                            <img src="../assets/como funciona/Cadastre.png" alt="Ícone Coletas" class="passo-icone">
+                        </div>
+                        <div class="passo-titulo-grupo">
+                            <span class="passo-numero">03</span>
+                            <h3>Realize as coletas</h3>
+                        </div>
+                    </div>
                     <p>Insira a coleta, informe a quantidade e tire foto se necessário</p>
                 </li>
+
                 <li class="passo-card">
-                    <h3>Envie e acompanhe</h3>
+                    <div class="passo-header">
+                        <div class="passo-icone-wrapper">
+                            <img src="../assets/como funciona/Desempenho.png" alt="Ícone Enviar" class="passo-icone">
+                        </div>
+                        <div class="passo-titulo-grupo">
+                            <span class="passo-numero">04</span>
+                            <h3>Envie e acompanhe</h3>
+                        </div>
+                    </div>
                     <p>Suas coletas são enviadas em tempo real e seu desempenho é registrado</p>
                 </li>
             </ol>
 
+            <!-- Banner resumido para coletores -->
             <div class="recursos-banner">
                 <h3>Tudo para facilitar seu dia a dia</h3>
                 <ul class="recursos-lista">
-                    <li><img src="assets/icon-caminhao.svg" alt=""> Rotas otimizadas</li>
-                    <li><img src="assets/icon-prancheta.svg" alt=""> Registro rápido e seguro</li>
-                    <li><img src="assets/icon-grafico.svg" alt=""> Acompanhamento de desempenho</li>
-                    <li><img src="assets/icon-suporte.svg" alt=""> Suporte sempre que precisar</li>
+                    <li><img src="../assets/como funciona/Acompanhe.png" alt="" aria-hidden="true"> Rotas otimizadas</li>
+                    <li><img src="../assets/como funciona/Cadastre.png" alt="" aria-hidden="true"> Registro rápido e seguro</li>
+                    <li><img src="../assets/como funciona/Desempenho.png" alt="" aria-hidden="true"> Acompanhamento de desempenho</li>
+                    <li><img src="../assets/como funciona/Suporte.png" alt="" aria-hidden="true"> Suporte sempre que precisar</li>
                 </ul>
             </div>
         </section>
 
-<!-- ==================================================================== CTA ============================================================== -->
+        <!-- ===================================================================== -->
+        <!-- SEÇÃO CTA (Call to Action): Chamada final para agendamento              -->
+        <!-- ===================================================================== -->
         <section class="cta-banner">
             <div class="cta-conteudo">
                 <h2>Faça parte da mudança.</h2>
                 <p>Transforme o descarte de óleo em impacto positivo para o meio ambiente, sua comunidade e o futuro.</p>
             </div>
+            
             <a href="#agendar" class="btn-cta">Agendar coleta agora</a>
+
+            <!-- Imagem decorativa de respingo de óleo -->
+            <img src="../assets/global/Óleo.png" alt="Respingo de óleo decorativo" class="cta-imagem-oleo">
         </section>
     </main>
 
-<!-- ============================================================== RODAPÉ ============================================================== -->
+    <!-- ========================================================================= -->
+    <!-- RODAPÉ (FOOTER): Informações de contato, navegação e créditos               -->
+    <!-- ========================================================================= -->
     <footer class="footer">
         <div class="footer-container">
+
+            <!-- Logo e Slogan -->
             <div class="footer-brand">
-                <a href="index.html" class="logo">
-                    <img class="logo-icon" src="assets/logo-white.svg" alt="Logotipo Olius">
+                <a href="../index.html" class="logo">
+                    <img class="logo-icon" src="../assets/global/Logo Branco.svg" alt="Logotipo Olius">
                     <span class="logo-texto">Olius</span>
                 </a>
                 <p class="tagline">Cada gota importa.</p>
             </div>
             
+            <!-- Navegação -->
             <nav class="footer-links" aria-label="Links do Rodapé">
                 <h4>Navegação</h4>
                 <ul>
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="index.html#como-funciona">Como funciona</a></li>
-                    <li><a href="index.html#solucoes">Soluções</a></li>
-                    <li><a href="index.html#impacto">Impacto</a></li>
-                    <li><a href="index.html#sobre">Sobre nós</a></li>
-                    <li><a href="index.html#contato">Contato</a></li>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="como_funciona.html">Como funciona</a></li>
+                    <li><a href="planos.html">Planos</a></li>
+                    <li><a href="contato.html">Sobre nós</a></li>
                 </ul>
             </nav>
 
+            <!-- Contato -->
             <div class="footer-contato">
                 <h4>Contato</h4>
                 <ul>
@@ -205,9 +341,11 @@
                 </ul>
             </div>
 
-            <div class="footer-propagande">
+            <!-- Créditos e Acesso ADM -->
+            <div class="footer-proposito">
                 <h4>Desenvolvido com propósito para um futuro sustentável.</h4>
-                <p class="copyright">&copy; 2026 Olius. Todos os direitos reservados.</p>
+                <p class="copyright">© 2026 Olius. Todos os direitos reservados.</p>
+                <a href="admin/login.html" class="acesso-adm">Acesso ADM</a>
             </div>
         </div>
     </footer>
