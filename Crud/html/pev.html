@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -9,25 +10,29 @@
 
     <link rel="stylesheet" href="../css/pev.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet"
+    >
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    >
 </head>
 
 <body>
 
-    <!-- menu lateral -->
+    <!-- Menu lateral -->
     <aside class="menu">
 
         <div class="logo">
             <img src="../logo.png.png" alt="Logo Olius">
         </div>
 
-        <div class="perfil">
-            <i class="fa-solid fa-user"></i>
-        </div>
-
+         <div class="caixa"></div>
         <nav>
+            <a href="adm.html">Dashboard</a>
             <a href="empresas.html">Empresas</a>
             <a href="usuarios.html">Usuários</a>
             <a href="pev.html" class="ativo">PEV</a>
@@ -39,15 +44,18 @@
 
     </aside>
 
-    <!-- conteúdo principal -->
+    <!-- Conteúdo principal -->
     <main class="conteudo">
 
         <header class="topo">
             <h1>Pontos de coleta (PEV)</h1>
 
-            <button class="adicionar">+ Adicionar PEV</button>
+            <a href="novo-pev.html" class="adicionar">
+                + Adicionar PEV
+            </a>
         </header>
 
+        <!-- Tabela de pontos de coleta -->
         <section class="tabela-container">
 
             <table>
@@ -66,10 +74,11 @@
                         <td>20/09/2026</td>
                         <td>Aprovado</td>
                         <td class="acoes">
-                            <button class="editar" title="Editar">
+                            <button type="button" class="editar" title="Editar">
                                 <i class="fa-regular fa-pen-to-square"></i>
                             </button>
-                            <button class="excluir" title="Excluir">
+
+                            <button type="button" class="excluir" title="Excluir">
                                 <i class="fa-regular fa-trash-can"></i>
                             </button>
                         </td>
@@ -80,10 +89,11 @@
                         <td>25/09/2026</td>
                         <td>Aprovado</td>
                         <td class="acoes">
-                            <button class="editar" title="Editar">
+                            <button type="button" class="editar" title="Editar">
                                 <i class="fa-regular fa-pen-to-square"></i>
                             </button>
-                            <button class="excluir" title="Excluir">
+
+                            <button type="button" class="excluir" title="Excluir">
                                 <i class="fa-regular fa-trash-can"></i>
                             </button>
                         </td>
@@ -94,10 +104,11 @@
                         <td>—</td>
                         <td>Em análise</td>
                         <td class="acoes">
-                            <button class="editar" title="Editar">
+                            <button type="button" class="editar" title="Editar">
                                 <i class="fa-regular fa-pen-to-square"></i>
                             </button>
-                            <button class="excluir" title="Excluir">
+
+                            <button type="button" class="excluir" title="Excluir">
                                 <i class="fa-regular fa-trash-can"></i>
                             </button>
                         </td>
@@ -108,10 +119,11 @@
                         <td>—</td>
                         <td>Em análise</td>
                         <td class="acoes">
-                            <button class="editar" title="Editar">
+                            <button type="button" class="editar" title="Editar">
                                 <i class="fa-regular fa-pen-to-square"></i>
                             </button>
-                            <button class="excluir" title="Excluir">
+
+                            <button type="button" class="excluir" title="Excluir">
                                 <i class="fa-regular fa-trash-can"></i>
                             </button>
                         </td>

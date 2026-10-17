@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Novo Ponto de Coleta - Olius</title>
+
+    <!-- estilos da página -->
+    <link rel="stylesheet" href="../../css/adicionar/novo-pev.css">
+
+    <!-- fonte Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <main class="formulario">
+
+        <h1>Novo Ponto de Coleta</h1>
+
+        <!-- dados do ponto de coleta -->
+        <form id="formPEV">
+
+            <div class="campos">
+
+                <div class="campo">
+                    <label for="nome">Nome do ponto de coleta *</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <div class="campo">
+                    <label for="responsavel">Responsável *</label>
+                    <input type="text" id="responsavel" name="responsavel" required>
+                </div>
+
+                <div class="campo">
+                    <label for="cidade">Cidade *</label>
+                    <input type="text" id="cidade" name="cidade" required>
+                </div>
+
+                <div class="campo">
+                    <label for="estado">Estado *</label>
+                    <select id="estado" name="estado" required>
+                        <option value="" selected disabled>Selecione o estado</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                </div>
+
+                <div class="campo campo-completo">
+                    <label for="endereco">Endereço *</label>
+                    <input type="text" id="endereco" name="endereco" required>
+                </div>
+
+                <div class="campo campo-completo">
+                    <label for="status">Status *</label>
+                    <select id="status" name="status" required>
+                        <option value="" selected disabled>Selecione o status</option>
+                        <option value="ativo">Ativo</option>
+                        <option value="inativo">Inativo</option>
+                        <option value="pendente">Pendente</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <!-- botões do formulário -->
+            <div class="botoes-formulario">
+
+                <button type="button" class="botao-cancelar">
+                    Cancelar
+                </button>
+
+                <button type="submit" class="botao-adicionar">
+                    Adicionar
+                </button>
+
+            </div>
+
+        </form>
+
+    </main>
+
+</body>
+</html>

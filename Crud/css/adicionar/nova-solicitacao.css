@@ -1,0 +1,188 @@
+
+/* configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8F7F2;
+    color: #111111;
+    min-height: 100vh;
+}
+
+/* área do formulário */
+.formulario {
+    width: 100%;
+    max-width: 665px;
+    padding: 28px 30px;
+    margin: 0 auto;
+}
+
+/* título */
+h1 {
+    font-size: 31px;
+    font-weight: 500;
+    color: #4A2F08;
+    margin-bottom: 20px;
+}
+
+/* organização dos campos */
+.campos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 42px;
+    row-gap: 21px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.campo label {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+/* aparência dos campos */
+.campo input,
+.campo select {
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #222222;
+    background-color: #F2F2F2;
+    border: 1.5px solid #D1D1D1;
+    border-radius: 11px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.campo input:focus,
+.campo select:focus {
+    border-color: #E6B72E;
+    box-shadow: 0 0 0 2px rgba(255, 220, 105, 0.25);
+}
+
+/* campo que ocupa as duas colunas */
+.campo-completo {
+    grid-column: 1 / -1;
+}
+
+/* campo de volume em litros */
+.volume-litros {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    border: 1.5px solid #D1D1D1;
+    border-radius: 11px;
+    background-color: #F2F2F2;
+}
+
+.volume-litros input {
+    flex: 1;
+    width: 0;
+    height: 100%;
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    outline: none;
+}
+
+.volume-litros input:focus {
+    box-shadow: none;
+}
+
+.volume-litros:focus-within {
+    border-color: #E6B72E;
+    box-shadow: 0 0 0 2px rgba(255, 220, 105, 0.25);
+}
+
+.volume-litros span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    background-color: #D1D1D1;
+    color: #111111;
+    font-size: 14px;
+}
+
+/* botões */
+.botoes-formulario {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 42px;
+    margin-top: 25px;
+}
+
+.botoes-formulario button {
+    height: 40px;
+    border: 1.5px solid #D1D1D1;
+    border-radius: 11px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.botao-cancelar {
+    background-color: #F2F2F2;
+    color: #111111;
+}
+
+.botao-cancelar:hover {
+    background-color: #E5E5E5;
+}
+
+.botao-adicionar {
+    background-color: #FFE071;
+    color: #111111;
+}
+
+.botao-adicionar:hover {
+    background-color: #FFD34D;
+}
+
+/* efeito ao pressionar um botão */
+.botoes-formulario button:active {
+    transform: scale(0.98);
+}
+
+/* ajustes para telas menores */
+@media (max-width: 520px) {
+    .formulario {
+        padding: 24px 20px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .campos {
+        grid-template-columns: 1fr;
+        gap: 17px;
+    }
+
+    .campo-completo {
+        grid-column: auto;
+    }
+
+    .botoes-formulario {
+        gap: 12px;
+        margin-top: 25px;
+    }
+
+    .botoes-formulario button {
+        font-size: 14px;
+    }
+}
