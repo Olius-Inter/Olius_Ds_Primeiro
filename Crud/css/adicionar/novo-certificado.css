@@ -1,0 +1,256 @@
+
+/* configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* inclui o padding e a borda no tamanho do elemento */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8F7F2;
+    color: #111111;
+    min-height: 100vh; /* ocupa pelo menos a altura da tela */
+}
+
+/* área do formulário */
+.formulario {
+    width: 100%;
+    max-width: 830px; /* limita a largura do formulário */
+    padding: 38px 28px;
+    margin: 0 auto; /* centraliza o formulário */
+}
+
+/* título */
+h1 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #4A2F08;
+    margin-bottom: 25px;
+}
+
+/* organização dos campos em duas colunas */
+.campos {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* divide o espaço em duas colunas iguais */
+    column-gap: 52px;
+    row-gap: 27px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column; /* coloca o texto acima do campo */
+    min-width: 0;
+}
+
+.campo label {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+/* aparência dos campos de texto e data */
+.campo input:not([type="file"]) {
+    width: 100%;
+    height: 48px;
+    padding: 0 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #222222;
+    background-color: #F2F2F2;
+    border: 1.5px solid #D1D1D1;
+    border-radius: 13px;
+    outline: none;
+}
+
+/* destaca o campo quando ele é selecionado */
+.campo input:focus {
+    border-color: #E6B72E;
+    box-shadow: 0 0 0 2px rgba(255, 220, 105, 0.25);
+}
+
+/* limita a largura do campo de volume */
+.campo-volume {
+    max-width: 342px;
+}
+
+/* campo de volume com a unidade em litros */
+.volume-litros {
+    display: flex;
+    width: 100%;
+    height: 48px;
+    overflow: hidden;
+    border: 1.5px solid #D1D1D1;
+    border-radius: 13px;
+    background-color: #F2F2F2;
+}
+
+.volume-litros input {
+    flex: 1; /* ocupa o espaço disponível */
+    width: 0;
+    height: 100%;
+    border: none !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+/* destaca o campo de volume quando selecionado */
+.volume-litros:focus-within {
+    border-color: #E6B72E;
+}
+
+.volume-litros span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    flex-shrink: 0; /* impede que a área do L diminua */
+    background-color: #D1D1D1;
+    font-size: 16px;
+}
+
+/* campo que ocupa as duas colunas */
+.campo-completo {
+    grid-column: 1 / -1;
+}
+
+/* área de envio do PDF */
+.arquivo-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    min-height: 48px;
+    padding: 5px 12px;
+    background-color: #F2F2F2;
+    border: 1.5px solid #D1D1D1;
+    border-radius: 13px;
+}
+
+.icone-arquivo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+/* esconde o seletor original do arquivo */
+.arquivo-container input[type="file"] {
+    display: none;
+}
+
+/* botão para escolher o PDF */
+.botao-arquivo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 158px;
+    height: 34px;
+    padding: 0 14px;
+    margin: 0 !important;
+    background-color: #D1D1D1;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px !important;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.botao-arquivo:hover {
+    background-color: #C3C3C3;
+}
+
+/* nome do arquivo selecionado */
+.nome-arquivo {
+    min-width: 0;
+    overflow: hidden;
+    font-size: 12px;
+    text-overflow: ellipsis; /* encurta nomes muito longos */
+    white-space: nowrap;
+}
+
+/* botões do formulário */
+.botoes-formulario {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* deixa os botões com a mesma largura */
+    gap: 52px;
+    margin-top: 32px;
+}
+
+.botoes-formulario button {
+    height: 48px;
+    border: 1.5px solid #D1D1D1;
+    border-radius: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+/* botão cancelar */
+.botao-cancelar {
+    background-color: #F2F2F2;
+    color: #111111;
+}
+
+.botao-cancelar:hover {
+    background-color: #E5E5E5;
+}
+
+/* botão adicionar */
+.botao-adicionar {
+    background-color: #FFE071;
+    color: #111111;
+}
+
+.botao-adicionar:hover {
+    background-color: #FFD34D;
+}
+
+/* diminui levemente o botão ao pressioná-lo */
+.botoes-formulario button:active {
+    transform: scale(0.98);
+}
+
+/* ajustes para telas menores */
+@media (max-width: 600px) {
+    .formulario {
+        padding: 25px 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .campos {
+        grid-template-columns: 1fr; /* organiza os campos em uma coluna */
+        gap: 18px;
+    }
+
+    .campo-completo {
+        grid-column: auto;
+    }
+
+    .campo-volume {
+        max-width: 100%;
+    }
+
+    .campo label {
+        font-size: 15px;
+    }
+
+    .botoes-formulario {
+        gap: 12px;
+        margin-top: 25px;
+    }
+
+    .botoes-formulario button {
+        font-size: 14px;
+    }
+
+    .botao-arquivo {
+        min-width: 130px;
+    }
+}
