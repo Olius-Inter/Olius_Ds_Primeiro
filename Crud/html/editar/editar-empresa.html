@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Editar Empresa - Olius</title>
+
+    <!-- estilos da página -->
+    <link rel="stylesheet" href="../../css/editar/editar-empresa.css">
+
+    <!-- fonte Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <main class="formulario">
+
+        <h1>Editar Empresa</h1>
+
+        <!-- dados da empresa -->
+        <form id="formEmpresa">
+
+            <div class="campos">
+
+                <div class="campo">
+                    <label for="nomeEmpresa">Nome da empresa *</label>
+                    <input type="text" id="nomeEmpresa" name="nomeEmpresa"
+                        value="Restaurante Sabor Natural" required>
+                </div>
+
+                <div class="campo">
+                    <label for="cnpj">CNPJ *</label>
+                    <input type="text" id="cnpj" name="cnpj"
+                        value="12.345.678/0001-90" required>
+                </div>
+
+                <div class="campo">
+                    <label for="email">E-mail *</label>
+                    <input type="email" id="email" name="email"
+                        value="contato@sabor.com.br" required>
+                </div>
+
+                <div class="campo">
+                    <label for="telefone">Telefone *</label>
+                    <input type="tel" id="telefone" name="telefone"
+                        value="(11) 99999-9999" required>
+                </div>
+
+                <div class="campo">
+                    <label for="plano">Plano *</label>
+                    <select id="plano" name="plano" required>
+                        <option value="basico">Básico</option>
+                        <option value="empresarial" selected>Empresarial</option>
+                        <option value="premium">Premium</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="status">Status *</label>
+                    <select id="status" name="status" required>
+                        <option value="ativo" selected>Ativo</option>
+                        <option value="inativo">Inativo</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <!-- botões do formulário -->
+            <div class="botoes-formulario">
+
+                <button type="button" class="botao-cancelar">
+                    Cancelar
+                </button>
+
+                <button type="submit" class="botao-adicionar">
+                    Salvar alterações
+                </button>
+
+            </div>
+
+        </form>
+
+    </main>
+
+</body>
+</html>

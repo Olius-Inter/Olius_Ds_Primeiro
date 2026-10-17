@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Editar Ponto de Coleta - Olius</title>
+
+    <!-- estilos da página -->
+    <link rel="stylesheet" href="../../css/editar/editar-pev.css">
+
+    <!-- fonte Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <main class="formulario">
+
+        <h1>Editar Ponto de Coleta</h1>
+
+        <!-- dados do ponto de coleta -->
+        <form id="formPEV">
+
+            <div class="campos">
+
+                <div class="campo">
+                    <label for="nome">Nome do ponto de coleta *</label>
+                    <input type="text" id="nome" name="nome"
+                        value="PEV Sabor Natural" required>
+                </div>
+
+                <div class="campo">
+                    <label for="responsavel">Responsável *</label>
+                    <input type="text" id="responsavel" name="responsavel"
+                        value="Mariana Oliveira" required>
+                </div>
+
+                <div class="campo">
+                    <label for="cidade">Cidade *</label>
+                    <input type="text" id="cidade" name="cidade"
+                        value="São Paulo" required>
+                </div>
+
+                <div class="campo">
+                    <label for="estado">Estado *</label>
+                    <input type="text" id="estado" name="estado"
+                        value="SP" required>
+                </div>
+
+                <div class="campo campo-completo">
+                    <label for="endereco">Endereço *</label>
+                    <input type="text" id="endereco" name="endereco"
+                        value="Rua das Flores, 150" required>
+                </div>
+
+                <div class="campo campo-completo">
+                    <label for="status">Status *</label>
+                    <select id="status" name="status" required>
+                        <option value="ativo" selected>Ativo</option>
+                        <option value="inativo">Inativo</option>
+                        <option value="pendente">Pendente</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <!-- botões do formulário -->
+            <div class="botoes-formulario">
+
+                <button type="button" class="botao-cancelar">
+                    Cancelar
+                </button>
+
+                <button type="submit" class="botao-adicionar">
+                    Salvar alterações
+                </button>
+
+            </div>
+
+        </form>
+
+    </main>
+
+</body>
+</html>
