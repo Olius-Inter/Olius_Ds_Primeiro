@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -9,25 +10,30 @@
 
     <link rel="stylesheet" href="../css/motoristas.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet"
+    >
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    >
 </head>
 
 <body>
 
-    <!-- menu lateral -->
+    <!-- Menu lateral -->
     <aside class="menu">
 
         <div class="logo">
             <img src="../logo.png.png" alt="Logo Olius">
         </div>
 
-        <div class="perfil">
-            <i class="fa-solid fa-user"></i>
-        </div>
+         <div class="caixa"></div>
 
         <nav>
+            <a href="adm.html">Dashboard</a>
             <a href="empresas.html">Empresas</a>
             <a href="usuarios.html">Usuários</a>
             <a href="pev.html">PEV</a>
@@ -39,14 +45,18 @@
 
     </aside>
 
-    <!-- conteúdo principal -->
+    <!-- Conteúdo principal -->
     <main class="conteudo">
 
         <header class="topo">
             <h1>Motoristas</h1>
-            <button class="adicionar">+ Adicionar Motorista</button>
+
+            <a href="novo-motorista.html" class="adicionar">
+                + Adicionar Motorista
+            </a>
         </header>
 
+        <!-- Tabela de motoristas -->
         <section class="tabela-container">
 
             <table>
@@ -69,10 +79,11 @@
                         <td>CNH123456</td>
                         <td>Ativo</td>
                         <td class="acoes">
-                            <button class="editar" title="Editar">
+                            <button type="button" class="editar" title="Editar">
                                 <i class="fa-regular fa-pen-to-square"></i>
                             </button>
-                            <button class="excluir" title="Excluir">
+
+                            <button type="button" class="excluir" title="Excluir">
                                 <i class="fa-regular fa-trash-can"></i>
                             </button>
                         </td>
@@ -85,10 +96,11 @@
                         <td>CNH654321</td>
                         <td>Ativo</td>
                         <td class="acoes">
-                            <button class="editar" title="Editar">
+                            <button type="button" class="editar" title="Editar">
                                 <i class="fa-regular fa-pen-to-square"></i>
                             </button>
-                            <button class="excluir" title="Excluir">
+
+                            <button type="button" class="excluir" title="Excluir">
                                 <i class="fa-regular fa-trash-can"></i>
                             </button>
                         </td>
@@ -101,10 +113,11 @@
                         <td>CNH789123</td>
                         <td>Ativo</td>
                         <td class="acoes">
-                            <button class="editar" title="Editar">
+                            <button type="button" class="editar" title="Editar">
                                 <i class="fa-regular fa-pen-to-square"></i>
                             </button>
-                            <button class="excluir" title="Excluir">
+
+                            <button type="button" class="excluir" title="Excluir">
                                 <i class="fa-regular fa-trash-can"></i>
                             </button>
                         </td>
@@ -117,10 +130,11 @@
                         <td>CNH456789</td>
                         <td>Inativo</td>
                         <td class="acoes">
-                            <button class="editar" title="Editar">
+                            <button type="button" class="editar" title="Editar">
                                 <i class="fa-regular fa-pen-to-square"></i>
                             </button>
-                            <button class="excluir" title="Excluir">
+
+                            <button type="button" class="excluir" title="Excluir">
                                 <i class="fa-regular fa-trash-can"></i>
                             </button>
                         </td>

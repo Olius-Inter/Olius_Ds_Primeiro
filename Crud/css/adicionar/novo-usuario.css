@@ -1,0 +1,142 @@
+
+/* configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* inclui o padding e a borda no tamanho do elemento */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8F7F2;
+    color: #111111;
+    min-height: 100vh;
+}
+
+/* área do formulário */
+.formulario {
+    width: 100%;
+    max-width: 575px;
+    padding: 24px 30px;
+    margin: 0 auto; /* centraliza o formulário */
+}
+
+/* título */
+h1 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #4A2F08;
+    margin-bottom: 16px;
+}
+
+/* organização dos campos */
+.campos {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* divide os campos em duas colunas */
+    column-gap: 34px;
+    row-gap: 17px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column; /* coloca o texto acima do campo */
+    min-width: 0;
+}
+
+.campo label {
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+
+/* aparência dos campos */
+.campo input,
+.campo select {
+    width: 100%;
+    height: 32px;
+    padding: 0 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    color: #222222;
+    background-color: #F2F2F2;
+    border: 1px solid #D1D1D1;
+    border-radius: 9px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+/* destaque ao selecionar um campo */
+.campo input:focus,
+.campo select:focus {
+    border-color: #E6B72E;
+    box-shadow: 0 0 0 2px rgba(255, 220, 105, 0.25);
+}
+
+/* campo que ocupa as duas colunas */
+.campo-completo {
+    grid-column: 1 / -1;
+}
+
+/* botões do formulário */
+.botoes-formulario {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* deixa os botões com a mesma largura */
+    gap: 34px;
+    margin-top: 25px;
+}
+
+.botoes-formulario button {
+    height: 32px;
+    border: 1px solid #D1D1D1;
+    border-radius: 9px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+/* botão cancelar */
+.botao-cancelar {
+    background-color: #F2F2F2;
+    color: #111111;
+}
+
+.botao-cancelar:hover {
+    background-color: #E5E5E5;
+}
+
+/* botão adicionar */
+.botao-adicionar {
+    background-color: #FFE071;
+    color: #111111;
+}
+
+.botao-adicionar:hover {
+    background-color: #FFD34D;
+}
+
+/* efeito ao pressionar um botão */
+.botoes-formulario button:active {
+    transform: scale(0.98);
+}
+
+/* ajustes para celulares */
+@media (max-width: 480px) {
+    .formulario {
+        padding: 24px 20px;
+    }
+
+    .campos {
+        grid-template-columns: 1fr; /* organiza os campos em uma coluna */
+        gap: 16px;
+    }
+
+    .campo-completo {
+        grid-column: auto;
+    }
+
+    .botoes-formulario {
+        gap: 12px;
+    }
+}

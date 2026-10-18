@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -7,26 +8,32 @@
 
     <title>Empresas - Olius</title>
 
+    <!-- arquivo que cuida da aparência da página -->
     <link rel="stylesheet" href="../css/empresas.css">
 
+    <!-- fonte usada no restante do sistema -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
+    <!-- biblioteca dos ícones de editar e excluir -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
 
+    <!--menu que fica na lateral da tela -->
     <aside class="menu">
 
+        <!--logo do Olius -->
         <div class="logo">
             <img src="../logo.png.png" alt="Logo Olius">
         </div>
 
-        <div class="perfil">
-            <i class="fa-solid fa-user"></i>
-        </div>
+        
+        <div class="caixa"></div>
 
+        <!--Links para acessar as outras páginas do painel -->
         <nav>
+            <a href="adm.html">Dashboard</a>
             <a href="empresas.html" class="ativo">Empresas</a>
             <a href="usuarios.html">Usuários</a>
             <a href="pev.html">PEV</a>
@@ -38,19 +45,27 @@
 
     </aside>
 
+    <!-- área principal, onde ficam as informações das empresas -->
     <main class="conteudo">
 
+        <!-- título da página e botão para cadastrar uma empresa -->
         <header class="topo">
             <h1>Empresas (B2B)</h1>
 
-            <button class="adicionar">
+            <button
+                type="button"
+                class="adicionar"
+                onclick="window.location.href='nova-empresa.html'">
                 + Adicionar Empresa
             </button>
         </header>
 
+        <!-- tabela com os dados cadastrados -->
         <section class="tabela-container">
 
             <table>
+
+                <!-- nomes das colunas da tabela -->
                 <thead>
                     <tr>
                         <th>Nome</th>
@@ -59,11 +74,13 @@
                         <th>Plano</th>
                         <th>Telefone</th>
                         <th>Status</th>
-                        <th></th>
+                        <th>Ações</th>
                     </tr>
                 </thead>
 
+                <!-- Empresas usadas como exemplo para preencher a tabela -->
                 <tbody>
+
                     <tr>
                         <td>EcoVerde</td>
                         <td>31.582.746/0001-20</td>
@@ -72,8 +89,15 @@
                         <td>(11) 98745-3210</td>
                         <td>Ativa</td>
                         <td class="acoes">
-                            <button class="editar"><i class="fa-regular fa-pen-to-square"></i></button>
-                            <button class="excluir"><i class="fa-regular fa-trash-can"></i></button>
+                            <!-- botão para editar os dados da empresa -->
+                            <button type="button" class="editar" aria-label="Editar EcoVerde">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </button>
+
+                            <!-- botão para excluir a empresa -->
+                            <button type="button" class="excluir" aria-label="Excluir EcoVerde">
+                                <i class="fa-regular fa-trash-can"></i>
+                            </button>
                         </td>
                     </tr>
 
@@ -85,8 +109,12 @@
                         <td>(11) 91234-5678</td>
                         <td>Ativa</td>
                         <td class="acoes">
-                            <button class="editar"><i class="fa-regular fa-pen-to-square"></i></button>
-                            <button class="excluir"><i class="fa-regular fa-trash-can"></i></button>
+                            <button type="button" class="editar" aria-label="Editar BioCiclo">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </button>
+                            <button type="button" class="excluir" aria-label="Excluir BioCiclo">
+                                <i class="fa-regular fa-trash-can"></i>
+                            </button>
                         </td>
                     </tr>
 
@@ -98,8 +126,12 @@
                         <td>(11) 99876-5432</td>
                         <td>Ativa</td>
                         <td class="acoes">
-                            <button class="editar"><i class="fa-regular fa-pen-to-square"></i></button>
-                            <button class="excluir"><i class="fa-regular fa-trash-can"></i></button>
+                            <button type="button" class="editar" aria-label="Editar GreenFlow">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </button>
+                            <button type="button" class="excluir" aria-label="Excluir GreenFlow">
+                                <i class="fa-regular fa-trash-can"></i>
+                            </button>
                         </td>
                     </tr>
 
@@ -111,8 +143,12 @@
                         <td>(11) 93456-7890</td>
                         <td>Ativa</td>
                         <td class="acoes">
-                            <button class="editar"><i class="fa-regular fa-pen-to-square"></i></button>
-                            <button class="excluir"><i class="fa-regular fa-trash-can"></i></button>
+                            <button type="button" class="editar" aria-label="Editar SustentaTech">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </button>
+                            <button type="button" class="excluir" aria-label="Excluir SustentaTech">
+                                <i class="fa-regular fa-trash-can"></i>
+                            </button>
                         </td>
                     </tr>
 
@@ -124,8 +160,12 @@
                         <td>(11) 92345-6789</td>
                         <td>Ativa</td>
                         <td class="acoes">
-                            <button class="editar"><i class="fa-regular fa-pen-to-square"></i></button>
-                            <button class="excluir"><i class="fa-regular fa-trash-can"></i></button>
+                            <button type="button" class="editar" aria-label="Editar Planeta Limpo">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </button>
+                            <button type="button" class="excluir" aria-label="Excluir Planeta Limpo">
+                                <i class="fa-regular fa-trash-can"></i>
+                            </button>
                         </td>
                     </tr>
 
@@ -137,8 +177,12 @@
                         <td>(11) 97654-3210</td>
                         <td>Inativa</td>
                         <td class="acoes">
-                            <button class="editar"><i class="fa-regular fa-pen-to-square"></i></button>
-                            <button class="excluir"><i class="fa-regular fa-trash-can"></i></button>
+                            <button type="button" class="editar" aria-label="Editar ReÓleo">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </button>
+                            <button type="button" class="excluir" aria-label="Excluir ReÓleo">
+                                <i class="fa-regular fa-trash-can"></i>
+                            </button>
                         </td>
                     </tr>
 
@@ -150,11 +194,17 @@
                         <td>(11) 98876-5544</td>
                         <td>Ativa</td>
                         <td class="acoes">
-                            <button class="editar"><i class="fa-regular fa-pen-to-square"></i></button>
-                            <button class="excluir"><i class="fa-regular fa-trash-can"></i></button>
+                            <button type="button" class="editar" aria-label="Editar Ciclo Vivo">
+                                <i class="fa-regular fa-pen-to-square"></i>
+                            </button>
+                            <button type="button" class="excluir" aria-label="Excluir Ciclo Vivo">
+                                <i class="fa-regular fa-trash-can"></i>
+                            </button>
                         </td>
                     </tr>
+
                 </tbody>
+
             </table>
 
         </section>
