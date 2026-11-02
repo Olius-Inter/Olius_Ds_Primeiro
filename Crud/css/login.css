@@ -1,0 +1,331 @@
+/* ==========================================================================
+   TELA DE LOGIN - CORRIGIDA E ALINHADA À REFERÊNCIA
+   ========================================================================== */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #fffbe7;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tela-login {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #fffbe7;
+    overflow: hidden;
+    text-align: left;
+    font-size: 14px;
+    color: #8f8f8f;
+}
+
+/* Centraliza o card principal na tela */
+.rectangle-parent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 54px 76px 26px rgba(0, 0, 0, 0), 35px 49px 24px rgba(0, 0, 0, 0.01), 20px 27px 20px rgba(0, 0, 0, 0.05), 9px 12px 15px rgba(0, 0, 0, 0.09), 2px 3px 8px rgba(0, 0, 0, 0.1);
+    width: 1289px;
+    height: 706px;
+}
+
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 25px 0px 0px 25px;
+    background: linear-gradient(219.15deg, #feed92, #fff5d6 33.17%, #fffdf5 54.33%, #fffadf 72.12%, #fdec82);
+    width: 644px;
+    height: 706px;
+}
+
+.group-item {
+    position: absolute;
+    top: 0px;
+    left: 646px;
+    border-radius: 0px 25px 25px 0px;
+    background-color: #fdfefd;
+    width: 643px;
+    height: 706px;
+}
+
+/* Lado Esquerdo: Textos e Mockup */
+.olius-conecta-voc {
+    position: absolute;
+    top: 277px;
+    left: 139px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #000;
+    display: inline-block;
+    width: 266px;
+}
+
+.image-56-icon {
+    position: absolute;
+    top: 425px;
+    left: 317px;
+    box-shadow: 3px 8px 7px rgba(0, 0, 0, 0.42);
+    width: 419px;
+    height: 473px;
+    object-fit: cover;
+}
+
+.group-parent {
+    position: absolute;
+    top: 529px;
+    left: 134px;
+    width: 66px;
+    height: 151px;
+    opacity: 0.39;
+}
+
+.group-container, .group-div {
+    position: absolute;
+    left: 0px;
+    width: 66px;
+    height: 67px;
+}
+.group-container { top: 0px; }
+.group-div { top: 84px; }
+
+.group-inner, .group-icon, .group-child2, .group-child3 {
+    position: absolute;
+    left: 0px;
+    width: 66px;
+    height: 6px;
+    background-color: #f9c601;
+}
+.group-inner { top: 0px; }
+.group-icon { top: 20px; }
+.group-child2 { top: 40px; }
+.group-child3 { top: 61px; }
+
+/* Lado Direito: Formulário de Login */
+.logo-oficial-icon {
+    position: absolute;
+    top: 190px;
+    left: 855px;
+    width: 32px;
+    height: 42.7px;
+}
+
+.bem-vindo-ao-olius {
+    position: absolute;
+    top: 245px;
+    left: 855px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+}
+
+.cadastre-sua-empresa {
+    position: absolute;
+    top: 280px;
+    left: 855px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Inputs de Texto */
+.component-15 {
+    position: absolute;
+    top: 325px;
+    left: 855px;
+    width: 395px;
+    height: 44px;
+}
+.component-15-child, .component-16-child, .component-17-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0; left: 0;
+    border-radius: 6px;
+    background-color: #efefef;
+    border: none;
+}
+.digite-seu-nome {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    font-size: 13px;
+    color: #888;
+}
+
+.component-16 {
+    position: absolute;
+    top: 385px;
+    left: 855px;
+    width: 395px;
+    height: 44px;
+}
+
+.component-17 {
+    position: absolute;
+    top: 445px;
+    left: 855px;
+    width: 395px;
+    height: 44px;
+}
+
+/* Botões Cancelar e Entrar (Lado a lado logo abaixo dos inputs) */
+.component-21 {
+    position: absolute;
+    top: 510px;
+    left: 855px;
+    width: 185px;
+    height: 44px;
+}
+.component-21-child {
+    position: absolute;
+    height: 100%; width: 100%;
+    top: 0; left: 0;
+    border-radius: 6px;
+    background-color: #efefef;
+}
+.cancelar {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    font-weight: 600;
+    color: #000;
+}
+
+.component-20 {
+    position: absolute;
+    top: 510px;
+    left: 1065px;
+    width: 185px;
+    height: 44px;
+    color: #fff;
+}
+.component-20-child {
+    position: absolute;
+    height: 100%; width: 100%;
+    top: 0; left: 0;
+    border-radius: 6px;
+    background-color: #f9c601;
+    box-shadow: 0px 4px 10px rgba(249, 198, 1, 0.3);
+}
+.entrar {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    font-weight: 600;
+    color: #000;
+}
+
+/* Divisor "OU" com linhas */
+.ou {
+    position: absolute;
+    top: 575px;
+    left: 1045px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #bbb9b9;
+}
+.tela-login-child {
+    position: absolute;
+    top: 585px;
+    left: 855px;
+    width: 175px;
+    height: 1px;
+    background-color: #e0e0e0;
+}
+.tela-login-item {
+    position: absolute;
+    top: 585px;
+    left: 1075px;
+    width: 175px;
+    height: 1px;
+    background-color: #e0e0e0;
+}
+
+/* Botão Continuar com Google */
+.component-18 {
+    position: absolute;
+    top: 610px;
+    left: 855px;
+    width: 395px;
+    height: 44px;
+    font-size: 13px;
+}
+.component-18-child {
+    position: absolute;
+    height: 100%; width: 100%;
+    top: 0; left: 0;
+    border-radius: 6px;
+    background-color: #f5f5f5;
+    border: 1px solid #eaeaea;
+}
+.continuar-com-google {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    font-weight: 500;
+    color: #333;
+}
+.icons8-google-logo-48-2 {
+    position: absolute;
+    top: 14px;
+    left: 20px;
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+}
+
+/* Botão Continuar com Apple */
+.component-19 {
+    position: absolute;
+    top: 670px;
+    left: 855px;
+    width: 395px;
+    height: 44px;
+    font-size: 13px;
+}
+.component-19-child {
+    position: absolute;
+    height: 100%; width: 100%;
+    top: 0; left: 0;
+    border-radius: 6px;
+    background-color: #f5f5f5;
+    border: 1px solid #eaeaea;
+}
+.image-55-icon2 {
+    position: absolute;
+    top: 13px;
+    left: 20px;
+    width: 15px;
+    height: 17px;
+    object-fit: cover;
+}
+.continuar-com-apple {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Rodapé do Card: "Ainda não tem uma conta? Cadastre-se" */
+.ainda-no-tem {
+    position: absolute;
+    top: 730px;
+    left: 955px;
+    font-size: 13px;
+    color: #666;
+}
+.cadastre-se {
+    position: absolute;
+    top: 730px;
+    left: 1115px;
+    font-size: 13px;
+    color: #f9c601;
+    font-weight: 700;
+    cursor: pointer;
+}
